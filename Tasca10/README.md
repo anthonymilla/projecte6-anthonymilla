@@ -8,7 +8,7 @@ En aquesta ocasió, treballarem amb [Canvas LMS](https://www.turnkeylinux.org/ca
 
 ## PART 1: Desplegament de Canvas
 
-1. Instal·lació
+1.Instal·lació
 
   1. Descarrega la imatge de TurnKey Linux – Canvas.  
   2. Executa-la en una màquina virtual (VirtualBox o similar).  
