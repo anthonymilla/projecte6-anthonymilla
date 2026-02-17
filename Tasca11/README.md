@@ -26,7 +26,7 @@ L'estudi comparatiu haurà d’analitzar:
 - Personalització visual
 - Experiència d’usuari (docent i alumne)
 
-No es permet una llista simple d’avantatges i inconvenients.
+No es permet una llista simple d’avantatges i inconvenients.           
  Cal redactar una anàlisi argumentada i crítica.
 
 ---
@@ -78,7 +78,7 @@ Requisits dels diagrames
 - Han d’estar generats amb [Napkin.ai](http://Napkin.ai).
 - Han de ser clars, llegibles i estructurats.
 - No es permet copiar captures simples.
-- Han de representar conceptes, no només textos.
+- Han de representar conceptes, no només textos.    
   **Reflexió final**
 
 Inclou una conclusió professional:
