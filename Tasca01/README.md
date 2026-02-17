@@ -8,7 +8,7 @@ Bon dia,
 
 La majoria dels clients que trucaran a la vostra porta no us demanaran només que els arreglem un ordinador; us demanaran presència digital. Us diran: "Vull que la meva web funcioni ràpid, que no caigui mai i que les dades dels meus clients estiguin segures".
 
-Aquí és on entrem vosaltres. No n'hi ha prou amb saber fer un doble clic per instal·lar un navegador. Com a administradors de sistemes professionals, heu d'entendre la màgia que passa "sota el capó" quan algú escriu www.exemplecom.
+Aquí és on entrem vosaltres. No n'hi ha prou amb saber fer un doble clic per instal·lar un navegador. Com a administradors de sistemes professionals, heu d'entendre la màgia que passa "sota el capó" quan algú escriu www.exemple. com.
 
 Detectem que, per poder oferir serveis d'allotjament web (Hosting) de qualitat i competir amb els gegants del sector, necessiteu apujar el nivell tècnic de tot l'equip. Per aquest motiu, us proposem realitzar una Formació Intensiva sobre el protocol HTTP i els Servidors Web.
 
