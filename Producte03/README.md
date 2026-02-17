@@ -16,4 +16,4 @@ Repositori assignat al GitHub Classroom
 
 **No s’accepten lliuraments en repositoris diferents de l’assignat a GitHub Classroom.**
 
-
+[Anar a la pàgina inicial](../README.md)
