@@ -1,3 +1,5 @@
+# Enunciat
+
 Crear un curs de sostenibilitat dins de la nostra plataforma
 
 Dotar de continguts el curs detallat a la T09 amb les explicacions i exercicis que calguin, així com una prova avaluativa. 
@@ -12,3 +14,4 @@ Tema 4 – Pla GreenIT per a una Start-up
 
 A la carpeta de Materials i recursos trobareu les guies que haurem de seguir per desenvolupar cadascun dels temes. 
 
+[Anar a la pàgina inicial](../README.md)
