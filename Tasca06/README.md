@@ -44,3 +44,4 @@ Al repositori del projecte dins la carpeta corresponent a la tasca, heu de lliur
 - Material de l’assignatura Seguretat Informàtica. RA3. Signatura electrònica i Certificats Digitals [Moodle de l’assignatura].  
 - Guia de l’activitat [enllaç](https://smx2n.github.io/0226-SignaturaElectronica/)
 
+[Anar a la pàgina inicial](../README.md)
