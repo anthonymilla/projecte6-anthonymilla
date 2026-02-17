@@ -1,4 +1,4 @@
-## Introducció
+# Introducció
 
 Arribeu a l'etapa final del projecte. Fins ara, heu treballat durament en el disseny, configuració i documentació de la infraestructura per a l'empresa Nexus e-learning. Heu configurat servidors, assegurat xarxes i desplegat aplicacions web. Però a la vida real, la millor solució tècnica no serveix de res si no sou capaços de vendre-la al client.
 
