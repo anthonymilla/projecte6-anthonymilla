@@ -99,4 +99,4 @@ Al final hauràs de tenir:
 - Usuari alumne funcional.
 - Comparativa crítica amb Moodle.
 
-
+[Anar a la pàgina inicial](../README.md)
