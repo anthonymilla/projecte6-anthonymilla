@@ -22,3 +22,4 @@ Tens les instruccions detallades en aquest document per a la configuració de l�
 
 ## [Enllaç a document tècnic](https://docs.google.com/document/d/1WJB2AgDOE6UZJguwa2NWoe7hLTWuXnMIwL6MTy25p9Y/edit?usp=sharing)
 
+[Anar a la pàgina inicial](../README.md)
