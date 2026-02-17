@@ -1,3 +1,5 @@
+# Enunciat
+
 Tal com s’indica a la descripció del projecte, el repte no és únicament tècnic. No es tracta només d’instal·lar Apache, Nginx, Moodle o Canvas. Es tracta de:
 
 - Entendre la necessitat real del client.
