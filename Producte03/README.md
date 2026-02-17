@@ -1,4 +1,4 @@
-## Introducció
+# Introducció
 
 L’ús de GitHub i el control de versions mitjançant git ja és una tècnica que haveu d’haver interioritzat, per tant, no us ha d’estranyar que el repositori de GitHub sigui la base del lliurament del projecte.
 
