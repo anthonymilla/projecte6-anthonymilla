@@ -1,3 +1,5 @@
+# Enunciat
+
  Crear un curs de Moodle que doni resposta als emprenedors que estiguin creant la seva empresa “Serà rendible el meu futur negoci? “  Per poder respondre aquesta pregunta de manera argumentada, el curs Moodle ha d’oferir aprenentatges sobre:
  
 1. Pla de finançament específic 
@@ -23,3 +25,4 @@ Heu de formar als usuaris del curs nocions bàsiques sobre el balanç, la seva e
 
 Cal explicar que és, com es calcula, com s’interpreten el seus resultats, la seva representació gràfica i posar dos exemples reals dels exercicis del dossier. 
 
+[Anar a la pàgina inicial](../README.md)
