@@ -24,4 +24,4 @@ Estructura Recomanada de la Presentació:
 
 Conclusions: Per què sou la millor opció?
 
-
+[Anar a la pàgina inicial](../README.md)
