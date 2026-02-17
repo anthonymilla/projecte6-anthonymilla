@@ -49,7 +49,8 @@ En aquesta pràctica només es demana una versió reduïda dels cursos.
 
 Crea dos cursos:
 
-## Curs 1: GreenIT Essentials
+**Curs 1: GreenIT Essentials**
+
 - Nom: GreenIT Essentials
 - Codi: GREEN_CANVAS
 - Publicat (visible)
