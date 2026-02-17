@@ -13,9 +13,9 @@ Aquesta memòria és el document que simula el lliurament professional al client
 
 És el document que demostra que sou capaços de passar de:
 
-     “configurar un servidor per practicar”
-     a
-     “dissenyar una solució real per donar servei”.
+“configurar un servidor per practicar”    
+a        
+“dissenyar una solució real per donar servei”.
 
 La Memòria Tècnica ha d’integrar tot el treball realitzat a:
 
