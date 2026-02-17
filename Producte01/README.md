@@ -37,4 +37,4 @@ Caldrà que:
 - Cerqueu quatre alternatives dins el mercat VPS. Tingueu en compte que la solució ha d’estar ubicada dins la UE, considerant la proximitat com un valor afegit.
 - A partir de les quatre opcions, seleccioneu de forma justificada una d’elles.
 
-
+[Anar a la pàgina inicial](../README.md)
