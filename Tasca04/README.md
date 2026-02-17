@@ -18,16 +18,16 @@ Simulareu un trànsit normal. Imagineu que 10 usuaris estan navegant per la web 
 
 ### Sintaxi de la comanda:
 
-ab -n [Total Peticions] -c [Usuaris Concurrents] http://[IP_SERVIDOR]/
+- ab -n [Total Peticions] -c [Usuaris Concurrents] [http://[IP_SERVIDOR]/](http://[IP_SERVIDOR]/)
 
 Anoteu els següents valors pels dos servidors:
 
-Time taken for tests: (Temps total)
-Transfer Rate
-Requests per second: (Peticions per segon - quant més alt, millor)
-Time per request (mean): (Temps mitjà de resposta - quant més baix, millor)
-Completed request
- Failed request
+- Time taken for tests: (Temps total)
+- Transfer Rate
+- Requests per second: (Peticions per segon - quant més alt, millor)
+- Time per request (mean): (Temps mitjà de resposta - quant més baix, millor)
+- Completed request
+- Failed request
 
 ## La prova d'estrès
 
