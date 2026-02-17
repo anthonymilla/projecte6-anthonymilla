@@ -123,4 +123,4 @@ En un document PDF separat hauràs d’entregar:
    - Visualització de continguts  
    - Entrega de tasques
 
-
+[Anar a la pàgina inicial](../README.md)
