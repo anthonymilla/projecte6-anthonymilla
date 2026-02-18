@@ -80,43 +80,30 @@ Volen estar segurs que els fitxers no han estat alterats per un atacant per incl
 
 Utilitzant una eina com CertUtil (Windows), md5sum/sha256sum (Linux) o 7-Zip:
 
-- Crear un document de text anomenat nota_final_curs.txt amb el text: "L'alumne ha aprovat amb un 5".
-- Calcular el Hash SHA-256 del fitxer original.
-- Modificar el fitxer canviant una sola xifra (ex: "L'alumne ha aprovat amb un 9").
-- Tornar a calcular el Hash i comparar els resultats per demostrar com l'empremta digital canvia totalment i revela la manipulació de la nota.
-
 - Crear un document de text anomenat `nota_final_curs.txt` amb el text: `"L'alumne ha aprovat amb un 5"`.  
 - Calcular el Hash SHA-256 del fitxer original.  
 - Modificar el fitxer canviant una sola xifra (ex: `"L'alumne ha aprovat amb un 9"`).  
 - Tornar a calcular el Hash i comparar els resultats per demostrar com l'empremta digital canvia totalment i revela la manipulació de la nota.
 
-Què cal lliurar
-
+# Què cal lliurar
 
 Heu de redactar un informe tècnic per al client (format MarkDown) que inclogui:
 
+**Justificació Teòrica:** Una breu explicació (màxim 10 línies) per al client de la diferència entre xifratge (Tasca 1) i funció hash (Tasca 2), explicant que el xifratge amaga la informació i el hash en garanteix la integritat.
 
-Justificació Teòrica: Una breu explicació (màxim 10 línies) per al client de la diferència
+**Evidències de la Tasca 1:**  
+  - Captura de pantalla de la configuració del volum (algorisme escollit).  
+  - Captura de la unitat muntada amb l'examen secret a dins.
 
-entre xifratge (Tasca 1) i funció hash (Tasca 2), explicant que el xifratge amaga la informació i el hash en garanteix la integritat.
-
-Evidències de la Tasca 1:
-
-Captura de pantalla de la configuració del volum (algorisme escollit).
-
- Captura de la unitat muntada amb l'examen secret a dins.
-
-Captures que permetin veure el procés per accedir al fitxer.
-
-Evidències de la Tasca 2 (Hashing):
+**Evidències de la Tasca 2 (Hashing):**
 
 Captura de pantalla del terminal o programa mostrant els dos hashos (l'original i el modificat) per veure que són diferents.
 
-Conclusió: Breu recomanació final a Nexus sobre la importància de protegir les dades , especialment les portables amb xifrat i la gestió segura de les contrasenyes (robustesa i com guardar-les). A continuació, la necessitat d’usar hash per assegurar la integritat de la documentació important com actes de notes, contractes, etc.
+**Conclusió:** Breu recomanació final a Nexus sobre la importància de protegir les dades , especialment les portables amb xifrat i la gestió segura de les contrasenyes (robustesa i com guardar-les). A continuació, la necessitat d’usar hash per assegurar la integritat de la documentació important com actes de notes, contractes, etc.
 
-Material de suport
+# Material de suport
 
-Material de l’assignatura Seguretat Informàtica. RA3. Introducció a la criptografia [Moodle de l’assignatura].
+- Material de l’assignatura Seguretat Informàtica. RA3. Introducció a la criptografia [Moodle de l’assignatura].  
+- Tutorial VeraCrypt: [https://veracrypt.io/en/Beginner's%20Tutorial.html](https://veracrypt.io/en/Beginner's%20Tutorial.html)
 
-Tutorial VeraCrypt: [https://veracrypt.io/en/Beginner's%20Tutorial.html](https://veracrypt.io/en/Beginner's%20Tutorial.html)
 [Anar a la pàgina inicial](../README.md)
