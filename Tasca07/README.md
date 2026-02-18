@@ -61,5 +61,5 @@ Informe tècnic:
   - Resposta sobre els MSI: Explicació breu de com convertir/crear paquets MSI.  
   - Proves de funcionament: Captures que demostrin que el client (Windows 10/11) ha aplicat les polítiques (ex: comanda gpresult, carpeta redirigida funcionant, error al intentar crear usuari amb l'adminOU, etc.).
 
-[Anar a la Guia](../Tasca02/Guia.md)
+[Anar a la Guia](../Tasca07/Guia.md)       
 [Anar a la pàgina inicial](../README.md)
