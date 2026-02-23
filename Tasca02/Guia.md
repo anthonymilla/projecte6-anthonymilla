@@ -59,12 +59,10 @@ Ara el següent arxiu:
 
 ![Comprovacions.](Img/Imatge10.png)
 
-![Comprovacions.](Img/Imatge11.png)
+![Comprovacions.](Img/Imatge12.png)
 
 - Activeu els llocs amb la comanda a2ensite i modifiqueu l'arxiu hosts per simular la resolució de noms (DNS) i que els dominis responguin correctament.        
 Ara activem els llocs amb les següents comandes i seguidament modifiquem ‘arxiu de hosts i fem les comprovacions corresponents:
-
-![Comprovacions.](Img/Imatge12.png)
 
 ![Comprovacions.](Img/Imatge13.png)
 
