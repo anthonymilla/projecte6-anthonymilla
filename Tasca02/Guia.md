@@ -27,6 +27,12 @@ Comprovació de /var/www i /var/www/html
 
 ![Comprovació de /var/www i /var/www/html](Img/Imatge04.png)
 
+| 2. Desplegament de VirtualHosts (Multidomini) |
+|----------------------------------------|
+
+
+
+
 
 [Anar a l'enunciat](../Tasca02/README.md)  
 [Anar a la pàgina inicial](../README.md)
