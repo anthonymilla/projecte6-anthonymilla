@@ -90,6 +90,10 @@ Ara activem els llocs amb les següents comandes i seguidament modifiquem l'arxi
 
 Entrem a l'arxiu /etc/hosts
 
+```
+sudo nano /etc/hosts
+```
+
 ![Entrem a l'arxiu /etc/hosts](Img/Imatge14.png)
 
 Fem ```ip a``` per veure l'ip.
