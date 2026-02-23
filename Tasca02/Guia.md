@@ -92,7 +92,10 @@ Ara activem els llocs amb les següents comandes i seguidament modifiquem ‘arx
 ![- Activeu els llocs amb la comanda a2ensite i modifiqueu l'arxiu hosts per simular la resolució de noms (DNS) i que els dominis responguin correctament.        
 Ara activem els llocs amb les següents comandes i seguidament modifiquem ‘arxiu de hosts i fem les comprovacions corresponents:](Img/Imatge18.png)
 
+| 3. Personalització d'Errors |
+|----------------------------------------|
 
+Configureu una pàgina d'error personalitzada pel codi 404 (Not Found) per a, com a mínim, un dels VirtualHosts. El missatge ha de ser corporatiu i professional, evitant la pàgina per defecte del servidor.
 
 
 
