@@ -80,28 +80,28 @@ DocumentRoot /var/www/projectenexus.test
 ![Ara el següent arxiu:](Img/Imatge11.png)
 
 - Activeu els llocs amb la comanda a2ensite i modifiqueu l'arxiu hosts per simular la resolució de noms (DNS) i que els dominis responguin correctament.        
-Ara activem els llocs amb les següents comandes i seguidament modifiquem ‘arxiu de hosts i fem les comprovacions corresponents:
+Ara activem els llocs amb les següents comandes i seguidament modifiquem l'arxiu de hosts i fem les comprovacions corresponents:
 
 ![- Activeu els llocs amb la comanda a2ensite i modifiqueu l'arxiu hosts per simular la resolució de noms (DNS) i que els dominis responguin correctament.        
-Ara activem els llocs amb les següents comandes i seguidament modifiquem ‘arxiu de hosts i fem les comprovacions corresponents:](Img/Imatge12.png)
+Ara activem els llocs amb les següents comandes i seguidament modifiquem l'arxiu de hosts i fem les comprovacions corresponents:](Img/Imatge12.png)
 
 ![- Activeu els llocs amb la comanda a2ensite i modifiqueu l'arxiu hosts per simular la resolució de noms (DNS) i que els dominis responguin correctament.        
-Ara activem els llocs amb les següents comandes i seguidament modifiquem ‘arxiu de hosts i fem les comprovacions corresponents:](Img/Imatge13.png)
+Ara activem els llocs amb les següents comandes i seguidament modifiquem l'arxiu de hosts i fem les comprovacions corresponents:](Img/Imatge13.png)
 
 ![- Activeu els llocs amb la comanda a2ensite i modifiqueu l'arxiu hosts per simular la resolució de noms (DNS) i que els dominis responguin correctament.        
-Ara activem els llocs amb les següents comandes i seguidament modifiquem ‘arxiu de hosts i fem les comprovacions corresponents:](Img/Imatge14.png)
+Ara activem els llocs amb les següents comandes i seguidament modifiquem l'arxiu de hosts i fem les comprovacions corresponents:](Img/Imatge14.png)
 
 ![- Activeu els llocs amb la comanda a2ensite i modifiqueu l'arxiu hosts per simular la resolució de noms (DNS) i que els dominis responguin correctament.        
-Ara activem els llocs amb les següents comandes i seguidament modifiquem ‘arxiu de hosts i fem les comprovacions corresponents:](Img/Imatge15.png)
+Ara activem els llocs amb les següents comandes i seguidament modifiquem l'arxiu de hosts i fem les comprovacions corresponents:](Img/Imatge15.png)
 
 ![- Activeu els llocs amb la comanda a2ensite i modifiqueu l'arxiu hosts per simular la resolució de noms (DNS) i que els dominis responguin correctament.        
-Ara activem els llocs amb les següents comandes i seguidament modifiquem ‘arxiu de hosts i fem les comprovacions corresponents:](Img/Imatge16.png)
+Ara activem els llocs amb les següents comandes i seguidament modifiquem l'arxiu de hosts i fem les comprovacions corresponents:](Img/Imatge16.png)
 
 ![- Activeu els llocs amb la comanda a2ensite i modifiqueu l'arxiu hosts per simular la resolució de noms (DNS) i que els dominis responguin correctament.        
-Ara activem els llocs amb les següents comandes i seguidament modifiquem ‘arxiu de hosts i fem les comprovacions corresponents:](Img/Imatge17.png)
+Ara activem els llocs amb les següents comandes i seguidament modifiquem l'arxiu de hosts i fem les comprovacions corresponents:](Img/Imatge17.png)
 
 ![- Activeu els llocs amb la comanda a2ensite i modifiqueu l'arxiu hosts per simular la resolució de noms (DNS) i que els dominis responguin correctament.        
-Ara activem els llocs amb les següents comandes i seguidament modifiquem ‘arxiu de hosts i fem les comprovacions corresponents:](Img/Imatge18.png)
+Ara activem els llocs amb les següents comandes i seguidament modifiquem l'arxiu de hosts i fem les comprovacions corresponents:](Img/Imatge18.png)
 
 | 3. Personalització d'Errors |
 |----------------------------------------|
