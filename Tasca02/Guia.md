@@ -7,6 +7,10 @@
 Comencem instal·lant les màquines i posant-les en xarxa NAT.           
 Ara instal·lem el servei Apache:
 
+```
+sudo apt install apache2
+```
+
 ![- Instal·leu el servidor web Apache sobre la vostra màquina virtual Ubuntu Server.           
 Comencem instal·lant les màquines i posant-les en xarxa NAT.           
 Ara instal·lem el servei Apache:](Img/Imatge01.png)
