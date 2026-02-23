@@ -54,7 +54,9 @@ Entrem als dos arxius i fem els canvis corresponents.](Img/Imatge08.png)
 Que en aquest cas serien aquestes línies:
 
 ```
-
+ServerName www.academia.test
+ServerAdmin webmaster@localhost
+DocumentRoot /var/www/academia.test
 ```
 
 ![Que en aquest cas serien aquestes línies:](Img/Imatge09.png)
@@ -62,6 +64,14 @@ Que en aquest cas serien aquestes línies:
 Ara el següent arxiu: 
 
 ![Ara el següent arxiu:](Img/Imatge10.png)
+
+I les següents línies:
+
+```
+ServerName www.projectenexus.test
+ServerAdmin webmaster@localhost
+DocumentRoot /var/www/projectenexus.test
+```
 
 ![Ara el següent arxiu:](Img/Imatge11.png)
 
