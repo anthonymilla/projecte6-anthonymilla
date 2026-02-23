@@ -88,20 +88,23 @@ Ara activem els llocs amb les següents comandes i seguidament modifiquem l'arxi
 ![- Activeu els llocs amb la comanda a2ensite i modifiqueu l'arxiu hosts per simular la resolució de noms (DNS) i que els dominis responguin correctament.        
 Ara activem els llocs amb les següents comandes i seguidament modifiquem l'arxiu de hosts i fem les comprovacions corresponents:](Img/Imatge13.png)
 
-![- Activeu els llocs amb la comanda a2ensite i modifiqueu l'arxiu hosts per simular la resolució de noms (DNS) i que els dominis responguin correctament.        
-Ara activem els llocs amb les següents comandes i seguidament modifiquem l'arxiu de hosts i fem les comprovacions corresponents:](Img/Imatge14.png)
+Entrem a l'arxiu /etc/hosts
 
-![- Activeu els llocs amb la comanda a2ensite i modifiqueu l'arxiu hosts per simular la resolució de noms (DNS) i que els dominis responguin correctament.        
-Ara activem els llocs amb les següents comandes i seguidament modifiquem l'arxiu de hosts i fem les comprovacions corresponents:](Img/Imatge15.png)
+![Entrem a l'arxiu /etc/hosts](Img/Imatge14.png)
 
-![- Activeu els llocs amb la comanda a2ensite i modifiqueu l'arxiu hosts per simular la resolució de noms (DNS) i que els dominis responguin correctament.        
-Ara activem els llocs amb les següents comandes i seguidament modifiquem l'arxiu de hosts i fem les comprovacions corresponents:](Img/Imatge16.png)
+Fem ```ip a``` per veure l'ip.
 
-![- Activeu els llocs amb la comanda a2ensite i modifiqueu l'arxiu hosts per simular la resolució de noms (DNS) i que els dominis responguin correctament.        
-Ara activem els llocs amb les següents comandes i seguidament modifiquem l'arxiu de hosts i fem les comprovacions corresponents:](Img/Imatge17.png)
+![Fem ip a per veure l'ip.](Img/Imatge15.png)
 
-![- Activeu els llocs amb la comanda a2ensite i modifiqueu l'arxiu hosts per simular la resolució de noms (DNS) i que els dominis responguin correctament.        
-Ara activem els llocs amb les següents comandes i seguidament modifiquem l'arxiu de hosts i fem les comprovacions corresponents:](Img/Imatge18.png)
+I posem l'ip i el nom dels dos directoris:
+
+![I posem l'ip i el nom dels dos directoris:](Img/Imatge16.png)
+
+Fem les comprovacions.
+
+![Fem les comprovacions.](Img/Imatge17.png)
+
+![Fem les comprovacions.](Img/Imatge18.png)
 
 | 3. Personalització d'Errors |
 |----------------------------------------|
