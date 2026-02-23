@@ -27,6 +27,10 @@ Comprovació de /var/www i /var/www/html
 
 ![Comprovació de /var/www i /var/www/html](Img/Imatge04.png)
 
+Comprovacions.
+
+![Comprovacions.](Img/Imatge05.png)
+
 | 2. Desplegament de VirtualHosts (Multidomini) |
 |----------------------------------------|
 
