@@ -9,8 +9,8 @@ La direcció de Projecte Nexus us ha demanat una demostració pràctica de com l
 
 **Descripció de l'activitat**
 
-
-**Tasca 1: Protecció de dades en repòs (Xifratge Simètric)**
+| Tasca 1: Protecció de dades en repòs (Xifratge Simètric) |
+|----------------------------------------|
 
 Els caps de departament necessiten transportar els exàmens finals en memòries USB per imprimir-los a secretaria, però tenen por de perdre el dispositiu i que les preguntes es filtrin abans de la data de la prova.
 
