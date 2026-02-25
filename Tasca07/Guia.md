@@ -2,6 +2,8 @@
 
 ***Vaig borrar la meva màquina virtual del projecte anterior, aleshores per no començar de 0, vaig exportar la màquina del Pol Hernandez, per si és veu diferent domini i tot això.**
 
+1. Polítiques de Seguretat i Contrasenyes (Seguretat Corporativa)
+
 
 
 ![Comprovacions.](Img/Imatge01.png)
