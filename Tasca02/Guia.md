@@ -127,5 +127,15 @@ Configureu una pàgina d'error personalitzada pel codi 404 (Not Found) per a, co
 
 ![Comprovacions.](Img/Imatge23.png)
 
+![Comprovacions.](Img/Imatge24.png)
+
+![Comprovacions.](Img/Imatge25.png)
+
+![Comprovacions.](Img/Imatge26.png)
+
+![Comprovacions.](Img/Imatge27.png)
+
+![Comprovacions.](Img/Imatge28.png)
+
 [Anar a l'enunciat](../Tasca02/README.md)  
 [Anar a la pàgina inicial](../README.md)
