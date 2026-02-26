@@ -49,11 +49,21 @@ Creeu l'estructura de directoris necessària a /var/www/ per allotjar ambdós ll
 
 - Configureu dos VirtualHosts a /etc/apache2/sites-available/ fent servir com a
 base l'arxiu de configuració per defecte.      
-Entrem als dos arxius i fem els canvis corresponents. 
+La base és ```000-default.conf``` (la captura le fet després de les creacions, que m’havia oblidat).
 
 ![- Configureu dos VirtualHosts a /etc/apache2/sites-available/ fent servir com a
 base l'arxiu de configuració per defecte.      
-Entrem als dos arxius i fem els canvis corresponents.](Img/Imatge08.png)
+La base és 000-default.conf (la captura le fet després de les creacions, que m’havia oblidat).](Img/Imatge071.png)
+
+I copiem.
+
+![I copiem.](Img/Imatge072.png)
+
+![I copiem.](Img/Imatge073.png)
+
+Entrem als dos arxius i fem els canvis corresponents. 
+
+![Entrem als dos arxius i fem els canvis corresponents.](Img/Imatge08.png)
 
 Que en aquest cas serien aquestes línies:
 
