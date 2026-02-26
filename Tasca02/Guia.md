@@ -131,6 +131,35 @@ Configureu una pàgina d'error personalitzada pel codi 404 (Not Found) per a, co
 
 
 
+![Comprovacions.](Img/Imatge19.png)
+
+![Comprovacions.](Img/Imatge20.png)
+
+![Comprovacions.](Img/Imatge21.png)
+
+![Comprovacions.](Img/Imatge22.png)
+
+![Comprovacions.](Img/Imatge23.png)
+
+![Comprovacions.](Img/Imatge24.png)
+
+![Comprovacions.](Img/Imatge25.png)
+
+![Comprovacions.](Img/Imatge26.png)
+
+![Comprovacions.](Img/Imatge27.png)
+
+![Comprovacions.](Img/Imatge28.png)
+
+![Comprovacions.](Img/Imatge29.png)
+
+![Comprovacions.](Img/Imatge30.png)
+
+![Comprovacions.](Img/Imatge31.png)
+
+![Comprovacions.](Img/Imatge32.png)
+
+
 | 4. Seguretat i Certificats (HTTPS) |
 |----------------------------------------|
 
@@ -147,20 +176,6 @@ El que fem és copiar l’arxiu TLS per defecte.](Img/Imatge34.png)
 El que fem és copiar l’arxiu TLS per defecte.](Img/Imatge35.png)
 
 
-
-![Comprovacions.](Img/Imatge22.png)
-
-![Comprovacions.](Img/Imatge23.png)
-
-![Comprovacions.](Img/Imatge24.png)
-
-![Comprovacions.](Img/Imatge25.png)
-
-![Comprovacions.](Img/Imatge26.png)
-
-![Comprovacions.](Img/Imatge27.png)
-
-![Comprovacions.](Img/Imatge28.png)
 
 [Anar a l'enunciat](../Tasca02/README.md)  
 [Anar a la pàgina inicial](../README.md)
