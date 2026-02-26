@@ -47,6 +47,10 @@ Creeu l'estructura de directoris necessària a /var/www/ per allotjar ambdós ll
 ![-El client té dos dominis: projectenexus.test (Site 1) i academia.test (Site 2).
 Creeu l'estructura de directoris necessària a /var/www/ per allotjar ambdós llocs per separat de manera organitzada.](Img/Imatge07.png)
 
+Creem un arxiu index.html dins de cada carpeta.
+
+![Creem un arxiu index.html dins de cada carpeta.](Img/Imatge061.png)
+
 - Configureu dos VirtualHosts a /etc/apache2/sites-available/ fent servir com a
 base l'arxiu de configuració per defecte.      
 La base és ```000-default.conf``` (la captura le fet després de les creacions, que m’havia oblidat).
