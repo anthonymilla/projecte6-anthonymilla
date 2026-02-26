@@ -127,11 +127,22 @@ Configureu una pàgina d'error personalitzada pel codi 404 (Not Found) per a, co
 
 
 
-![Comprovacions.](Img/Imatge19.png)
+| 4. Seguretat i Certificats (HTTPS) |
+|----------------------------------------|
 
-![Comprovacions.](Img/Imatge20.png)
+- Habiliteu el mòdul SSL a Apache.        
+El que fem és copiar l’arxiu TLS per defecte.
 
-![Comprovacions.](Img/Imatge21.png)
+![- Habiliteu el mòdul SSL a Apache.        
+El que fem és copiar l’arxiu TLS per defecte.](Img/Imatge19.png)
+
+![- Habiliteu el mòdul SSL a Apache.        
+El que fem és copiar l’arxiu TLS per defecte.](Img/Imatge20.png)
+
+![- Habiliteu el mòdul SSL a Apache.        
+El que fem és copiar l’arxiu TLS per defecte.](Img/Imatge21.png)
+
+
 
 ![Comprovacions.](Img/Imatge22.png)
 
