@@ -138,13 +138,13 @@ Configureu una pàgina d'error personalitzada pel codi 404 (Not Found) per a, co
 El que fem és copiar l’arxiu TLS per defecte.
 
 ![- Habiliteu el mòdul SSL a Apache.        
-El que fem és copiar l’arxiu TLS per defecte.](Img/Imatge19.png)
+El que fem és copiar l’arxiu TLS per defecte.](Img/Imatge33.png)
 
 ![- Habiliteu el mòdul SSL a Apache.        
-El que fem és copiar l’arxiu TLS per defecte.](Img/Imatge20.png)
+El que fem és copiar l’arxiu TLS per defecte.](Img/Imatge34.png)
 
 ![- Habiliteu el mòdul SSL a Apache.        
-El que fem és copiar l’arxiu TLS per defecte.](Img/Imatge21.png)
+El que fem és copiar l’arxiu TLS per defecte.](Img/Imatge35.png)
 
 
 
