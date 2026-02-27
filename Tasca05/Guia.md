@@ -26,45 +26,164 @@ Instal·lem VeraCrypt.](Img/Imatge02.png)
 **Requisits:**
 
 - Crear un volum de 100MB.             
+Després de crear la màquina en adaptador pont, pausar les actualitzacions, ja podem començar. Primerament, posem la xarxa en: Xarxa NAT i creem el volum de 100 MB.
+(Vaig haver de fer el volum varies vegades de nou, ja que no ho feia bé i havia de tornar-ho a fer. Per això, per si es veiessin diferents opcions, moments, moltes captures…)
+
+![- Crear un volum de 100MB.             
+Després de crear la màquina en adaptador pont, pausar les actualitzacions, ja podem començar. Primerament, posem la xarxa en: Xarxa NAT i creem el volum de 100 MB.
+(Vaig haver de fer el volum varies vegades de nou, ja que no ho feia bé i havia de tornar-ho a fer. Per això, per si es veiessin diferents opcions, moments, moltes captures…)](Img/Imatge03.png)
+
+Anem a Paràmetres, Emmagatzematge i crear disc.
+
+![Anem a Paràmetres, Emmagatzematge i crear disc.](Img/Imatge04.png)
+
+Creat, cliquem d'acord i iniciem la màquina.
+
+![Creat, cliquem d'acord i iniciem la màquina.](Img/Imatge05.png)
+
+Dins de la màquina, anem a Administració de discos i Inicialitzem el disc (GPT).
+
+![Dins de la màquina, anem a Administració de discos i Inicialitzem el disc (GPT).](Img/Imatge06.png)
+
+Després com veiem, està inicialitzat.
+
+![Després com veiem, està inicialitzat.](Img/Imatge07.png)
+
+Ara l’assignem, per això fem clic dret sobre el disc, anem a Nou volum simple (Podríem posar de nom: Pen, perquè tingui una millor referència, però no he posat nom directament, però perquè s’entengui) i acceptem.
+
+![Ara l’assignem, per això fem clic dret sobre el disc, anem a Nou volum simple (Podríem posar de nom: Pen, perquè tingui una millor referència, però no he posat nom directament, però perquè s’entengui) i acceptem.](Img/Imatge08.png)
+
+Ja estaria.
+
+![Ja estaria.](Img/Imatge09.png)
+
+- Utilitzar l'algorisme de xifratge AES-256.        
+Ara anem a l'aplicació de VeraCrypt i cliquem en “Crear Volum”.
+
+![- Utilitzar l'algorisme de xifratge AES-256.        
+Ara anem a l'aplicació de VeraCrypt i cliquem en “Crear Volum”.](Img/Imatge10.png)
+
+Primerament posem l'opció de xifrar partició/unitat secundaria. Següent.
+
+![Primerament posem l'opció de xifrar partició/unitat secundaria. Següent.](Img/Imatge11.png)
+
+Ara en tipus de volum posem: Volum VeraCrypt comú.
+
+![Ara en tipus de volum posem: Volum VeraCrypt comú.](Img/Imatge12.png)
+
+Després a ubicació del volum, anem a seleccionar dispositiu.
+
+![Després a ubicació del volum, anem a seleccionar dispositiu.](Img/Imatge13.png)
+
+I escollim el disc creat.
+
+![I escollim el disc creat.](Img/Imatge14.png)
+
+Escollit. Següent.
+
+![Escollit. Següent.](Img/Imatge15.png)
+
+En mode de creació de volum, xifrem la partició conservant dades.
+
+![En mode de creació de volum, xifrem la partició conservant dades.](Img/Imatge16.png)
+
+- Utilitzar l'algorisme de xifratge AES-256.    
+Utilitzem l'algorisme de xifratge AES i l’algorisme hash SHA-256. Següent.
+
+![- Utilitzar l'algorisme de xifratge AES-256.    
+Utilitzem l'algorisme de xifratge AES i l’algorisme hash SHA-256. Següent.](Img/Imatge17.png)
+
+- Establir una contrasenya robusta.      
+Contrasenya robusta: T$9mZ!4qP@82rF#xL1
+
+![- Establir una contrasenya robusta.      
+Contrasenya robusta: T$9mZ!4qP@82rF#xL1](Img/Imatge18.png)
+
+Ara recopila dades aleatòries, nosaltres en aquest apartat el que hem de fer és moure el ratolí per la pantalla fins que la barra estigui al compet en verd i continuem.
+
+![Ara recopila dades aleatòries, nosaltres en aquest apartat el que hem de fer és moure el ratolí per la pantalla fins que la barra estigui al compet en verd i continuem.](Img/Imatge19.png)
+
+En el mode esborrat, ho deixem com està predeterminat, continuem.
+
+![En el mode esborrat, ho deixem com està predeterminat, continuem.](Img/Imatge20.png)
+
+Seguidament xifrem, cliquem on posa: Xifrar.
+
+![Seguidament xifrem, cliquem on posa: Xifrar.](Img/Imatge21.png)
+
+I el volum ja estaria xifrat. Finalitzem.
+
+![I el volum ja estaria xifrat. Finalitzem.](Img/Imatge22.png)
+
+Ara seleccionem dispositiu.
+
+![Ara seleccionem dispositiu.](Img/Imatge23.png)
+
+I l’escollim.
+
+![I l’escollim. ](Img/Imatge24.png)
+
+Després escollim una lletra i muntem.
+
+![Després escollim una lletra i muntem.](Img/Imatge25.png)
+
+Posem la contrasenya robusta que hem establert anteriorment.
+
+![Posem la contrasenya robusta que hem establert anteriorment.](Img/Imatge26.png)
+
+I ja estaria muntat.
+
+![I ja estaria muntat.](Img/Imatge27.png)
+
+Comprovem com s’ha muntat correctament, és accessible, es veu.
+
+![Comprovem com s’ha muntat correctament, és accessible, es veu.](Img/Imatge28.png)
+
+- Dins la unitat xifrada, heu de copiar un fitxer de text anomenat EXAMEN_FINAL_SEGURETAT.txt amb preguntes de prova.      
+Primerament, creo el fitxer de text anomenat EXAMEN_FINAL_SEGURETAT.txt amb alguna pregunta de prova.
+
+![- Dins la unitat xifrada, heu de copiar un fitxer de text anomenat EXAMEN_FINAL_SEGURETAT.txt amb preguntes de prova.      
+Primerament, creo el fitxer de text anomenat EXAMEN_FINAL_SEGURETAT.txt amb alguna pregunta de prova.](Img/Imatge29.png)
+
+I copiem el fitxer de text anomenat EXAMEN_FINAL_SEGURETAT.txt a la unitat xifrada.
+
+![I copiem el fitxer de text anomenat EXAMEN_FINAL_SEGURETAT.txt a la unitat xifrada.](Img/Imatge30.png)
+
+- Demostrar que, sense muntar la unitat amb la contrasenya, el fitxer és inaccessible.       
+Ara el que hem de fer és desmuntar. Anem a VeraCrypt i cliquem en: Desmuntar.
+
+![- Demostrar que, sense muntar la unitat amb la contrasenya, el fitxer és inaccessible.       
+Ara el que hem de fer és desmuntar. Anem a VeraCrypt i cliquem en: Desmuntar.](Img/Imatge31.png)
+
+Veiem que s’ha desmuntat correctament.
+
+![Veiem que s’ha desmuntat correctament.](Img/Imatge32.png)
+
+Fem la comprovació, i podem veure com sense muntar la unitat amb la contrasenya, el fitxer és inaccessible.
+
+![Fem la comprovació, i podem veure com sense muntar la unitat amb la contrasenya, el fitxer és inaccessible.](Img/Imatge33.png)
+
+| Tasca 2: Verificació d'Integritat (Hashing) |
+|----------------------------------------|
+
+Nexus distribueix material didàctic i software als alumnes a través del seu servidor web.          
+Volen estar segurs que els fitxers no han estat alterats per un atacant per incloure malware.
 
 
-![Comprovacions.](Img/Imatge03.png)
 
-![Comprovacions.](Img/Imatge04.png)
+![Comprovació.](Img/Imatge34.png)
 
-![Comprovacions.](Img/Imatge05.png)
+![Comprovació.](Img/Imatge35.png)
 
-![Comprovacions.](Img/Imatge06.png)
+![Comprovació.](Img/Imatge36.png)
 
-![Comprovacions.](Img/Imatge07.png)
+![Comprovació.](Img/Imatge37.png)
 
-![Comprovacions.](Img/Imatge08.png)
+![Comprovació.](Img/Imatge38.png)
 
-![Comprovacions.](Img/Imatge09.png)
+![Comprovació.](Img/Imatge39.png)
 
-![Comprovacions.](Img/Imatge10.png)
-
-![Comprovacions.](Img/Imatge11.png)
-
-![Comprovacions.](Img/Imatge12.png)
-
-![Comprovacions.](Img/Imatge13.png)
-
-![Comprovacions.](Img/Imatge14.png)
-
-![Comprovacions.](Img/Imatge15.png)
-
-![Comprovacions.](Img/Imatge16.png)
-
-![Comprovacions.](Img/Imatge17.png)
-
-![Comprovacions.](Img/Imatge18.png)
-
-![Comprovacions.](Img/Imatge19.png)
-
-![Comprovacions.](Img/Imatge20.png)
-
-![Comprovacions.](Img/Imatge21.png)
+![Comprovació.](Img/Imatge40.png)
 
 [Anar a l'enunciat](../Tasca02/README.md)  
 [Anar a la pàgina inicial](../README.md)
