@@ -127,38 +127,80 @@ Fem les comprovacions.
 | 3. Personalització d'Errors |
 |----------------------------------------|
 
-Configureu una pàgina d'error personalitzada pel codi 404 (Not Found) per a, com a mínim, un dels VirtualHosts. El missatge ha de ser corporatiu i professional, evitant la pàgina per defecte del servidor.
+Configureu una pàgina d'error personalitzada pel codi 404 (Not Found) per a, com a mínim, un dels VirtualHosts. El missatge ha de ser corporatiu i professional, evitant la pàgina per defecte del servidor.       
+Configurem una pàgina d’error personalitzada pel codi 404.
 
+![Configurem una pàgina d’error personalitzada pel codi 404.](Img/Imatge19.png)
 
+I posem el següent missatge en aquest cas (El típic missatge: Pàgina no encontrada/Not Found), sense accents, ja que si no després surt malament el text:
 
-![Comprovacions.](Img/Imatge19.png)
+![I posem el següent missatge en aquest cas (El típic missatge: Pàgina no encontrada/Not Found), sense accents, ja que si no després surt malament el text:](Img/Imatge20.png)
 
-![Comprovacions.](Img/Imatge20.png)
+Reiniciem el servei.
 
-![Comprovacions.](Img/Imatge21.png)
+![Reiniciem el servei.](Img/Imatge21.png)
 
-![Comprovacions.](Img/Imatge22.png)
+I ara fem el mateix amb l’altre com podem veure:
 
-![Comprovacions.](Img/Imatge23.png)
+![I ara fem el mateix amb l’altre com podem veure:](Img/Imatge22.png)
 
-![Comprovacions.](Img/Imatge24.png)
+![I ara fem el mateix amb l’altre com podem veure:](Img/Imatge23.png)
 
-![Comprovacions.](Img/Imatge25.png)
+![I ara fem el mateix amb l’altre com podem veure:](Img/Imatge24.png)
 
-![Comprovacions.](Img/Imatge26.png)
+Entrem als arxius conf tant de projectenexus com de academia:
 
-![Comprovacions.](Img/Imatge27.png)
+![Entrem als arxius conf tant de projectenexus com de academia:](Img/Imatge25.png)
 
-![Comprovacions.](Img/Imatge28.png)
+I afegim la següent línia corresponent:
 
-![Comprovacions.](Img/Imatge29.png)
+```
+ErrorDocument 404 /404.html
+```
 
-![Comprovacions.](Img/Imatge30.png)
+Quedaria així:
 
-![Comprovacions.](Img/Imatge31.png)
+```
+ErrorLog ${APACHE_LOG_DIR}/error.log
+CustomLog ${APACHE_LOG_DIR}/access.log combined
+ErrorDocument 404 /404.html
+```
 
-![Comprovacions.](Img/Imatge32.png)
+![I afegim la següent línia corresponent:](Img/Imatge26.png)
 
+Reiniciem el servei.
+
+![Reiniciem el servei.](Img/Imatge27.png)
+
+Ara entrem a l’altre arxiu, el de academia:
+
+![Ara entrem a l’altre arxiu, el de academia:](Img/Imatge28.png)
+
+I afegim la mateixa línia que abans:
+
+```
+ErrorDocument 404 /404.html
+```
+
+Quedaria així:
+
+```
+ErrorLog ${APACHE_LOG_DIR}/error.log
+CustomLog ${APACHE_LOG_DIR}/access.log combined
+ErrorDocument 404 /404.html
+```
+
+![I afegim la mateixa línia que abans:](Img/Imatge29.png)
+
+Reiniciem el servei de nou.
+
+![Reiniciem el servei de nou.](Img/Imatge30.png)
+
+Després anem a la màquina Zorin, fem les comprovacions corresponents i com podem veure surten els missatges corresponents a cadascuna:
+
+![Després anem a la màquina Zorin, fem les comprovacions corresponents i com podem veure surten els missatges corresponents a cadascuna:](Img/Imatge31.png)
+
+![Després anem a la màquina Zorin, fem les comprovacions corresponents i com podem veure surten els missatges corresponents a cadascuna:](Img/Imatge32.png)
 
 | 4. Seguretat i Certificats (HTTPS) |
 |----------------------------------------|
@@ -176,6 +218,26 @@ El que fem és copiar l’arxiu TLS per defecte.](Img/Imatge34.png)
 El que fem és copiar l’arxiu TLS per defecte.](Img/Imatge35.png)
 
 
+
+![Comprovacions.](Img/Imatge36.png)
+
+![Comprovacions.](Img/Imatge37.png)
+
+![Comprovacions.](Img/Imatge38.png)
+
+![Comprovacions.](Img/Imatge39.png)
+
+![Comprovacions.](Img/Imatge40.png)
+
+![Comprovacions.](Img/Imatge41.png)
+
+![Comprovacions.](Img/Imatge42.png)
+
+![Comprovacions.](Img/Imatge43.png)
+
+![Comprovacions.](Img/Imatge44.png)
+
+![Comprovacions.](Img/Imatge45.png)
 
 [Anar a l'enunciat](../Tasca02/README.md)  
 [Anar a la pàgina inicial](../README.md)
