@@ -194,9 +194,9 @@ Ara calcularem el Hash SHA-256 del fitxer, per això copiem la ruta:
 ![- Calcular el Hash SHA-256 del fitxer original.       
 Ara calcularem el Hash SHA-256 del fitxer, per això copiem la ruta:](Img/Imatge38.png)
 
-I anem a terminal, on posem la següent comanda copiant la ruta, i ens calcula el Hash SHA-256 del fitxer:
+I anem a terminal, on posem la següent comanda copiant la ruta i ens calcula el Hash SHA-256 del fitxer:
 
-![I anem a terminal, on posem la següent comanda copiant la ruta, i ens calcula el Hash SHA-256 del fitxer:](Img/Imatge39.png)
+![I anem a terminal, on posem la següent comanda copiant la ruta i ens calcula el Hash SHA-256 del fitxer:](Img/Imatge39.png)
 
 - Modificar el fitxer canviant una sola xifra (ex: "L'alumne ha aprovat amb un 9").      
 Ara modifiquem el fitxer, canviem el 5 per el 9.
