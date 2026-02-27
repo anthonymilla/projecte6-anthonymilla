@@ -99,7 +99,7 @@ Contrasenya robusta: T$9mZ!4qP@82rF#xL1
 ![- Establir una contrasenya robusta.      
 Contrasenya robusta: T$9mZ!4qP@82rF#xL1](Img/Imatge18.png)
 
-Ara recopila dades aleatòries, nosaltres en aquest apartat el que hem de fer és moure el ratolí per la pantalla fins que la barra estigui al compet en verd i continuem.
+Ara recopila dades aleatòries, nosaltres en aquest apartat el que hem de fer és moure el ratolí per la pantalla fins que la barra estigui al complet en verd i continuem.
 
 ![Ara recopila dades aleatòries, nosaltres en aquest apartat el que hem de fer és moure el ratolí per la pantalla fins que la barra estigui al compet en verd i continuem.](Img/Imatge19.png)
 
