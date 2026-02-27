@@ -169,21 +169,77 @@ Fem la comprovació, i podem veure com sense muntar la unitat amb la contrasenya
 Nexus distribueix material didàctic i software als alumnes a través del seu servidor web.          
 Volen estar segurs que els fitxers no han estat alterats per un atacant per incloure malware.
 
+- Utilitzant una eina com CertUtil (Windows), md5sum/sha256sum (Linux) o 7-Zip:     
+Utilitzem l’eina CerUtil, anem a la terminal i posem la comanda certutil si ens surt comando completado correctamente vol dir que funciona (prova de que funciona):
 
+![- Utilitzant una eina com CertUtil (Windows), md5sum/sha256sum (Linux) o 7-Zip:     
+Utilitzem l’eina CerUtil, anem a la terminal i posem la comanda certutil si ens surt comando completado correctamente vol dir que funciona (prova de que funciona):](Img/Imatge34.png)
 
-![Comprovació.](Img/Imatge34.png)
+- Crear un document de text anomenat nota_final_curs.txt amb el text: "L'alumne ha aprovat amb un 5".       
+Creem un document de text anomenat nota_final_curs.txt amb el text: "L'alumne ha aprovat amb un 5".
 
-![Comprovació.](Img/Imatge35.png)
+![- Crear un document de text anomenat nota_final_curs.txt amb el text: "L'alumne ha aprovat amb un 5".       
+Creem un document de text anomenat nota_final_curs.txt amb el text: "L'alumne ha aprovat amb un 5".](Img/Imatge35.png)
 
-![Comprovació.](Img/Imatge36.png)
+![- Crear un document de text anomenat nota_final_curs.txt amb el text: "L'alumne ha aprovat amb un 5".       
+Creem un document de text anomenat nota_final_curs.txt amb el text: "L'alumne ha aprovat amb un 5".](Img/Imatge36.png)
 
-![Comprovació.](Img/Imatge37.png)
+Creem una carpeta anomenada “Xifrat” en aquest cas i posem el document de text a dins. Creat correctament:
 
-![Comprovació.](Img/Imatge38.png)
+![Creem una carpeta anomenada “Xifrat” en aquest cas i posem el document de text a dins. Creat correctament:](Img/Imatge37.png)
 
-![Comprovació.](Img/Imatge39.png)
+- Calcular el Hash SHA-256 del fitxer original.       
+Ara calcularem el Hash SHA-256 del fitxer, per això copiem la ruta:
 
-![Comprovació.](Img/Imatge40.png)
+![- Calcular el Hash SHA-256 del fitxer original.       
+Ara calcularem el Hash SHA-256 del fitxer, per això copiem la ruta:](Img/Imatge38.png)
+
+I anem a terminal, on posem la següent comanda copiant la ruta, i ens calcula el Hash SHA-256 del fitxer:
+
+![I anem a terminal, on posem la següent comanda copiant la ruta, i ens calcula el Hash SHA-256 del fitxer:](Img/Imatge39.png)
+
+- Modificar el fitxer canviant una sola xifra (ex: "L'alumne ha aprovat amb un 9").      
+Ara modifiquem el fitxer, canviem el 5 per el 9.
+
+![- Modificar el fitxer canviant una sola xifra (ex: "L'alumne ha aprovat amb un 9").      
+Ara modifiquem el fitxer, canviem el 5 per el 9.](Img/Imatge40.png)
+
+- Tornar a calcular el Hash i comparar els resultats per demostrar com l'empremta digital canvia totalment i revela la manipulació de la nota.        
+Ara tornem a fer la comanda i com podem veure com l'empremta digital canvia totalment i revela la manipulació de la nota.
+
+![- Tornar a calcular el Hash i comparar els resultats per demostrar com l'empremta digital canvia totalment i revela la manipulació de la nota.        
+Ara tornem a fer la comanda i com podem veure com l'empremta digital canvia totalment i revela la manipulació de la nota.](Img/Imatge40.png)
+
+| Justificació Teòrica de la diferència entre xifratge i funció hash: |
+|----------------------------------------|
+El xifratge serveix per amagar la informació perquè ningú la pugui llegir si no té la contrasenya. És reversible ja que si tens la clau, pots recuperar el fitxer original.
+La funció hash, en canvi, no amaga res, sinó que crea una mena d’“empremta digital” del fitxer. Aquesta empremta no es pot revertir i serveix per comprovar que el document no ha estat modificat. 
+Bàsicament el xifratge és protegir i ocultar dades i el hash és assegurar que no s’han canviat.
+
+| Conclusió: |
+|----------------------------------------|
+
+Doncs què és important que Nexus xifri totes les dades sensibles, sobretot les que es porten en USB o discos externs, per evitar que algú les pugui llegir si es perden o són robades. També doncs cal usar contrasenyes fortes i guardar-les de manera segura. També és recomanable utilitzar funcions hash per comprovar la integritat de documents importants (com notes, contractes…), així assegurant que ningú els ha modificat sense permís.
+
+| Què cal lliurar |
+|----------------------------------------|
+
+Heu de redactar un informe tècnic per al client (format MarkDown) que inclogui:
+
+**Justificació Teòrica:** Una breu explicació (màxim 10 línies) per al client de la diferència
+entre xifratge (Tasca 1) i funció hash (Tasca 2), explicant que el xifratge amaga la informació i el hash en garanteix la integritat.
+
+**Evidències de la Tasca 1:**
+
+- Captura de pantalla de la configuració del volum (algorisme escollit).
+- Captura de la unitat muntada amb l'examen secret a dins.
+- Captures que permetin veure el procés per accedir al fitxer.
+
+**Evidències de la Tasca 2 (Hashing):**
+
+Captura de pantalla del terminal o programa mostrant els dos hashos (l'original i el modificat) per veure que són diferents.
+
+**Conclusió:** Breu recomanació final a Nexus sobre la importància de protegir les dades , especialment les portables amb xifrat i la gestió segura de les contrasenyes (robustesa i com guardar-les). A continuació, la necessitat d’usar hash per assegurar la integritat de la documentació important com actes de notes, contractes, etc.
 
 [Anar a l'enunciat](../Tasca02/README.md)  
 [Anar a la pàgina inicial](../README.md)
