@@ -4,8 +4,7 @@
 
 Aprofitant que ja hi esteu treballant amb la seva infraestructura web, des de Projecte Nexus us sol·licita una nova petició d’ajuda.          
 A causa del gran volum de dades sensibles que gestionen (dades personals d'estudiants, exàmens oficials no publicats i certificats de notes), estan molt preocupats per la integritat i privacitat de la seva gestió acadèmica.    
-La direcció de Projecte Nexus us ha demanat una demostració pràctica de com la vostra empresa pot garantir els tres pilars de la seguretat en la seva informació:     
-**Confidencialitat, Integritat i Autenticitat.**
+La direcció de Projecte Nexus us ha demanat una demostració pràctica de com la vostra empresa pot garantir els tres pilars de la seguretat en la seva informació: **Confidencialitat, Integritat i Autenticitat.**
 
 **Descripció de l'activitat**
 
