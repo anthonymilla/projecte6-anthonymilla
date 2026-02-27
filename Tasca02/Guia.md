@@ -1,5 +1,17 @@
 # MISSIÓ APACHE: DESPLEGAMENT MULTIDOMINI I SEGUR
 
+Primerament mostrem les IPs d'ambdues màquines:
+
+![Primerament mostrem les IPs d'ambdues màquines:](Img/Imatge001.png)
+
+![Primerament mostrem les IPs d'ambdues màquines:](Img/Imatge002.png)
+
+I la prova de connectivitat:
+
+![I la prova de connectivitat:](Img/Imatge003.png)
+
+![I la prova de connectivitat:](Img/Imatge004.png)
+
 | 1. Instal·lació i Configuració Base |
 |----------------------------------------|
 
