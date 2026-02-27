@@ -128,9 +128,9 @@ Fem les comprovacions.
 |----------------------------------------|
 
 Configureu una pàgina d'error personalitzada pel codi 404 (Not Found) per a, com a mínim, un dels VirtualHosts. El missatge ha de ser corporatiu i professional, evitant la pàgina per defecte del servidor.       
-Configurem una pàgina d’error personalitzada pel codi 404.
+Configurem una pàgina d’error personalitzada pel codi 404:
 
-![Configurem una pàgina d’error personalitzada pel codi 404.](Img/Imatge19.png)
+![Configurem una pàgina d’error personalitzada pel codi 404:](Img/Imatge19.png)
 
 I posem el següent missatge en aquest cas (El típic missatge: Pàgina no encontrada/Not Found), sense accents, ja que si no després surt malament el text:
 
