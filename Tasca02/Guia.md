@@ -6,11 +6,13 @@ Primerament mostrem les IPs d'ambdues màquines:
 
 ![Primerament mostrem les IPs d'ambdues màquines:](Img/Imatge002.png)
 
-I la prova de connectivitat:
+I prova de connectivitat:
 
-![I la prova de connectivitat:](Img/Imatge003.png)
+![I prova de connectivitat:](Img/Imatge003.png)
 
-![I la prova de connectivitat:](Img/Imatge004.png)
+![I prova de connectivitat:](Img/Imatge004.png)
+
+![I prova de connectivitat:](Img/Imatge005.png)
 
 | 1. Instal·lació i Configuració Base |
 |----------------------------------------|
