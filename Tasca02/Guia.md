@@ -61,9 +61,37 @@ Creeu l'estructura de directoris necessària a /var/www/ per allotjar ambdós ll
 ![-El client té dos dominis: projectenexus.test (Site 1) i academia.test (Site 2).
 Creeu l'estructura de directoris necessària a /var/www/ per allotjar ambdós llocs per separat de manera organitzada.](Img/Imatge07.png)
 
-Creem un arxiu index.html dins de cada carpeta.
+Creem un arxiu index.html dins de cada carpeta i bàsicament el configurem:
 
-![Creem un arxiu index.html dins de cada carpeta.](Img/Imatge061.png)
+![Creem un arxiu index.html dins de cada carpeta i bàsicament el configurem:](Img/Imatge061.png)
+
+Posem aquest codi de benvinguda:
+
+![Posem aquest codi de benvinguda:](Img/Imatge062.png)
+
+Reiniciem el servei.
+
+![Reiniciem el servei.](Img/Imatge063.png)
+
+Fem la comprovació de que s’ha creat l’arxiu index.html.
+
+![Fem la comprovació de que s’ha creat l’arxiu index.html.](Img/Imatge064.png)
+
+Ara entrem al de academia.test per editar-lo/configurar-ho:
+
+![Ara entrem al de academia.test per editar-lo/configurar-ho:](Img/Imatge065.png)
+
+I posem el codi:
+
+![I posem el codi:](Img/Imatge066.png)
+
+Reiniciem el servei.
+
+![Reiniciem el servei.](Img/Imatge067.png)
+
+I finalment fem la comprovació de que s’ha creat l’arxiu index.html.
+
+![I finalment fem la comprovació de que s’ha creat l’arxiu index.html.](Img/Imatge068.png)
 
 - Configureu dos VirtualHosts a /etc/apache2/sites-available/ fent servir com a
 base l'arxiu de configuració per defecte.      
