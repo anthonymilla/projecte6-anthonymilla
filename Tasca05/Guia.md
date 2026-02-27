@@ -170,10 +170,10 @@ Nexus distribueix material didàctic i software als alumnes a través del seu se
 Volen estar segurs que els fitxers no han estat alterats per un atacant per incloure malware.
 
 - Utilitzant una eina com CertUtil (Windows), md5sum/sha256sum (Linux) o 7-Zip:     
-Utilitzem l’eina CerUtil, anem a la terminal i posem la comanda certutil si ens surt comando completado correctamente vol dir que funciona (prova de que funciona):
+Utilitzem l’eina CertUtil, anem a la terminal i posem la comanda certutil si ens surt comando completado correctamente vol dir que funciona (prova de que funciona):
 
 ![- Utilitzant una eina com CertUtil (Windows), md5sum/sha256sum (Linux) o 7-Zip:     
-Utilitzem l’eina CerUtil, anem a la terminal i posem la comanda certutil si ens surt comando completado correctamente vol dir que funciona (prova de que funciona):](Img/Imatge34.png)
+Utilitzem l’eina CertUtil, anem a la terminal i posem la comanda certutil si ens surt comando completado correctamente vol dir que funciona (prova de que funciona):](Img/Imatge34.png)
 
 - Crear un document de text anomenat nota_final_curs.txt amb el text: "L'alumne ha aprovat amb un 5".       
 Creem un document de text anomenat nota_final_curs.txt amb el text: "L'alumne ha aprovat amb un 5".
