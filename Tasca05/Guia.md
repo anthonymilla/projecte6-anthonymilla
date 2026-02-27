@@ -212,6 +212,7 @@ Ara tornem a fer la comanda i com podem veure com l'empremta digital canvia tota
 
 | Justificació Teòrica de la diferència entre xifratge i funció hash: |
 |----------------------------------------|
+
 El xifratge serveix per amagar la informació perquè ningú la pugui llegir si no té la contrasenya. És reversible ja que si tens la clau, pots recuperar el fitxer original.
 La funció hash, en canvi, no amaga res, sinó que crea una mena d’“empremta digital” del fitxer. Aquesta empremta no es pot revertir i serveix per comprovar que el document no ha estat modificat. 
 Bàsicament el xifratge és protegir i ocultar dades i el hash és assegurar que no s’han canviat.
