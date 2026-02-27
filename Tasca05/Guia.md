@@ -170,7 +170,7 @@ Nexus distribueix material didàctic i software als alumnes a través del seu se
 Volen estar segurs que els fitxers no han estat alterats per un atacant per incloure malware.
 
 - Utilitzant una eina com CertUtil (Windows), md5sum/sha256sum (Linux) o 7-Zip:     
-Utilitzem l’eina CertUtil, anem a la terminal i posem la comanda certutil si ens surt comando completado correctamente vol dir que funciona (prova de que funciona):
+Utilitzem l’eina CertUtil, anem a la terminal i posem la comanda ```certutil``` si ens surt comando completado correctamente vol dir que funciona (prova de que funciona):
 
 ![- Utilitzant una eina com CertUtil (Windows), md5sum/sha256sum (Linux) o 7-Zip:     
 Utilitzem l’eina CertUtil, anem a la terminal i posem la comanda certutil si ens surt comando completado correctamente vol dir que funciona (prova de que funciona):](Img/Imatge34.png)
@@ -196,6 +196,10 @@ Ara calcularem el Hash SHA-256 del fitxer, per això copiem la ruta:](Img/Imatge
 
 I anem a terminal, on posem la següent comanda copiant la ruta i ens calcula el Hash SHA-256 del fitxer:
 
+```
+certutil -hashfile "C:\Users\usuari\Documents\Xifrat\nota_final_curs.txt" SHA256
+```
+
 ![I anem a terminal, on posem la següent comanda copiant la ruta i ens calcula el Hash SHA-256 del fitxer:](Img/Imatge39.png)
 
 - Modificar el fitxer canviant una sola xifra (ex: "L'alumne ha aprovat amb un 9").      
@@ -206,6 +210,10 @@ Ara modifiquem el fitxer, canviem el 5 per el 9.](Img/Imatge40.png)
 
 - Tornar a calcular el Hash i comparar els resultats per demostrar com l'empremta digital canvia totalment i revela la manipulació de la nota.        
 Ara tornem a fer la comanda i com podem veure com l'empremta digital canvia totalment i revela la manipulació de la nota.
+
+```
+certutil -hashfile "C:\Users\usuari\Documents\Xifrat\nota_final_curs.txt" SHA256
+```
 
 ![- Tornar a calcular el Hash i comparar els resultats per demostrar com l'empremta digital canvia totalment i revela la manipulació de la nota.        
 Ara tornem a fer la comanda i com podem veure com l'empremta digital canvia totalment i revela la manipulació de la nota.](Img/Imatge41.png)
