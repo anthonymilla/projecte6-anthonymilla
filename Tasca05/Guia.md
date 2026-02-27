@@ -208,7 +208,7 @@ Ara modifiquem el fitxer, canviem el 5 per el 9.](Img/Imatge40.png)
 Ara tornem a fer la comanda i com podem veure com l'empremta digital canvia totalment i revela la manipulació de la nota.
 
 ![- Tornar a calcular el Hash i comparar els resultats per demostrar com l'empremta digital canvia totalment i revela la manipulació de la nota.        
-Ara tornem a fer la comanda i com podem veure com l'empremta digital canvia totalment i revela la manipulació de la nota.](Img/Imatge40.png)
+Ara tornem a fer la comanda i com podem veure com l'empremta digital canvia totalment i revela la manipulació de la nota.](Img/Imatge41.png)
 
 | Justificació Teòrica de la diferència entre xifratge i funció hash: |
 |----------------------------------------|
