@@ -26,8 +26,8 @@ Instal·lem VeraCrypt.](Img/Imatge02.png)
 **Requisits:**
 
 - Crear un volum de 100MB.             
-Després de crear la màquina en adaptador pont, pausar les actualitzacions, ja podem començar. Primerament, posem la xarxa en: Xarxa NAT i creem el volum de 100 MB.
-(Vaig haver de fer el volum varies vegades de nou, ja que no ho feia bé i havia de tornar-ho a fer. Per això, per si es veiessin diferents opcions, moments, moltes captures…)
+Després de crear la màquina en adaptador pont, pausar les actualitzacions, ja podem començar. Primerament, posem la xarxa en: Xarxa NAT i creem el volum de 100 MB      
+(Vaig haver de fer el volum varies vegades de nou, ja que no ho feia bé i havia de tornar-ho a fer. Per això, per si es veiessin diferents opcions, moments, moltes captures…).
 
 ![- Crear un volum de 100MB.             
 Després de crear la màquina en adaptador pont, pausar les actualitzacions, ja podem començar. Primerament, posem la xarxa en: Xarxa NAT i creem el volum de 100 MB.
