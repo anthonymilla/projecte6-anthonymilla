@@ -67,6 +67,11 @@ Creem un arxiu index.html dins de cada carpeta i bàsicament el configurem:
 
 Posem aquest codi de benvinguda:
 
+```
+<h1>HOLA BUENAS</h1>
+<p>Bienvenido a projectenexus.test</p>
+```
+
 ![Posem aquest codi de benvinguda:](Img/Imatge062.png)
 
 Reiniciem el servei.
@@ -82,6 +87,11 @@ Ara entrem al de academia.test per editar-lo/configurar-ho:
 ![Ara entrem al de academia.test per editar-lo/configurar-ho:](Img/Imatge065.png)
 
 I posem el codi:
+
+```
+<h1>HOLA BUENAS</h1>
+<p>Bienvenido a academia.test</p>
+```
 
 ![I posem el codi:](Img/Imatge066.png)
 
