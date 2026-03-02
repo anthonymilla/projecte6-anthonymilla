@@ -291,5 +291,53 @@ El que fem és copiar l’arxiu TLS per defecte.](Img/Imatge35.png)
 
 ![Comprovacions.](Img/Imatge45.png)
 
+![Comprovacions.](Img/Imatge46.png)
+
+![Comprovacions.](Img/Imatge47.png)
+
+![Comprovacions.](Img/Imatge48.png)
+
+![Comprovacions.](Img/Imatge49.png)
+
+![Comprovacions.](Img/Imatge499.png)
+
+![Comprovacions.](Img/Imatge50.png)
+
+![Comprovacions.](Img/Imatge51.png)
+
+![Comprovacions.](Img/Imatge52.png)
+
+![Comprovacions.](Img/Imatge53.png)
+
+![Comprovacions.](Img/Imatge54.png)
+
+![Comprovacions.](Img/Imatge55.png)
+
+![Comprovacions.](Img/Imatge56.png)
+
+![Comprovacions.](Img/Imatge57.png)
+
+![Comprovacions.](Img/Imatge58.png)
+
+![Comprovacions.](Img/Imatge59.png)
+
+![Comprovacions.](Img/Imatge60.png)
+
+![Comprovacions.](Img/Imatge61.png)
+
+![Comprovacions.](Img/Imatge62.png)
+
+![Comprovacions.](Img/Imatge63.png)
+
+![Comprovacions.](Img/Imatge64.png)
+
+![Comprovacions.](Img/Imatge65.png)
+
+![Comprovacions.](Img/Imatge66.png)
+
+![Comprovacions.](Img/Imatge67.png)
+
+![Comprovacions.](Img/Imatge68.png)
+
 [Anar a l'enunciat](../Tasca02/README.md)  
 [Anar a la pàgina inicial](../README.md)
