@@ -269,53 +269,123 @@ El que fem és copiar l’arxiu TLS per defecte.](Img/Imatge34.png)
 ![- Habiliteu el mòdul SSL a Apache.        
 El que fem és copiar l’arxiu TLS per defecte.](Img/Imatge35.png)
 
+- Genereu un certificat autosignat per els dos dominis projectenexus.test i academia.test utilitzant openssl. El certificat ha de tenir una validesa de 365 dies i una clau RSA de 2048 bits.           
+Crearem una carpeta anomenada ```cert``` a cadascuna, on el certificat es situarà i una private on la clau privada es situarà:
 
+![- Genereu un certificat autosignat per els dos dominis projectenexus.test i academia.test utilitzant openssl. El certificat ha de tenir una validesa de 365 dies i una clau RSA de 2048 bits.           
+Crearem una carpeta anomenada ```cert``` a cadascuna, on el certificat es situarà i una private on la clau privada es situarà:](Img/Imatge36.png)
 
-![Comprovacions.](Img/Imatge36.png)
+![- Genereu un certificat autosignat per els dos dominis projectenexus.test i academia.test utilitzant openssl. El certificat ha de tenir una validesa de 365 dies i una clau RSA de 2048 bits.           
+Crearem una carpeta anomenada ```cert``` a cadascuna, on el certificat es situarà i una private on la clau privada es situarà:](Img/Imatge37.png)
 
-![Comprovacions.](Img/Imatge37.png)
+![- Genereu un certificat autosignat per els dos dominis projectenexus.test i academia.test utilitzant openssl. El certificat ha de tenir una validesa de 365 dies i una clau RSA de 2048 bits.           
+Crearem una carpeta anomenada ```cert``` a cadascuna, on el certificat es situarà i una private on la clau privada es situarà:](Img/Imatge38.png)
 
-![Comprovacions.](Img/Imatge38.png)
+![- Genereu un certificat autosignat per els dos dominis projectenexus.test i academia.test utilitzant openssl. El certificat ha de tenir una validesa de 365 dies i una clau RSA de 2048 bits.           
+Crearem una carpeta anomenada ```cert``` a cadascuna, on el certificat es situarà i una private on la clau privada es situarà:](Img/Imatge39.png)
 
-![Comprovacions.](Img/Imatge39.png)
+Ara creem un certificat autosignat per cada domini, amb aquesta sola comanda doncs es crea la clau privada i el certificat que conté la clau pública i la \ que utilitzem anteriorment en la comanda de dalt ens serveix per dividir la comanda, al ser molt llarga.
 
-![Comprovacions.](Img/Imatge40.png)
+![Ara creem un certificat autosignat per cada domini, amb aquesta sola comanda doncs es crea la clau privada i el certificat que conté la clau pública i la \ que utilitzem anteriorment en la comanda de dalt ens serveix per dividir la comanda, al ser molt llarga.](Img/Imatge40.png)
 
-![Comprovacions.](Img/Imatge41.png)
+![Ara creem un certificat autosignat per cada domini, amb aquesta sola comanda doncs es crea la clau privada i el certificat que conté la clau pública i la \ que utilitzem anteriorment en la comanda de dalt ens serveix per dividir la comanda, al ser molt llarga.](Img/Imatge41.png)
 
-![Comprovacions.](Img/Imatge42.png)
+- Configureu els VirtualHost segur (port 443) apuntant a les claus generades.     
+Configurem els VirtualHost segur (port 443) apuntant a les claus generades.
 
-![Comprovacions.](Img/Imatge43.png)
+![- Configureu els VirtualHost segur (port 443) apuntant a les claus generades.     
+Editem l’arxiu .conf.](Img/Imatge42.png)
 
-![Comprovacions.](Img/Imatge44.png)
+Configurem els VirtualHost segur (port 443) apuntant a les claus generades.      
+Editem aquestes línies: 
 
-![Comprovacions.](Img/Imatge45.png)
+```
+ServerAdmin webmaster@localhost
+ServerName www.projectenexus.test
+DocumentRoot /var/www/projectenexus.test
+```
 
-![Comprovacions.](Img/Imatge46.png)
+```
+SSLCertificateFile      /var/www/projectenexus.test/cert/projectenexus.test.crt
+SSLCertificateKeyFile   /var/www/projectenexus.test/private/projectenexus.test.key
+```
 
-![Comprovacions.](Img/Imatge47.png)
+![Configurem els VirtualHost segur (port 443) apuntant a les claus generades.](Img/Imatge43.png)
 
-![Comprovacions.](Img/Imatge48.png)
+Reiniciem el servei.
 
-![Comprovacions.](Img/Imatge49.png)
+![Reiniciem el servei.](Img/Imatge44.png)
 
-![Comprovacions.](Img/Imatge499.png)
+Ara academia:
 
-![Comprovacions.](Img/Imatge50.png)
+![Ara academia:](Img/Imatge45.png)
 
-![Comprovacions.](Img/Imatge51.png)
+```
+ServerAdmin webmaster@localhost
+ServerName www.academia.test
+DocumentRoot /var/www/academia.test
+```
 
-![Comprovacions.](Img/Imatge52.png)
+```
+SSLCertificateFile      /var/www/academia.test/cert/academia.test.crt
+SSLCertificateKeyFile   /var/www/academia.test/private/academia.test.key
+```
 
-![Comprovacions.](Img/Imatge53.png)
+![Ara academia:](Img/Imatge46.png)
 
-![Comprovacions.](Img/Imatge54.png)
+Reiniciem el servei.
 
-![Comprovacions.](Img/Imatge55.png)
+![Reiniciem el servei.](Img/Imatge47.png)
 
-![Comprovacions.](Img/Imatge56.png)
+- Redirecció forçada: Configureu el servidor perquè qualsevol petició HTTP (port 80) a nexus.test i academia.test es redirigeixi automàticament a HTTPS (port 443).         
+Primerament habilitem el protocol https:
 
-![Comprovacions.](Img/Imatge57.png)
+![- Redirecció forçada: Configureu el servidor perquè qualsevol petició HTTP (port 80) a nexus.test i academia.test es redirigeixi automàticament a HTTPS (port 443).         
+Primerament habilitem el protocol https:](Img/Imatge48.png)
+
+![- Redirecció forçada: Configureu el servidor perquè qualsevol petició HTTP (port 80) a nexus.test i academia.test es redirigeixi automàticament a HTTPS (port 443).         
+Primerament habilitem el protocol https:](Img/Imatge49.png)
+
+![- Redirecció forçada: Configureu el servidor perquè qualsevol petició HTTP (port 80) a nexus.test i academia.test es redirigeixi automàticament a HTTPS (port 443).         
+Primerament habilitem el protocol https:](Img/Imatge499.png)
+
+Reiniciem el servei.
+
+![Reiniciem el servei.](Img/Imatge50.png)
+
+Ara a la màquina Zorin quan intentem entrar als 2 dominis en surt aquest missatge d'advertència de que la connexió no és privada.
+
+![Ara a la màquina Zorin quan intentem entrar als 2 dominis en surt aquest missatge d'advertència de que la connexió no és privada.](Img/Imatge51.png)
+
+![Ara a la màquina Zorin quan intentem entrar als 2 dominis en surt aquest missatge d'advertència de que la connexió no és privada.](Img/Imatge52.png)
+
+Anem als arxius .conf.
+
+![Anem als arxius .conf.](Img/Imatge53.png)
+
+I afegim la següent línia:
+
+```
+Redirect / https://www.projectenexus.test/
+```
+
+![I afegim la següent línia:](Img/Imatge54.png)
+
+Reiniciem i recarreguem.
+
+![Reiniciem i recarreguem.](Img/Imatge55.png)
+
+Ara academia:
+
+```
+Redirect / https://www.academia.test/
+```
+
+![Ara academia:](Img/Imatge56.png)
+
+Reiniciem i recarreguem.
+
+![Reiniciem i recarreguem.](Img/Imatge57.png)
 
 ![Comprovacions.](Img/Imatge58.png)
 
