@@ -48,4 +48,5 @@ Redacteu una memòria tècnica de la instal·lació i configuració, incloent le
 
 UD5.AA2. El servidor Nginx. Disponible al Moodle del mòdul de Serveis de Xarxa.
 
+[Anar a la Guia](../Tasca03/Guia.md)       
 [Anar a la pàgina inicial](../README.md)
