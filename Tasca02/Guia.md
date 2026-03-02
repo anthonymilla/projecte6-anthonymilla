@@ -339,5 +339,25 @@ El que fem és copiar l’arxiu TLS per defecte.](Img/Imatge35.png)
 
 ![Comprovacions.](Img/Imatge68.png)
 
+![Comprovacions.](Img/Imatge69.png)
+
+![Comprovacions.](Img/Imatge70.png)
+
+![Comprovacions.](Img/Imatge71.png)
+
+![Comprovacions.](Img/Imatge72.png)
+
+![Comprovacions.](Img/Imatge73.png)
+
+![Comprovacions.](Img/Imatge74.png)
+
+![Comprovacions.](Img/Imatge75.png)
+
+![Comprovacions.](Img/Imatge76.png)
+
+![Comprovacions.](Img/Imatge77.png)
+
+![Comprovacions.](Img/Imatge78.png)
+
 [Anar a l'enunciat](../Tasca02/README.md)  
 [Anar a la pàgina inicial](../README.md)
