@@ -377,57 +377,117 @@ Reiniciem i recarreguem.
 
 Ara academia:
 
+![Ara academia:](Img/Imatge56.png)
+
 ```
 Redirect / https://www.academia.test/
 ```
 
-![Ara academia:](Img/Imatge56.png)
+![Ara academia:](Img/Imatge57.png)
 
 Reiniciem i recarreguem.
 
-![Reiniciem i recarreguem.](Img/Imatge57.png)
+![Reiniciem i recarreguem.](Img/Imatge58.png)
 
-![Comprovacions.](Img/Imatge58.png)
+Comprovacions. Avançat i entrar, veiem com es redirigeix correctament.
 
-![Comprovacions.](Img/Imatge59.png)
+![Comprovacions. Avançat i entrar, veiem com es redirigeix correctament.](Img/Imatge59.png)
 
-![Comprovacions.](Img/Imatge60.png)
+![Comprovacions. Avançat i entrar, veiem com es redirigeix correctament.](Img/Imatge60.png)
 
-![Comprovacions.](Img/Imatge61.png)
+Ara configurarem perquè es redirigeixi automàticament a HTTPS (port 443).
 
-![Comprovacions.](Img/Imatge62.png)
+![Ara configurarem perquè es redirigeixi automàticament a HTTPS (port 443).](Img/Imatge61.png)
 
-![Comprovacions.](Img/Imatge63.png)
+Editarem/afegirem les següents línies:
 
-![Comprovacions.](Img/Imatge64.png)
+```
+<Directory/var/www/projectenexus.test/private>
+        AllowOverride None
+        Require all denied
+```
 
-![Comprovacions.](Img/Imatge65.png)
+![Editarem/afegirem les següents línies:](Img/Imatge62.png)
 
-![Comprovacions.](Img/Imatge66.png)
+Reiniciem i recarreguem.
 
-![Comprovacions.](Img/Imatge67.png)
+![Reiniciem i recarreguem.](Img/Imatge63.png)
 
-![Comprovacions.](Img/Imatge68.png)
+Ara academia:
 
-![Comprovacions.](Img/Imatge69.png)
+![Ara academia:](Img/Imatge64.png)
 
-![Comprovacions.](Img/Imatge70.png)
+```
+<Directory/var/www/academia.test/private>
+        AllowOverride None
+        Require all denied
+```
 
-![Comprovacions.](Img/Imatge71.png)
+![Ara academia:](Img/Imatge65.png)
 
-![Comprovacions.](Img/Imatge72.png)
+Reiniciem i recarreguem.
 
-![Comprovacions.](Img/Imatge73.png)
+![Reiniciem i recarreguem.](Img/Imatge66.png)
 
-![Comprovacions.](Img/Imatge74.png)
+Resultats:
 
-![Comprovacions.](Img/Imatge75.png)
+![Resultats:](Img/Imatge67.png)
 
-![Comprovacions.](Img/Imatge76.png)
+![Resultats:](Img/Imatge68.png)
 
-![Comprovacions.](Img/Imatge77.png)
+| 5. Optimització amb HTTP/2 |
+|----------------------------------------|
 
-![Comprovacions.](Img/Imatge78.png)
+- Habiliteu el protocol HTTP/2 per millorar la latència i velocitat de càrrega de la web segura.        
+Habilitem el protocol HTTP/2 per millorar la latència i velocitat de càrrega de la web segura:
+
+![- Habiliteu el protocol HTTP/2 per millorar la latència i velocitat de càrrega de la web segura.        
+Habilitem el protocol HTTP/2 per millorar la latència i velocitat de càrrega de la web segura:](Img/Imatge69.png)
+
+Reiniciem el servei. 
+
+![Reiniciem el servei.](Img/Imatge70.png)
+
+- Configureu la directiva Protocols dins dels VirtualHost corresponents.       
+Ara configurem la directiva Protocols dins dels VirtualHost corresponents.
+
+![- Configureu la directiva Protocols dins dels VirtualHost corresponents.      
+Ara configurem la directiva Protocols dins dels VirtualHost corresponents.](Img/Imatge71.png)
+
+Posem la següent línia:
+
+```
+Protocols h2 http/1.1
+```
+
+![Posem la següent línia:](Img/Imatge72.png)
+
+Reiniciem i recarreguem.
+
+![Reiniciem i recarreguem.](Img/Imatge73.png)
+
+Ara academia:
+
+![Ara academia:](Img/Imatge74.png)
+
+```
+Protocols h2 http/1.1
+```
+
+![Ara academia:](Img/Imatge75.png)
+
+Reiniciem i recarreguem.
+
+![Reiniciem i recarreguem.](Img/Imatge76.png)
+
+- Demostreu tècnicament que el protocol està actiu usant la comanda curl o inspeccionant la xarxa amb el navegador.   
+Comprovació:
+
+![- Demostreu tècnicament que el protocol està actiu usant la comanda curl o inspeccionant la xarxa amb el navegador.   
+Comprovació:](Img/Imatge77.png)
+
+![- Demostreu tècnicament que el protocol està actiu usant la comanda curl o inspeccionant la xarxa amb el navegador.   
+Comprovació:](Img/Imatge78.png)
 
 [Anar a l'enunciat](../Tasca02/README.md)  
 [Anar a la pàgina inicial](../README.md)
