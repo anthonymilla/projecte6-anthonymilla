@@ -51,5 +51,5 @@ Captura de pantalla del terminal o programa mostrant els dos hashos (l'original 
 - Material de l’assignatura Seguretat Informàtica. RA3. Introducció a la criptografia [Moodle de l’assignatura].  
 - Tutorial VeraCrypt: [https://veracrypt.io/en/Beginner's%20Tutorial.html](https://veracrypt.io/en/Beginner's%20Tutorial.html)
 
-[Anar a la guia](../Tasca05/Guia.md)  
+[Anar a la Guia](../Tasca05/Guia.md)  
 [Anar a la pàgina inicial](../README.md)
