@@ -250,5 +250,5 @@ Captura de pantalla del terminal o programa mostrant els dos hashos (l'original 
 
 **Conclusió:** Breu recomanació final a Nexus sobre la importància de protegir les dades , especialment les portables amb xifrat i la gestió segura de les contrasenyes (robustesa i com guardar-les). A continuació, la necessitat d’usar hash per assegurar la integritat de la documentació important com actes de notes, contractes, etc.
 
-[Anar a l'enunciat](../Tasca5/README.md)  
+[Anar a l'enunciat](../Tasca05/README.md)  
 [Anar a la pàgina inicial](../README.md)
