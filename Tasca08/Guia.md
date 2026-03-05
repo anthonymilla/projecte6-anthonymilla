@@ -33,5 +33,19 @@
 
 ![Comprovacions.](Img/Imatge13.png)
 
+![Comprovacions.](Img/Imatge14.png)
+
+![Comprovacions.](Img/Imatge15.png)
+
+![Comprovacions.](Img/Imatge16.png)
+
+![Comprovacions.](Img/Imatge17.png)
+
+![Comprovacions.](Img/Imatge18.png)
+
+![Comprovacions.](Img/Imatge19.png)
+
+![Comprovacions.](Img/Imatge20.png)
+
 [Anar a l'enunciat](../Tasca08/README.md)  
 [Anar a la pàgina inicial](../README.md)
