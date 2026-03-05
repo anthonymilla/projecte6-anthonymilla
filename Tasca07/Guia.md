@@ -64,5 +64,27 @@ Resultats:
 
 ![Comprovacions.](Img/Imatge20.png)
 
+![Comprovacions.](Img/Imatge21.png)
+
+![Comprovacions.](Img/Imatge22.png)
+
+![Comprovacions.](Img/Imatge23.png)
+
+![Comprovacions.](Img/Imatge24.png)
+
+![Comprovacions.](Img/Imatge25.png)
+
+![Comprovacions.](Img/Imatge26.png)
+
+![Comprovacions.](Img/Imatge27.png)
+
+![Comprovacions.](Img/Imatge28.png)
+
+![Comprovacions.](Img/Imatge29.png)
+
+![Comprovacions.](Img/Imatge30.png)
+
+![Comprovacions.](Img/Imatge31.png)
+
 [Anar a l'enunciat](../Tasca07/README.md)  
 [Anar a la pàgina inicial](../README.md)
