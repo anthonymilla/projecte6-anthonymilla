@@ -5,19 +5,36 @@
 | 1. Polítiques de Seguretat i Contrasenyes (Seguretat Corporativa) |
 |----------------------------------------|
 
+- El client exigeix endurir la política de contrasenyes per evitar accessos no autoritzats:
+- Política Global: Modifiqueu la Default Domain Policy perquè tots els membres del grup personal (és a dir, tot el domini) hagin de tenir una contrasenya de, com a mínim, 8 caràcters.           
+
+En Server Manager, en Tools (Eines) anem a Group Policy Management (Gestió de polítiques de grup).   
+
+![- El client exigeix endurir la política de contrasenyes per evitar accessos no autoritzats:
+-Política Global: Modifiqueu la Default Domain Policy perquè tots els membres del grup personal (és a dir, tot el domini) hagin de tenir una contrasenya de, com a mínim, 8 caràcters.
+En Server Manager, en Tools (Eines) anem a Group Policy Management (Gestió de polítiques de grup).](Img/Imatge01.png)
+
+Seguidament cliquem en Domains (Dominis), translogic13.test, quan es desplega fem clic dret en Default Domain Policy (Política de domini per defecte) i Edit…
+
+![Seguidament cliquem en Domains (Dominis), translogic13.test, quan es desplega fem clic dret en Default Domain Policy (Política de domini per defecte) i Edit…](Img/Imatge02.png)
+
+Ara fem clic en Policies (Polítiques), després en Windows Settings (Configuració del Windows), Security Settings (Configuració de seguretat) i en Account Policies (Polítiques del compte) clic en Password Policy (Política de contrasenyes):
+
+![Ara fem clic en Policies (Polítiques), després en Windows Settings (Configuració del Windows), Security Settings (Configuració de seguretat) i en Account Policies (Polítiques del compte) clic en Password Policy (Política de contrasenyes):](Img/Imatge03.png)
+
+Ara anem a Relax minimum password length limits (Relaxa els límits mínims de longitud de contrasenya) i marquem la casella Define the policy setting (Defineix la configuració de la política) i l’habilitem.
+
+![Ara anem a Relax minimum password length limits (Relaxa els límits mínims de longitud de contrasenya) i marquem la casella Define the policy setting (Defineix la configuració de la política) i l’habilitem.](Img/Imatge04.png)
+
+Ara en Minimum password length (Longitud mínima de la contrasenya) posem 8 characters.
+
+![Ara en Minimum password length (Longitud mínima de la contrasenya) posem 8 characters.](Img/Imatge05.png)
+
+Resultats:
+
+![Resultats:](Img/Imatge06.png)
 
 
-![Comprovacions.](Img/Imatge01.png)
-
-![Comprovacions.](Img/Imatge02.png)
-
-![Comprovacions.](Img/Imatge03.png)
-
-![Comprovacions.](Img/Imatge04.png)
-
-![Comprovacions.](Img/Imatge05.png)
-
-![Comprovacions.](Img/Imatge06.png)
 
 ![Comprovacions.](Img/Imatge07.png)
 
@@ -32,6 +49,20 @@
 ![Comprovacions.](Img/Imatge12.png)
 
 ![Comprovacions.](Img/Imatge13.png)
+
+![Comprovacions.](Img/Imatge14.png)
+
+![Comprovacions.](Img/Imatge15.png)
+
+![Comprovacions.](Img/Imatge16.png)
+
+![Comprovacions.](Img/Imatge17.png)
+
+![Comprovacions.](Img/Imatge18.png)
+
+![Comprovacions.](Img/Imatge19.png)
+
+![Comprovacions.](Img/Imatge20.png)
 
 [Anar a l'enunciat](../Tasca07/README.md)  
 [Anar a la pàgina inicial](../README.md)
