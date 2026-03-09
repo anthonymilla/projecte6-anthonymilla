@@ -8,7 +8,6 @@
 Aturem i deshabilitem el servei Apache2 per alliberar els ports 80 i 443.
 
 ![- Atureu i deshabiliteu el servei Apache2 per alliberar els ports 80 i 443.
-
 Aturem i deshabilitem el servei Apache2 per alliberar els ports 80 i 443.](Img/Imatge01.png)
 
 - Instal·leu el servidor web Nginx.
@@ -16,7 +15,6 @@ Aturem i deshabilitem el servei Apache2 per alliberar els ports 80 i 443.](Img/I
 Instal·lem el servidor web Nginx amb la següent comanda:
 
 ![- Instal·leu el servidor web Nginx.
-
 Instal·lem el servidor web Nginx amb la següent comanda:](Img/Imatge02.png)
 
 - Verifiqueu que el servei està actiu i que la pàgina de benvinguda de Nginx es mostra correctament al navegador.
@@ -24,7 +22,6 @@ Instal·lem el servidor web Nginx amb la següent comanda:](Img/Imatge02.png)
 Verifiquem que el servei està actiu i que la pàgina de benvinguda de Nginx es mostra correctament al navegador:
 
 ![- Verifiqueu que el servei està actiu i que la pàgina de benvinguda de Nginx es mostra correctament al navegador.
-
 Verifiquem que el servei està actiu i que la pàgina de benvinguda de Nginx es mostra correctament al navegador:](Img/Imatge03.png)
 
 Perquè la pàgina de benvinguda de Nginx es mostri correctament editem el següent arxiu de configuració:
