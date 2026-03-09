@@ -129,17 +129,46 @@ server_name www.academia.test.test;
 
 ![Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/ corresponentment:](Img/Imatge18.png)
 
-![Hola](Img/Imatge19.png)
+- Creeu els enllaços simbòlics a sites-enabled/ per activar les configuracions.          
+Verifiqueu la sintaxis amb nginx -t abans de reiniciar el servei.
 
-![Hola](Img/Imatge20.png)
+Creem els enllaços simbòlics a sites-enabled/ per activar les configuracions i seguidament verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.
 
-![Hola](Img/Imatge21.png)
+![- Creeu els enllaços simbòlics a sites-enabled/ per activar les configuracions.          
+Verifiqueu la sintaxis amb nginx -t abans de reiniciar el servei.
+Creem els enllaços simbòlics a sites-enabled/ per activar les configuracions i seguidament verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.](Img/Imatge19.png)
 
-![Hola](Img/Imatge22.png)
+![- Creeu els enllaços simbòlics a sites-enabled/ per activar les configuracions.          
+Verifiqueu la sintaxis amb nginx -t abans de reiniciar el servei.
+Creem els enllaços simbòlics a sites-enabled/ per activar les configuracions i seguidament verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.](Img/Imatge20.png)
 
-![Hola](Img/Imatge23.png)
+Ara editarem l’arxiu /etc/nginx/nginx.conf i activem la següent linia, això per evitar problemes de memòria quan es treballa amb diversos noms.
 
-![Hola](Img/Imatge24.png)
+![Ara editarem l’arxiu /etc/nginx/nginx.conf i activem la següent linia, això per evitar problemes de memòria quan es treballa amb diversos noms.](Img/Imatge21.png)
+
+```
+server_names_hash_bucket_size 64
+```
+
+![Ara editarem l’arxiu /etc/nginx/nginx.conf i activem la següent linia, això per evitar problemes de memòria quan es treballa amb diversos noms.](Img/Imatge22.png)
+
+Verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.
+
+![Verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.](Img/Imatge23.png)
+
+Comprovem la IP de l’arxiu /etc/hosts de la màquina Zorin.
+
+```
+sudo nano /etc/hosts
+```
+
+![Comprovem la IP de l’arxiu /etc/hosts de la màquina Zorin.](Img/Imatge24.png)
+
+| 3. Personalització d'Errors |
+|----------------------------------------|
+
+- Configureu la directiva error_page 404 dins del bloc de servidor corresponent.
+
 
 ![Hola](Img/Imatge25.png)
 
@@ -152,6 +181,26 @@ server_name www.academia.test.test;
 ![Hola](Img/Imatge29.png)
 
 ![Hola](Img/Imatge30.png)
+
+![Hola](Img/Imatge31.png)
+
+![Hola](Img/Imatge32.png)
+
+![Hola](Img/Imatge33.png)
+
+![Hola](Img/Imatge34.png)
+
+![Hola](Img/Imatge35.png)
+
+![Hola](Img/Imatge36.png)
+
+![Hola](Img/Imatge37.png)
+
+![Hola](Img/Imatge38.png)
+
+![Hola](Img/Imatge39.png)
+
+![Hola](Img/Imatge40.png)
 
 [Anar a l'enunciat](../Tasca03/README.md)  
 [Anar a la pàgina inicial](../README.md)
