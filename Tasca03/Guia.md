@@ -147,7 +147,7 @@ Ara editarem l’arxiu /etc/nginx/nginx.conf i activem la següent linia, això 
 ![Ara editarem l’arxiu /etc/nginx/nginx.conf i activem la següent linia, això per evitar problemes de memòria quan es treballa amb diversos noms.](Img/Imatge21.png)
 
 ```
-server_names_hash_bucket_size 64
+server_names_hash_bucket_size 64;
 ```
 
 ![Ara editarem l’arxiu /etc/nginx/nginx.conf i activem la següent linia, això per evitar problemes de memòria quan es treballa amb diversos noms.](Img/Imatge22.png)
