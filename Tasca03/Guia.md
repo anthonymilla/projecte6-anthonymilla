@@ -27,6 +27,26 @@
 
 ![Hola](Img/Imatge10.png)
 
+![Hola](Img/Imatge11.png)
+
+![Hola](Img/Imatge12.png)
+
+![Hola](Img/Imatge13.png)
+
+![Hola](Img/Imatge14.png)
+
+![Hola](Img/Imatge15.png)
+
+![Hola](Img/Imatge16.png)
+
+![Hola](Img/Imatge17.png)
+
+![Hola](Img/Imatge18.png)
+
+![Hola](Img/Imatge19.png)
+
+![Hola](Img/Imatge20.png)
+
 [Anar a l'enunciat](../Tasca03/README.md)  
 [Anar a la pàgina inicial](../README.md)
 
