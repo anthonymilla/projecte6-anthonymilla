@@ -68,7 +68,16 @@ Comprovem que la pàgina de benvinguda de Nginx es mostra correctament al navega
 
 ![Comprovem que la pàgina de benvinguda de Nginx es mostra correctament al navegador:](Img/Imatge10.png)
 
-![Hola](Img/Imatge11.png)
+| 2. Configuració de Server Blocks (Multidomini) |
+|----------------------------------------|
+
+- Aprofiteu l'estructura de carpetes ja creada (/var/www/nexus i /var/www/academia). Si cal, ajusteu els permisos (propietari www-data).
+Primerament ajustem els permisos (propietari www-data):
+
+![- Aprofiteu l'estructura de carpetes ja creada (/var/www/nexus i /var/www/academia). Si cal, ajusteu els permisos (propietari www-data).
+Primerament ajustem els permisos (propietari www-data):](Img/Imatge11.png)
+
+
 
 ![Hola](Img/Imatge12.png)
 
