@@ -96,7 +96,7 @@ server {
 ```
 
 ```
-root /usr/share/nginx/projectenexus.test;
+root /var/www/projectenexus.test;
 ```
 
 ```
@@ -105,9 +105,9 @@ server_name www.projectenexus.test.test;
 
 ![Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/ corresponentment:](Img/Imatge14.png)
 
-![Hola](Img/Imatge15.png)
+![Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/ corresponentment:](Img/Imatge15.png)
 
-![Hola](Img/Imatge16.png)
+![Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/ corresponentment:](Img/Imatge16.png)
 
 ```
 server {
@@ -116,16 +116,16 @@ server {
 ```
 
 ```
-root /usr/share/nginx/projectenexus.test;
+root /var/www/academia.test;
 ```
 
 ```
-server_name www.projectenexus.test.test;
+server_name www.academia.test.test;
 ```
 
-![Hola](Img/Imatge17.png)
+![Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/ corresponentment:](Img/Imatge17.png)
 
-![Hola](Img/Imatge18.png)
+![Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/ corresponentment:](Img/Imatge18.png)
 
 ![Hola](Img/Imatge19.png)
 
