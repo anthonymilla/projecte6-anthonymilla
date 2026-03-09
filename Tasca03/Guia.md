@@ -5,14 +5,30 @@
 
 - Atureu i deshabiliteu el servei Apache2 per alliberar els ports 80 i 443.
 
-Aturem i deshabilitem el servei Apache2 per alliberar els ports 80 i 443.
+Aturem i deshabilitem el servei Apache2 per alliberar els ports 80 i 443 amb les següents comandes (fem també amb now perquè ho faci en aquest moment).
+
+```
+sudo systemctl stop apache2
+```
+
+```
+sudo systemctl disable apache2
+```
+
+```
+sudo systemctl disable apache2 now
+```
 
 ![- Atureu i deshabiliteu el servei Apache2 per alliberar els ports 80 i 443.
-Aturem i deshabilitem el servei Apache2 per alliberar els ports 80 i 443.](Img/Imatge01.png)
+Aturem i deshabilitem el servei Apache2 per alliberar els ports 80 i 443 amb les següents comandes (fem també amb now perquè ho faci en aquest moment).](Img/Imatge01.png)
 
 - Instal·leu el servidor web Nginx.
 
 Instal·lem el servidor web Nginx amb la següent comanda:
+
+```
+sudo apt install nginx -y
+```
 
 ![- Instal·leu el servidor web Nginx.
 Instal·lem el servidor web Nginx amb la següent comanda:](Img/Imatge02.png)
@@ -32,13 +48,17 @@ Perquè la pàgina de benvinguda de Nginx es mostri correctament editem el segü
 
 Editem la següent línia:
 
+```
+root /usr/share/nginx/html
+```
+
 ![Editem la següent línia:](Img/Imatge06.png)
 
-Comprovem la sintaxi i reiniciem:
+Comprovem la sintaxi i reiniciem el servei:
 
-![Comprovem la sintaxi i reiniciem:](Img/Imatge07.png)
+![Comprovem la sintaxi i reiniciem el servei:](Img/Imatge07.png)
 
-![Comprovem la sintaxi i reiniciem:](Img/Imatge08.png)
+![Comprovem la sintaxi i reiniciem el servei:](Img/Imatge08.png)
 
 Fem ip a, bàsicament per veure l’ip i posar-la al navegador de la máquina zorin per fer la comprovació.
 
