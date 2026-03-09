@@ -92,7 +92,7 @@ Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/
 ```
 server {
         listen 80;
-        listen [::];80:
+        listen [::]:80;
 ```
 
 ```
@@ -114,7 +114,7 @@ Reiniciem el servei
 ```
 server {
         listen 80;
-        listen [::];80:
+        listen [::]:80;
 ```
 
 ```
