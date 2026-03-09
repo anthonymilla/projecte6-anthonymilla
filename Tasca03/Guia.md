@@ -106,6 +106,7 @@ server_name www.projectenexus.test.test;
 ![Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/ corresponentment:](Img/Imatge14.png)
 
 Reiniciem el servei
+
 ![Reiniciem el servei](Img/Imatge15.png)
 
 ![Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/ corresponentment:](Img/Imatge16.png)
