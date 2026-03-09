@@ -5,27 +5,51 @@
 
 - Atureu i deshabiliteu el servei Apache2 per alliberar els ports 80 i 443.
 
+Aturem i deshabilitem el servei Apache2 per alliberar els ports 80 i 443.
 
+![- Atureu i deshabiliteu el servei Apache2 per alliberar els ports 80 i 443.
 
-![Hola](Img/Imatge01.png)
+Aturem i deshabilitem el servei Apache2 per alliberar els ports 80 i 443.](Img/Imatge01.png)
 
-![Hola](Img/Imatge02.png)
+- Instal·leu el servidor web Nginx.
 
-![Hola](Img/Imatge03.png)
+Instal·lem el servidor web Nginx amb la següent comanda:
 
-![Hola](Img/Imatge04.png)
+![- Instal·leu el servidor web Nginx.
 
-![Hola](Img/Imatge05.png)
+Instal·lem el servidor web Nginx amb la següent comanda:](Img/Imatge02.png)
 
-![Hola](Img/Imatge06.png)
+- Verifiqueu que el servei està actiu i que la pàgina de benvinguda de Nginx es mostra correctament al navegador.
 
-![Hola](Img/Imatge07.png)
+Verifiquem que el servei està actiu i que la pàgina de benvinguda de Nginx es mostra correctament al navegador:
 
-![Hola](Img/Imatge08.png)
+![- Verifiqueu que el servei està actiu i que la pàgina de benvinguda de Nginx es mostra correctament al navegador.
 
-![Hola](Img/Imatge09.png)
+Verifiquem que el servei està actiu i que la pàgina de benvinguda de Nginx es mostra correctament al navegador:](Img/Imatge03.png)
 
-![Hola](Img/Imatge10.png)
+Perquè la pàgina de benvinguda de Nginx es mostri correctament editem el següent arxiu de configuració:
+
+![Perquè la pàgina de benvinguda de Nginx es mostri correctament editem el següent arxiu de configuració:](Img/Imatge04.png)
+
+![Perquè la pàgina de benvinguda de Nginx es mostri correctament editem el següent arxiu de configuració:](Img/Imatge05.png)
+
+Editem la següent línia:
+
+![Editem la següent línia:](Img/Imatge06.png)
+
+Comprovem la sintaxi i reiniciem:
+
+![Comprovem la sintaxi i reiniciem:](Img/Imatge07.png)
+
+![Comprovem la sintaxi i reiniciem:](Img/Imatge08.png)
+
+Fem ip a, bàsicament per veure l’ip i posar-la al navegador de la máquina zorin per fer la comprovació.
+
+![Fem ip a, bàsicament per veure l’ip i posar-la al navegador de la máquina zorin per fer la comprovació.](Img/Imatge09.png)
+
+Comprovem que la pàgina de benvinguda de Nginx es mostra correctament al navegador:
+
+![Comprovem que la pàgina de benvinguda de Nginx es mostra correctament al navegador:](Img/Imatge10.png)
 
 ![Hola](Img/Imatge11.png)
 
