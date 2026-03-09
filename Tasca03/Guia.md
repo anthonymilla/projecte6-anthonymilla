@@ -85,9 +85,17 @@ A la carpeta ```/etc/nginx/sites-available``` tenim l’arxiu del servidor per d
 ![- Configureu dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/.
 A la carpeta /etc/nginx/sites-available tenim l’arxiu del servidor per defecte default, la cual utilitzarem com plantilla per crear els nostres propis per això el que fem és copiar aquest arxiu per crear els dos que necessitem dins de la carpeta sites-available.](Img/Imatge12.png)
 
-![Hola](Img/Imatge13.png)
+Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/ corresponentment:
 
-![Hola](Img/Imatge14.png)
+![Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/ corresponentment:](Img/Imatge13.png)
+
+```
+server {
+        listen 80;
+        listen [;;];80:
+```
+
+![Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/ corresponentment:](Img/Imatge14.png)
 
 ![Hola](Img/Imatge15.png)
 
