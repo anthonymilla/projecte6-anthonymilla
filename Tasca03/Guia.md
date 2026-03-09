@@ -92,7 +92,7 @@ Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/
 ```
 server {
         listen 80;
-        listen [;;];80:
+        listen [::];80:
 ```
 
 ![Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/ corresponentment:](Img/Imatge14.png)
