@@ -98,6 +98,26 @@ Primerament ajustem els permisos (propietari www-data):](Img/Imatge11.png)
 
 ![Hola](Img/Imatge20.png)
 
+![Hola](Img/Imatge21.png)
+
+![Hola](Img/Imatge22.png)
+
+![Hola](Img/Imatge23.png)
+
+![Hola](Img/Imatge24.png)
+
+![Hola](Img/Imatge25.png)
+
+![Hola](Img/Imatge26.png)
+
+![Hola](Img/Imatge27.png)
+
+![Hola](Img/Imatge28.png)
+
+![Hola](Img/Imatge29.png)
+
+![Hola](Img/Imatge30.png)
+
 [Anar a l'enunciat](../Tasca03/README.md)  
 [Anar a la pàgina inicial](../README.md)
 
