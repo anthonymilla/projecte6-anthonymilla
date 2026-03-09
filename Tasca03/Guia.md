@@ -89,6 +89,8 @@ Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/
 
 ![Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/ corresponentment:](Img/Imatge13.png)
 
+*Com us podeu fixar, poso 2 vegades ```.test```, ja que realment no hauria de dir-se res ```projectenexus.test```; només caldria posar ```projectenexus``` per comoditat. Però, al haver-ho creat així, ja està fet així. A la configuració següent es pot veure que poso (2 vegades ```.test```): ```.test.test```; perquè s'entengui.
+
 ```
 server {
         listen 80;
@@ -103,7 +105,8 @@ root /var/www/projectenexus.test;
 server_name www.projectenexus.test.test;
 ```
 
-![Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/ corresponentment:](Img/Imatge14.png)
+![Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/ corresponentment:
+Com us podeu fixar, poso 2 vegades .test, ja que realment no hauria de dir-se res projectenexus.test; només caldria posar projectenexus per comoditat. Però, al haver-ho creat així, ja està fet així. A la configuració següent es pot veure que poso (2 vegades .test): .test.test; perquè s'entengui.](Img/Imatge14.png)
 
 Reiniciem el servei
 
