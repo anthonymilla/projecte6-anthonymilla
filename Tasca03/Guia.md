@@ -72,6 +72,7 @@ Comprovem que la pàgina de benvinguda de Nginx es mostra correctament al navega
 |----------------------------------------|
 
 - Aprofiteu l'estructura de carpetes ja creada (/var/www/nexus i /var/www/academia). Si cal, ajusteu els permisos (propietari www-data).
+
 Primerament ajustem els permisos (propietari www-data):
 
 ![- Aprofiteu l'estructura de carpetes ja creada (/var/www/nexus i /var/www/academia). Si cal, ajusteu els permisos (propietari www-data).
