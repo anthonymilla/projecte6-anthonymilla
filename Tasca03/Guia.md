@@ -95,11 +95,33 @@ server {
         listen [::];80:
 ```
 
+```
+root /usr/share/nginx/projectenexus.test;
+```
+
+```
+server_name www.projectenexus.test.test;
+```
+
 ![Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/ corresponentment:](Img/Imatge14.png)
 
 ![Hola](Img/Imatge15.png)
 
 ![Hola](Img/Imatge16.png)
+
+```
+server {
+        listen 80;
+        listen [::];80:
+```
+
+```
+root /usr/share/nginx/projectenexus.test;
+```
+
+```
+server_name www.projectenexus.test.test;
+```
 
 ![Hola](Img/Imatge17.png)
 
