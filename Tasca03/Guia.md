@@ -73,10 +73,10 @@ Comprovem que la pàgina de benvinguda de Nginx es mostra correctament al navega
 
 - Aprofiteu l'estructura de carpetes ja creada (/var/www/nexus i /var/www/academia). Si cal, ajusteu els permisos (propietari www-data).
 
-Primerament ajustem els permisos (propietari www-data):
+Aprofitem l'estructura de carpetes ja creada (/var/www/nexus i /var/www/academia). Primerament ajustem els permisos (propietari www-data):
 
 ![- Aprofiteu l'estructura de carpetes ja creada (/var/www/nexus i /var/www/academia). Si cal, ajusteu els permisos (propietari www-data).
-Primerament ajustem els permisos (propietari www-data):](Img/Imatge11.png)
+Aprofitem l'estructura de carpetes ja creada (/var/www/nexus i /var/www/academia). Primerament ajustem els permisos (propietari www-data):](Img/Imatge11.png)
 
 - Configureu dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/.
 
@@ -89,7 +89,7 @@ Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/
 
 ![Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/ corresponentment:](Img/Imatge13.png)
 
-*Com us podeu fixar, poso 2 vegades ```.test```, ja que realment no hauria de dir-se res ```projectenexus.test```; només caldria posar ```projectenexus``` per comoditat. Però, al haver-ho creat així, ja està fet així. A la configuració següent es pot veure que poso (2 vegades ```.test```): ```.test.test```; perquè s'entengui.
+*Com us podeu fixar, poso 2 vegades ```.test```, ja que realment no hauria de dir-se res ```projectenexus.test```; només caldria posar ```projectenexus``` per comoditat, és a dir, sense .test. Però, al haver-ho creat així (ja que ho vaig veure així al enunciat), ja està fet així. A la configuració següent es pot veure que poso (2 vegades ```.test```): ```.test.test```; perquè s'entengui.
 
 ```
 server {
@@ -106,7 +106,7 @@ server_name www.projectenexus.test.test;
 ```
 
 ![Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/ corresponentment:
-Com us podeu fixar, poso 2 vegades .test, ja que realment no hauria de dir-se res projectenexus.test; només caldria posar projectenexus per comoditat. Però, al haver-ho creat així, ja està fet així. A la configuració següent es pot veure que poso (2 vegades .test): .test.test; perquè s'entengui.](Img/Imatge14.png)
+Com us podeu fixar, poso 2 vegades .test, ja que realment no hauria de dir-se res projectenexus.test; només caldria posar projectenexus per comoditat, és a dir, sense .test. Però, al haver-ho creat així (ja que ho vaig veure així al enunciat), ja està fet així. A la configuració següent es pot veure que poso (2 vegades .test): .test.test; perquè s'entengui.](Img/Imatge14.png)
 
 Reiniciem el servei
 
