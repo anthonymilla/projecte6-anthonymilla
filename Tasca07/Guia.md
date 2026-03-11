@@ -41,39 +41,39 @@ Anem a Tools i Active Directory Users and Computers (Usuaris i ordinadors del di
 ![- Política per a Gerència: La Unitat Organitzativa (OU) on ubiqueu la direcció conté els usuaris VIP (grup gerencia). Creeu una GPO específica per ells on la contrasenya sigui de 18 caràcters i caduqui cada 28 dies. No s'ha d'activar la complexitat.
 Anem a Tools i Active Directory Users and Computers (Usuaris i ordinadors del directori actiu).](Img/Imatge07.png)
 
-Creem una nova OU anomenada Gerència.
+
 
 ![Creem una nova OU anomenada Gerència.](Img/Imatge08.png)
 
-Afegim grup i un usuari dins.
+
 
 ![Afegim grup i un usuari dins.](Img/Imatge09.png)
 
-Ara, tornem a Group Policy Management, en Domains anem a translogic13.test, fem clic dret i Create a GPO in this domain, and Link it here… (Crea un GPO en aquest domini, i enllaça'l aquí…)
+
 
 ![Ara, tornem a Group Policy Management, en Domains anem a translogic13.test, fem clic dret i Create a GPO in this domain, and Link it here… (Crea un GPO en aquest domini, i enllaça'l aquí…)](Img/Imatge10.png)
 
-Nom:
+
 
 ![Nom:](Img/Imatge11.png)
 
-Resultat, Linked Group Policy Objects (Objectes de política de grup enllaçats).
+
 
 ![Resultat, Linked Group Policy Objects (Objectes de política de grup enllaçats).](Img/Imatge12.png)
 
-Anem a la GPO i Edit…
+
 
 ![Anem a la GPO i Edit…](Img/Imatge13.png)
 
-En Preferences, Drive Maps (Controla els mapes), clic dret, New i Mappet Drive (Unitat de Mappet).
+
 
 ![En Preferences, Drive Maps (Controla els mapes), clic dret, New i Mappet Drive (Unitat de Mappet).](Img/Imatge14.png)
 
-I configurem corresponentment el New Drive Properties (Propietats de la unitat nova).
+
 
 ![I configurem corresponentment el New Drive Properties (Propietats de la unitat nova).](Img/Imatge15.png)
 
-Resultat:
+
 
 ![Resultat:](Img/Imatge16.png)
 
