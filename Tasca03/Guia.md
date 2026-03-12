@@ -245,23 +245,65 @@ Ara desde la terminal fem una prova de connexió errònia via terminal amb curl 
 
 - Reutilitzeu els certificats SSL generats en l'activitat anterior (o genereu-ne de nous si cal).
 
+Reutilitzem els certificats SSL generats en l'activitat anterior.
+
+- Configureu el Server Block per escoltar al port 443 i indiqueu les rutes del certificat (ssl_certificate) i la clau privada (ssl_certificate_key).
+
+Configurem el Server Block per escoltar al port 443 i indiquem les rutes del certificat (ssl_certificate) i la clau privada (ssl_certificate_key).
+
+Primerament fem un cp:
+
+![- Configureu el Server Block per escoltar al port 443 i indiqueu les rutes del certificat (ssl_certificate) i la clau privada (ssl_certificate_key).
+Configurem el Server Block per escoltar al port 443 i indiquem les rutes del certificat (ssl_certificate) i la clau privada (ssl_certificate_key).
+Primerament fem un cp:](Img/Imatge35.png)
+
+![- Configureu el Server Block per escoltar al port 443 i indiqueu les rutes del certificat (ssl_certificate) i la clau privada (ssl_certificate_key).
+Configurem el Server Block per escoltar al port 443 i indiquem les rutes del certificat (ssl_certificate) i la clau privada (ssl_certificate_key).
+Primerament fem un cp:](Img/Imatge36.png)
+
+Entrem a l'arxiu per fer les configuracions corresponents:
+
+![Entrem a l'arxiu per fer les configuracions corresponents:](Img/Imatge37.png)
+
+Posem les següents línies corresponents:
+
+```
+server {
+        listen 443 ssl;
+```
+
+```
+server_name www.projectenexus.test;
+root /var/www/projectenexus.test;
+```
+
+```
+ssl_certificate /var/www/projectenexus.test/cert/projectenexus.crt;
+ssl_certificate_key /var/www/projectenexus.test/private/projectenexus.key;
+ssl_protocols       TLSv1.2 TLSv1.3;
+error_page 404 /404.html;
+location / {
+```
+
+![Posem les següents línies corresponents:](Img/Imatge38.png)
+
+Verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.
+
+![Verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.](Img/Imatge39.png)
+
+Habilitarem els sites creant l’enllaç simbòlic cap a la carpeta sites-enabled.
+
+![Habilitarem els sites creant l’enllaç simbòlic cap a la carpeta sites-enabled.](Img/Imatge40.png)
+
+Amb ln, però ja surt.
+
+![Amb ln, però ja surt.](Img/Imatge41.png)
+
+Verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.
+
+![Verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.](Img/Imatge42.png)
 
 
-![Hola](Img/Imatge35.png)
-
-![Hola](Img/Imatge36.png)
-
-![Hola](Img/Imatge37.png)
-
-![Hola](Img/Imatge38.png)
-
-![Hola](Img/Imatge39.png)
-
-![Hola](Img/Imatge40.png)
-
-![Hola](Img/Imatge41.png)
-
-![Hola](Img/Imatge42.png)
 
 ![Hola](Img/Imatge43.png)
 
@@ -278,6 +320,26 @@ Ara desde la terminal fem una prova de connexió errònia via terminal amb curl 
 ![Hola](Img/Imatge49.png)
 
 ![Hola](Img/Imatge50.png)
+
+![Hola](Img/Imatge51.png)
+
+![Hola](Img/Imatge52.png)
+
+![Hola](Img/Imatge53.png)
+
+![Hola](Img/Imatge54.png)
+
+![Hola](Img/Imatge55.png)
+
+![Hola](Img/Imatge56.png)
+
+![Hola](Img/Imatge57.png)
+
+![Hola](Img/Imatge58.png)
+
+![Hola](Img/Imatge59.png)
+
+![Hola](Img/Imatge60.png)
 
 [Anar a l'enunciat](../Tasca03/README.md)  
 [Anar a la pàgina inicial](../README.md)
