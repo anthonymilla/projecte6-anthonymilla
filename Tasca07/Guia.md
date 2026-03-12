@@ -148,6 +148,10 @@ Resultat:
 
 ![Resultat:](Img/Imatge32.png)
 
+
+
+![Resultat:](Img/Imatge322.png)
+
 Ara fem clic dret a la GPO de nou, Edit…
 
 ![Ara fem clic dret a la GPO de nou, Edit…](Img/Imatge33.png)
