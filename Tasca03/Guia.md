@@ -337,6 +337,8 @@ location / {
 
 ![Ara amb academia el mateix procediment:](Img/Imatge48.png)
 
+- Redirecció forçada: Configureu un bloc de servidor escoltant al port 80 queretorni un codi 301 (Permanent Redirect) cap a la versió HTTPS del domini projectenexus.test o academia.test.
+
 
 
 ![Hola](Img/Imatge49.png)
