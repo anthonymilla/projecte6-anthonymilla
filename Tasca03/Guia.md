@@ -173,9 +173,10 @@ sudo nano /etc/hosts
 
 - Configureu la directiva error_page 404 dins del bloc de servidor corresponent.
 
+Configurem la directiva error_page 404 dins del bloc de servidor corresponent.
 
-
-![Hola](Img/Imatge25.png)
+![- Configureu la directiva error_page 404 dins del bloc de servidor corresponent.
+Configurem la directiva error_page 404 dins del bloc de servidor corresponent.](Img/Imatge25.png)
 
 ![Hola](Img/Imatge26.png)
 
@@ -206,6 +207,26 @@ sudo nano /etc/hosts
 ![Hola](Img/Imatge39.png)
 
 ![Hola](Img/Imatge40.png)
+
+![Hola](Img/Imatge41.png)
+
+![Hola](Img/Imatge42.png)
+
+![Hola](Img/Imatge43.png)
+
+![Hola](Img/Imatge44.png)
+
+![Hola](Img/Imatge45.png)
+
+![Hola](Img/Imatge46.png)
+
+![Hola](Img/Imatge47.png)
+
+![Hola](Img/Imatge48.png)
+
+![Hola](Img/Imatge49.png)
+
+![Hola](Img/Imatge50.png)
 
 [Anar a l'enunciat](../Tasca03/README.md)  
 [Anar a la pàgina inicial](../README.md)
