@@ -178,6 +178,21 @@ Configurem la directiva error_page 404 dins del bloc de servidor corresponent.
 ![- Configureu la directiva error_page 404 dins del bloc de servidor corresponent.
 Configurem la directiva error_page 404 dins del bloc de servidor corresponent.](Img/Imatge25.png)
 
+Editem/posem les següents línies per això:
+
+```
+server_name www.projectenexus.test;
+error_page 404 /404.html
+location / {
+```
+
+```
+}
+location = /404.html {
+        internal;
+}
+```
+
 ![Hola](Img/Imatge26.png)
 
 ![Hola](Img/Imatge27.png)
