@@ -89,31 +89,196 @@ Resultats:
 
 - Millora Proactiva (Bonus): Com a consultors experts, heu de proposar i implementar una tercera GPO que considereu útil per a una empresa logística (ex: bloqueig de pantalla automàtic per als usuaris de magatzem per seguretat, fons d'escriptori corporatiu, etc.). Justifiqueu per què l'heu triat.
 
+| 2. Desplegament Automatitzat de Programari |
+|----------------------------------------|
+
+Per reduir els tiquets de suport tècnic, automatitzareu la instal·lació d'eines segons el departament:
+
+- Departament de Gestió: Els administratius (grup gestio) necessiten l'eina de compressió 7zip per gestionar factures. Creeu una GPO per desplegar-la de forma assignada (s'instal·la automàticament).
+
+El fem és crear una carpeta anomenada: Software, al nostre disc creat:
+
+![- Departament de Gestió: Els administratius (grup gestio) necessiten l'eina de compressió 7zip per gestionar factures. Creeu una GPO per desplegar-la de forma assignada (s'instal·la automàticament).
+El fem és crear una carpeta anomenada: Software, al nostre disc creat:](Img/Imatge20.png)
+
+![- Departament de Gestió: Els administratius (grup gestio) necessiten l'eina de compressió 7zip per gestionar factures. Creeu una GPO per desplegar-la de forma assignada (s'instal·la automàticament).
+El fem és crear una carpeta anomenada: Software, al nostre disc creat:](Img/Imatge21.png)
+
+Una vegada creada la carpeta, fem clic dret i en Sharing (Compartició) cliquem en Share (Comparteix):
+
+![Una vegada creada la carpeta, fem clic dret i en Sharing (Compartició) cliquem en Share (Comparteix):](Img/Imatge22.png)
+
+Ara en Choose people on your network to share with (Trieu persones a la xarxa amb les quals compartir), escrivim un nom, posarem Everyone (Tothom) i afegim (Add).
+
+![Ara en Choose people on your network to share with (Trieu persones a la xarxa amb les quals compartir), escrivim un nom, posarem Everyone (Tothom) i afegim (Add).](Img/Imatge23.png)
+
+Després Share i Done (Comparteix i Fet).
+
+![Després Share i Done (Comparteix i Fet).](Img/Imatge24.png)
+
+Ara descarregarem 7Zip.
+
+![Ara descarregarem 7Zip.](Img/Imatge25.png)
+
+La quarta opció, el .msi
+
+![La quarta opció, el .msi](Img/Imatge26.png)
+
+Una vegada descarregat el que hem de fer es moure’l a la carpeta anteriorment creada.
+
+![Una vegada descarregat el que hem de fer es moure’l a la carpeta anteriorment creada.](Img/Imatge27.png)
+
+Ara anem al Group Polici Management, Domains, translogic13.test, clic dret i Create a GPO in this domain, and Link it here…
+
+![Ara anem al Group Polici Management, Domains, translogic13.test, clic dret i Create a GPO in this domain, and Link it here…](Img/Imatge28.png)
+
+Posem 7Zip com a nom, OK.
+
+![Posem 7Zip com a nom, OK.](Img/Imatge29.png)
+
+Ara creat, cliquem en aquest i en Security Filtening (Filtenació de seguretat): Add.
+
+![Ara creat, cliquem en aquest i en Security Filtening (Filtenació de seguretat): Add.](Img/Imatge30.png)
+
+I posem el grup: gestio.
+
+![I posem el grup: gestio.](Img/Imatge31.png)
+
+Resultat:
+
+![Resultat:](Img/Imatge31.png)
+
+Ara fem clic dret a la GPO de nou, Edit…
+
+![Ara fem clic dret a la GPO de nou, Edit…](Img/Imatge31.png)
+
+En User Configuration, Policies, Software Settings, clic dret en Software installation, New i Package… (Paquet…):
+
+![En User Configuration, Policies, Software Settings, clic dret en Software installation, New i Package… (Paquet…):](Img/Imatge32.png)
+
+Ara anem al nostre disc i escollim 7zip descarregat.
+
+![Ara anem al nostre disc i escollim 7zip descarregat.](Img/Imatge33.png)
+
+En Deploy Software (Desplega el programari) posem Advanced (Avançat).
+
+![En Deploy Software (Desplega el programari) posem Advanced (Avançat).](Img/Imatge34.png)
+
+Posem en Deployment (Desplegament), en type: Assigned, i en Deployment options (Opcions de desplegament): Install this application at logon (Instal·la aquesta aplicació a l'inici de sessió).
+
+![Posem en Deployment (Desplegament), en type: Assigned, i en Deployment options (Opcions de desplegament): Install this application at logon (Instal·la aquesta aplicació a l'inici de sessió).](Img/Imatge35.png)
+
+Resultat:
+
+![Resultat:](Img/Imatge36.png)
+
+- Departament de Gerència: Els directius (grup gerencia) necessiten un navegador segur. Creeu una GPO per desplegar Firefox de forma publicada (l'usuari decideix si l'instal·la des del Tauler de Control).
+
+Primerament descarregarem Firefox.
+
+![- Departament de Gerència: Els directius (grup gerencia) necessiten un navegador segur. Creeu una GPO per desplegar Firefox de forma publicada (l'usuari decideix si l'instal·la des del Tauler de Control).
+Primerament descarregarem Firefox.](Img/Imatge37.png)
+
+En MSI Installers (Instal·ladors MSI) fem clic a l'enllaç corresponent:
+
+![En MSI Installers (Instal·ladors MSI) fem clic a l'enllaç corresponent:](Img/Imatge38.png)
+
+Escollim Desktop, Firefox (Recommended).
+
+![Escollim Desktop, Firefox (Recommended).](Img/Imatge39.png)
+
+Windows 64-bit MSI.
+
+![Windows 64-bit MSI.](Img/Imatge40.png)
+
+Idioma:
+
+![Idioma:](Img/Imatge41.png)
+
+Descarreguem.
+
+![Descarreguem.](Img/Imatge42.png)
+
+I ho posem al mateix lloc que el 7Zip, a la carpeta Software.
+
+![I ho posem al mateix lloc que el 7Zip, a la carpeta Software.](Img/Imatge43.png)
+
+En Group Policy Management, en Domains, translogic13.test, baixem el desplegable i la OU Gerencia fem clic dret i Create a GPO in this domain, and Link it here…
+
+![En Group Policy Management, en Domains, translogic13.test, baixem el desplegable i la OU Gerencia fem clic dret i Create a GPO in this domain, and Link it here…](Img/Imatge44.png)
+
+Nom: Firefox.
+
+![Nom: Firefox.](Img/Imatge45.png)
+
+Ara fem clic dret en aquest i Edit.
+
+![Ara fem clic dret en aquest i Edit.](Img/Imatge46.png)
+
+En User Configuration, Policies, Software Settings, clic dret en Software installation, New i Package… (Paquet…):
+
+![En User Configuration, Policies, Software Settings, clic dret en Software installation, New i Package… (Paquet…):](Img/Imatge47.png)
+
+Ara anem al nostre disc i escollim Firefox descarregat.
+
+![Ara anem al nostre disc i escollim Firefox descarregat.](Img/Imatge48.png)
+
+En Deploy Software (Desplega el programari) posem Advanced (Avançat).
+
+![En Deploy Software (Desplega el programari) posem Advanced (Avançat).](Img/Imatge49.png)
+
+Posem en Deployment, en type: Assigned, i en Deployment options: Do not display this package in the Add/Remove Programs control panel (No mostris aquest paquet al panell de control Afegeix/Elimina programes).
+
+![Posem en Deployment, en type: Assigned, i en Deployment options: Do not display this package in the Add/Remove Programs control panel (No mostris aquest paquet al panell de control Afegeix/Elimina programes).](Img/Imatge50.png)
+
+Resultat:
+
+![Resultat:](Img/Imatge51.png)
+
+**Nota tècnica:** Els fitxers .msi els podeu trobar a la carpeta de recursos compartits o descarregar-los. 
+
+**Pregunta de consultoria:** El client us pregunta: "Com podem crear els nostres propis fitxers .msi si una aplicació només ve amb un .exe?". Responeu a l'informe.
+
+**Resposta:**
+
+Si una aplicació només es distribueix en format .exe, podem crear un .msi utilitzant eines de reembalatge (com Advanced Installer o EMCO MSI Package Builder), que converteixen la instal·lació en un paquet .msi apte per desplegar via GPO. Alternativament, si el .exe admet instal·lació silenciosa, es pot desplegar amb scripts. En casos avançats, també és possible doncs generar un .msi manualment amb WiX Toolset.
+
+| 3. Mobilitat d'Usuaris (Perfils Mòbils) |
+|----------------------------------------|
+
+Els usuaris del departament de gestio canvien sovint entre un portàtil o amb un equip d’escriptori.
+
+- Habiliteu una carpeta compartida al servidor anomenada perfils.
 
 
-![Comprovacions.](Img/Imatge20.png)
 
-![Comprovacions.](Img/Imatge21.png)
+![](Img/Imatge52.png)
 
-![Comprovacions.](Img/Imatge22.png)
+![](Img/Imatge53.png)
 
-![Comprovacions.](Img/Imatge23.png)
+![](Img/Imatge54.png)
 
-![Comprovacions.](Img/Imatge24.png)
+![](Img/Imatge55.png)
 
-![Comprovacions.](Img/Imatge25.png)
+![](Img/Imatge56.png)
 
-![Comprovacions.](Img/Imatge26.png)
+![](Img/Imatge57.png)
 
-![Comprovacions.](Img/Imatge27.png)
+![](Img/Imatge58.png)
 
-![Comprovacions.](Img/Imatge28.png)
+![](Img/Imatge59.png)
 
-![Comprovacions.](Img/Imatge29.png)
+![](Img/Imatge60.png)
 
-![Comprovacions.](Img/Imatge30.png)
+![](Img/Imatge61.png)
 
-![Comprovacions.](Img/Imatge31.png)
+![](Img/Imatge62.png)
+
+![](Img/Imatge63.png)
+
+![](Img/Imatge64.png)
+
+![](Img/Imatge65.png)
 
 [Anar a l'enunciat](../Tasca07/README.md)  
 [Anar a la pàgina inicial](../README.md)
