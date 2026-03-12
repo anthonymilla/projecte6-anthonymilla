@@ -303,19 +303,41 @@ Verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.
 
 ![Verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.](Img/Imatge42.png)
 
+Ara amb academia el mateix procediment:
+
+![Ara amb academia el mateix procediment:](Img/Imatge43.png)
+
+![Ara amb academia el mateix procediment:](Img/Imatge44.png)
+
+Posem les següents línies corresponents:
+
+```
+server {
+        listen 443 ssl;
+```
+
+```
+server_name www.academia.test;
+root /var/www/academia.test;
+```
+
+```
+ssl_certificate /var/www/academia.test/cert/academia.crt;
+ssl_certificate_key /var/www/academia.test/private/academia.key;
+ssl_protocols       TLSv1.2 TLSv1.3;
+error_page 404 /404.html;
+location / {
+```
+
+![Posem les següents línies corresponents:](Img/Imatge45.png)
+
+![Ara amb academia el mateix procediment:](Img/Imatge46.png)
+
+![Ara amb academia el mateix procediment:](Img/Imatge47.png)
+
+![Ara amb academia el mateix procediment:](Img/Imatge48.png)
 
 
-![Hola](Img/Imatge43.png)
-
-![Hola](Img/Imatge44.png)
-
-![Hola](Img/Imatge45.png)
-
-![Hola](Img/Imatge46.png)
-
-![Hola](Img/Imatge47.png)
-
-![Hola](Img/Imatge48.png)
 
 ![Hola](Img/Imatge49.png)
 
@@ -340,6 +362,16 @@ Verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.
 ![Hola](Img/Imatge59.png)
 
 ![Hola](Img/Imatge60.png)
+
+![Hola](Img/Imatge61.png)
+
+![Hola](Img/Imatge62.png)
+
+![Hola](Img/Imatge63.png)
+
+![Hola](Img/Imatge64.png)
+
+![Hola](Img/Imatge65.png)
 
 [Anar a l'enunciat](../Tasca03/README.md)  
 [Anar a la pàgina inicial](../README.md)
