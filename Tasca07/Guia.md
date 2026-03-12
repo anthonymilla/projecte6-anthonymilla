@@ -22,13 +22,13 @@ Ara fem clic en Policies (Polítiques), després en Windows Settings (Configurac
 
 ![Ara fem clic en Policies (Polítiques), després en Windows Settings (Configuració del Windows), Security Settings (Configuració de seguretat) i en Account Policies (Polítiques del compte) clic en Password Policy (Política de contrasenyes):](Img/Imatge03.png)
 
-Ara anem a Relax minimum password length limits (Relaxa els límits mínims de longitud de contrasenya) i marquem la casella Define the policy setting (Defineix la configuració de la política) i l’habilitem.
+Ara anem a Relax minimum password length limits (Relaxa els límits mínims de longitud de contrasenya) i marquem la casella Define this policy setting (Defineix aquest paràmetre de política) i l’habilitem.
 
-![Ara anem a Relax minimum password length limits (Relaxa els límits mínims de longitud de contrasenya) i marquem la casella Define the policy setting (Defineix la configuració de la política) i l’habilitem.](Img/Imatge04.png)
+![Ara anem a Relax minimum password length limits (Relaxa els límits mínims de longitud de contrasenya) i marquem la casella Define this policy setting (Defineix aquest paràmetre de política) i l’habilitem.](Img/Imatge04.png)
 
-Ara en Minimum password length (Longitud mínima de la contrasenya) posem 8 characters.
+Ara en Minimum password length (Longitud mínima de la contrasenya) posem 8 characters (caràcters), apliquem i guardem.
 
-![Ara en Minimum password length (Longitud mínima de la contrasenya) posem 8 characters.](Img/Imatge05.png)
+![Ara en Minimum password length (Longitud mínima de la contrasenya) posem 8 characters (caràcters), apliquem i guardem.](Img/Imatge05.png)
 
 Resultats:
 
@@ -36,52 +36,60 @@ Resultats:
 
 - Política per a Gerència: La Unitat Organitzativa (OU) on ubiqueu la direcció conté els usuaris VIP (grup gerencia). Creeu una GPO específica per ells on la contrasenya sigui de 18 caràcters i caduqui cada 28 dies. No s'ha d'activar la complexitat.
 
-Anem a Tools i Active Directory Users and Computers (Usuaris i ordinadors del directori actiu).
+Anem a Group Policy Management, Domains, després a translogic13.test, baixem el desplegable i anem a Gerencia, clic dret i Create a GPO in this domain, and Link it here… (Crea un GPO en aquest domini, i vincula'l aquí…).
 
 ![- Política per a Gerència: La Unitat Organitzativa (OU) on ubiqueu la direcció conté els usuaris VIP (grup gerencia). Creeu una GPO específica per ells on la contrasenya sigui de 18 caràcters i caduqui cada 28 dies. No s'ha d'activar la complexitat.
-Anem a Tools i Active Directory Users and Computers (Usuaris i ordinadors del directori actiu).](Img/Imatge07.png)
+Anem a Group Policy Management, Domains, després a translogic13.test, baixem el desplegable i anem a Gerencia, clic dret i Create a GPO in this domain, and Link it here… (Crea un GPO en aquest domini, i vincula'l aquí…).](Img/Imatge07.png)
+
+L'anomenarem: Gerencia_
+
+![L'anomenarem: Gerencia_](Img/Imatge08.png)
+
+Creat.
+
+![Creat.](Img/Imatge09.png)
+
+Ara fem clic dret a la GPO creada i Edit.
+
+![Ara fem clic dret a la GPO creada i Edit.](Img/Imatge10.png)
+
+Ara Policies (Polítiques), Windows Settings, baixem el desplegable i en Security Settings anem a Account Policies, Password Policy i clic en Relax minimum password lenght limits (Relaxa els límits mínims de la contrasenya).
+
+![Ara Policies (Polítiques), Windows Settings, baixem el desplegable i en Security Settings anem a Account Policies, Password Policy i clic en Relax minimum password lenght limits (Relaxa els límits mínims de la contrasenya).](Img/Imatge11.png)
+
+L'habilitem.
+
+![L'habilitem.](Img/Imatge12.png)
+
+Seguidament fem clic dret a Minimum password lenght (Contrasenya mínima) i Properties.
+
+![Seguidament fem clic dret a Minimum password lenght (Contrasenya mínima) i Properties.](Img/Imatge13.png)
+
+I posem un mínim de 18 characters (caràcters), apliquem i guardem.
+
+![I posem un mínim de 18 characters (caràcters), apliquem i guardem.](Img/Imatge14.png)
+
+Resultats:
+
+![Resultats:](Img/Imatge15.png)
+
+Ara anem a Maximum password age Properties (Propietats màximes de l'edat de la contrasenya), clic dret a Maximum password age, Properties i posem 28 dies.
+
+![Ara anem a Maximum password age Properties (Propietats màximes de l'edat de la contrasenya), clic dret a Maximum password age, Properties i posem 28 dies.](Img/Imatge16.png)
+
+Si ens fixem surt de Minimum password age 27, l’editem i posem 1 perquè tingui més sentit.
+
+![Si ens fixem surt de Minimum password age 27, l’editem i posem 1 perquè tingui més sentit.](Img/Imatge17.png)
+
+![Si ens fixem surt de Minimum password age 27, l’editem i posem 1 perquè tingui més sentit.](Img/Imatge18.png)
+
+Resultats:
+
+![Resultats:](Img/Imatge19.png)
+
+- Millora Proactiva (Bonus): Com a consultors experts, heu de proposar i implementar una tercera GPO que considereu útil per a una empresa logística (ex: bloqueig de pantalla automàtic per als usuaris de magatzem per seguretat, fons d'escriptori corporatiu, etc.). Justifiqueu per què l'heu triat.
 
 
-
-![Creem una nova OU anomenada Gerència.](Img/Imatge08.png)
-
-
-
-![Afegim grup i un usuari dins.](Img/Imatge09.png)
-
-
-
-![Ara, tornem a Group Policy Management, en Domains anem a translogic13.test, fem clic dret i Create a GPO in this domain, and Link it here… (Crea un GPO en aquest domini, i enllaça'l aquí…)](Img/Imatge10.png)
-
-
-
-![Nom:](Img/Imatge11.png)
-
-
-
-![Resultat, Linked Group Policy Objects (Objectes de política de grup enllaçats).](Img/Imatge12.png)
-
-
-
-![Anem a la GPO i Edit…](Img/Imatge13.png)
-
-
-
-![En Preferences, Drive Maps (Controla els mapes), clic dret, New i Mappet Drive (Unitat de Mappet).](Img/Imatge14.png)
-
-
-
-![I configurem corresponentment el New Drive Properties (Propietats de la unitat nova).](Img/Imatge15.png)
-
-
-
-![Resultat:](Img/Imatge16.png)
-
-![Comprovacions.](Img/Imatge17.png)
-
-![Comprovacions.](Img/Imatge18.png)
-
-![Comprovacions.](Img/Imatge19.png)
 
 ![Comprovacions.](Img/Imatge20.png)
 
