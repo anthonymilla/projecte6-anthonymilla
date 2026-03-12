@@ -174,6 +174,7 @@ sudo nano /etc/hosts
 - Configureu la directiva error_page 404 dins del bloc de servidor corresponent.
 
 
+
 ![Hola](Img/Imatge25.png)
 
 ![Hola](Img/Imatge26.png)
