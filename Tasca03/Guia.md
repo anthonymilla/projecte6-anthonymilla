@@ -113,6 +113,8 @@ Reiniciem el servei
 
 ![Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/ corresponentment:](Img/Imatge16.png)
 
+Editem les següents línies:
+
 ```
 server {
         listen 80;
@@ -127,9 +129,9 @@ root /var/www/academia.test;
 server_name www.academia.test;
 ```
 
-![Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/ corresponentment:](Img/Imatge17.png)
+![Editem les següents línies:](Img/Imatge17.png)
 
-![Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/ corresponentment:](Img/Imatge18.png)
+![Reiniciem el servei](Img/Imatge18.png)
 
 - Creeu els enllaços simbòlics a sites-enabled/ per activar les configuracions.          
 Verifiqueu la sintaxis amb nginx -t abans de reiniciar el servei.
