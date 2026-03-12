@@ -102,7 +102,7 @@ root /var/www/projectenexus.test;
 ```
 
 ```
-server_name www.projectenexus.test.test;
+server_name www.projectenexus.test;
 ```
 
 ![Editem les següents línies:](Img/Imatge14.png)
@@ -124,7 +124,7 @@ root /var/www/academia.test;
 ```
 
 ```
-server_name www.academia.test.test;
+server_name www.academia.test;
 ```
 
 ![Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/ corresponentment:](Img/Imatge17.png)
