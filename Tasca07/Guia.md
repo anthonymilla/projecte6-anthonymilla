@@ -237,7 +237,10 @@ Resultat:
 
 **Nota tècnica:** Els fitxers .msi els podeu trobar a la carpeta de recursos compartits o descarregar-los. 
 
-**Pregunta de consultoria:** El client us pregunta: "Com podem crear els nostres propis fitxers .msi si una aplicació només ve amb un .exe?". Responeu a l'informe.
+| Pregunta de consultoria: |
+|----------------------------------------|
+
+El client us pregunta: "Com podem crear els nostres propis fitxers .msi si una aplicació només ve amb un .exe?". Responeu a l'informe.
 
 | Resposta: |
 |----------------------------------------|
