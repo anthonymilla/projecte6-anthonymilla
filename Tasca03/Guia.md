@@ -240,6 +240,13 @@ Ara desde la terminal fem una prova de connexió errònia via terminal amb curl 
 
 ![Ara desde la terminal fem una prova de connexió errònia via terminal amb curl -L i observem com es mostra la redirecció:](Img/Imatge34.png)
 
+| 4. Seguretat i Certificats (HTTPS) |
+|----------------------------------------|
+
+- Reutilitzeu els certificats SSL generats en l'activitat anterior (o genereu-ne de nous si cal).
+
+
+
 ![Hola](Img/Imatge35.png)
 
 ![Hola](Img/Imatge36.png)
