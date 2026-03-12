@@ -146,94 +146,94 @@ I posem el grup: gestio.
 
 Resultat:
 
-![Resultat:](Img/Imatge31.png)
+![Resultat:](Img/Imatge32.png)
 
 Ara fem clic dret a la GPO de nou, Edit…
 
-![Ara fem clic dret a la GPO de nou, Edit…](Img/Imatge31.png)
+![Ara fem clic dret a la GPO de nou, Edit…](Img/Imatge33.png)
 
 En User Configuration, Policies, Software Settings, clic dret en Software installation, New i Package… (Paquet…):
 
-![En User Configuration, Policies, Software Settings, clic dret en Software installation, New i Package… (Paquet…):](Img/Imatge32.png)
+![En User Configuration, Policies, Software Settings, clic dret en Software installation, New i Package… (Paquet…):](Img/Imatge34.png)
 
 Ara anem al nostre disc i escollim 7zip descarregat.
 
-![Ara anem al nostre disc i escollim 7zip descarregat.](Img/Imatge33.png)
+![Ara anem al nostre disc i escollim 7zip descarregat.](Img/Imatge35.png)
 
 En Deploy Software (Desplega el programari) posem Advanced (Avançat).
 
-![En Deploy Software (Desplega el programari) posem Advanced (Avançat).](Img/Imatge34.png)
+![En Deploy Software (Desplega el programari) posem Advanced (Avançat).](Img/Imatge36.png)
 
 Posem en Deployment (Desplegament), en type: Assigned, i en Deployment options (Opcions de desplegament): Install this application at logon (Instal·la aquesta aplicació a l'inici de sessió).
 
-![Posem en Deployment (Desplegament), en type: Assigned, i en Deployment options (Opcions de desplegament): Install this application at logon (Instal·la aquesta aplicació a l'inici de sessió).](Img/Imatge35.png)
+![Posem en Deployment (Desplegament), en type: Assigned, i en Deployment options (Opcions de desplegament): Install this application at logon (Instal·la aquesta aplicació a l'inici de sessió).](Img/Imatge37.png)
 
 Resultat:
 
-![Resultat:](Img/Imatge36.png)
+![Resultat:](Img/Imatge38.png)
 
 - Departament de Gerència: Els directius (grup gerencia) necessiten un navegador segur. Creeu una GPO per desplegar Firefox de forma publicada (l'usuari decideix si l'instal·la des del Tauler de Control).
 
 Primerament descarregarem Firefox.
 
 ![- Departament de Gerència: Els directius (grup gerencia) necessiten un navegador segur. Creeu una GPO per desplegar Firefox de forma publicada (l'usuari decideix si l'instal·la des del Tauler de Control).
-Primerament descarregarem Firefox.](Img/Imatge37.png)
+Primerament descarregarem Firefox.](Img/Imatge39.png)
 
 En MSI Installers (Instal·ladors MSI) fem clic a l'enllaç corresponent:
 
-![En MSI Installers (Instal·ladors MSI) fem clic a l'enllaç corresponent:](Img/Imatge38.png)
+![En MSI Installers (Instal·ladors MSI) fem clic a l'enllaç corresponent:](Img/Imatge40.png)
 
 Escollim Desktop, Firefox (Recommended).
 
-![Escollim Desktop, Firefox (Recommended).](Img/Imatge39.png)
+![Escollim Desktop, Firefox (Recommended).](Img/Imatge41.png)
 
 Windows 64-bit MSI.
 
-![Windows 64-bit MSI.](Img/Imatge40.png)
+![Windows 64-bit MSI.](Img/Imatge42.png)
 
 Idioma:
 
-![Idioma:](Img/Imatge41.png)
+![Idioma:](Img/Imatge43.png)
 
 Descarreguem.
 
-![Descarreguem.](Img/Imatge42.png)
+![Descarreguem.](Img/Imatge44.png)
 
 I ho posem al mateix lloc que el 7Zip, a la carpeta Software.
 
-![I ho posem al mateix lloc que el 7Zip, a la carpeta Software.](Img/Imatge43.png)
+![I ho posem al mateix lloc que el 7Zip, a la carpeta Software.](Img/Imatge45.png)
 
 En Group Policy Management, en Domains, translogic13.test, baixem el desplegable i la OU Gerencia fem clic dret i Create a GPO in this domain, and Link it here…
 
-![En Group Policy Management, en Domains, translogic13.test, baixem el desplegable i la OU Gerencia fem clic dret i Create a GPO in this domain, and Link it here…](Img/Imatge44.png)
+![En Group Policy Management, en Domains, translogic13.test, baixem el desplegable i la OU Gerencia fem clic dret i Create a GPO in this domain, and Link it here…](Img/Imatge46.png)
 
 Nom: Firefox.
 
-![Nom: Firefox.](Img/Imatge45.png)
+![Nom: Firefox.](Img/Imatge47.png)
 
 Ara fem clic dret en aquest i Edit.
 
-![Ara fem clic dret en aquest i Edit.](Img/Imatge46.png)
+![Ara fem clic dret en aquest i Edit.](Img/Imatge48.png)
 
 En User Configuration, Policies, Software Settings, clic dret en Software installation, New i Package… (Paquet…):
 
-![En User Configuration, Policies, Software Settings, clic dret en Software installation, New i Package… (Paquet…):](Img/Imatge47.png)
+![En User Configuration, Policies, Software Settings, clic dret en Software installation, New i Package… (Paquet…):](Img/Imatge49.png)
 
 Ara anem al nostre disc i escollim Firefox descarregat.
 
-![Ara anem al nostre disc i escollim Firefox descarregat.](Img/Imatge48.png)
+![Ara anem al nostre disc i escollim Firefox descarregat.](Img/Imatge50.png)
 
 En Deploy Software (Desplega el programari) posem Advanced (Avançat).
 
-![En Deploy Software (Desplega el programari) posem Advanced (Avançat).](Img/Imatge49.png)
+![En Deploy Software (Desplega el programari) posem Advanced (Avançat).](Img/Imatge51.png)
 
 Posem en Deployment, en type: Assigned, i en Deployment options: Do not display this package in the Add/Remove Programs control panel (No mostris aquest paquet al panell de control Afegeix/Elimina programes).
 
-![Posem en Deployment, en type: Assigned, i en Deployment options: Do not display this package in the Add/Remove Programs control panel (No mostris aquest paquet al panell de control Afegeix/Elimina programes).](Img/Imatge50.png)
+![Posem en Deployment, en type: Assigned, i en Deployment options: Do not display this package in the Add/Remove Programs control panel (No mostris aquest paquet al panell de control Afegeix/Elimina programes).](Img/Imatge52.png)
 
 Resultat:
 
-![Resultat:](Img/Imatge51.png)
+![Resultat:](Img/Imatge53.png)
 
 **Nota tècnica:** Els fitxers .msi els podeu trobar a la carpeta de recursos compartits o descarregar-los. 
 
@@ -251,10 +251,6 @@ Els usuaris del departament de gestio canvien sovint entre un portàtil o amb un
 - Habiliteu una carpeta compartida al servidor anomenada perfils.
 
 
-
-![](Img/Imatge52.png)
-
-![](Img/Imatge53.png)
 
 ![](Img/Imatge54.png)
 
@@ -279,6 +275,10 @@ Els usuaris del departament de gestio canvien sovint entre un portàtil o amb un
 ![](Img/Imatge64.png)
 
 ![](Img/Imatge65.png)
+
+![](Img/Imatge66.png)
+
+![](Img/Imatge67.png)
 
 [Anar a l'enunciat](../Tasca07/README.md)  
 [Anar a la pàgina inicial](../README.md)
