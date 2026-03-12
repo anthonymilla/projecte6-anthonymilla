@@ -295,5 +295,9 @@ Per evitar pèrdues de dades si un ordinador s'espatlla:
 
 ![](Img/Imatge67.png)
 
+![](Img/Imatge68.png)
+
+![](Img/Imatge69.png)
+
 [Anar a l'enunciat](../Tasca07/README.md)  
 [Anar a la pàgina inicial](../README.md)
