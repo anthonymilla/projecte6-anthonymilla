@@ -148,9 +148,9 @@ Resultat:
 
 ![Resultat:](Img/Imatge32.png)
 
+Podem  treure el Authenticated Users, no fa falta.
 
-
-![Resultat:](Img/Imatge322.png)
+![Podem  treure el Authenticated Users, no fa falta.](Img/Imatge322.png)
 
 Ara fem clic dret a la GPO de nou, Edit…
 
@@ -259,6 +259,13 @@ Els usuaris del departament de gestio canvien sovint entre un portàtil o amb un
 - Habiliteu una carpeta compartida al servidor anomenada perfils.
 
 
+
+| 4. Seguretat de Dades (Redirecció de Carpetes) |
+|----------------------------------------|
+
+Per evitar pèrdues de dades si un ordinador s'espatlla:
+
+- Configureu una directiva per a tot el domini perquè la carpeta local Documents es redirigeixi a una ubicació de xarxa segura (la carpeta home folder que tot usuari té a la xarxa).
 
 ![](Img/Imatge54.png)
 
