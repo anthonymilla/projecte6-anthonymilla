@@ -193,23 +193,52 @@ location = /404.html {
 }
 ```
 
-![Hola](Img/Imatge26.png)
+![Editem/posem les següents línies per això:](Img/Imatge26.png)
 
-![Hola](Img/Imatge27.png)
+Reiniciem el servei:
 
-![Hola](Img/Imatge28.png)
+![Reiniciem el servei:](Img/Imatge27.png)
 
-![Hola](Img/Imatge29.png)
+Configurem la directiva error_page 404 dins del bloc de servidor corresponent:
 
-![Hola](Img/Imatge30.png)
+![Configurem la directiva error_page 404 dins del bloc de servidor corresponent:](Img/Imatge28.png)
 
-![Hola](Img/Imatge31.png)
+Editem/posem les següents línies:
 
-![Hola](Img/Imatge32.png)
+```
+server_name www.projectenexus.test;
+error_page 404 /404.html
+location / {
+```
 
-![Hola](Img/Imatge33.png)
+```
+}
+location = /404.html {
+        internal;
+}
+```
 
-![Hola](Img/Imatge34.png)
+![Editem/posem les següents línies](Img/Imatge29.png)
+
+Reiniciem el servei:
+
+![Reiniciem el servei:](Img/Imatge30.png)
+
+- Assegureu-vos que, quan es demani un fitxer inexistent, es mostri la pàgina d'error personalitzada que vau crear anteriorment.
+
+Comprovacions:
+
+![- Assegureu-vos que, quan es demani un fitxer inexistent, es mostri la pàgina d'error personalitzada que vau crear anteriorment.
+Comprovacions:](Img/Imatge31.png)
+
+![- Assegureu-vos que, quan es demani un fitxer inexistent, es mostri la pàgina d'error personalitzada que vau crear anteriorment.
+Comprovacions:](Img/Imatge32.png)
+
+Ara desde la terminal fem una prova de connexió errònia via terminal amb curl -L i observem com es mostra la redirecció:
+
+![Ara desde la terminal fem una prova de connexió errònia via terminal amb curl -L i observem com es mostra la redirecció:](Img/Imatge33.png)
+
+![Ara desde la terminal fem una prova de connexió errònia via terminal amb curl -L i observem com es mostra la redirecció:](Img/Imatge34.png)
 
 ![Hola](Img/Imatge35.png)
 
