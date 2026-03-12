@@ -339,7 +339,9 @@ location / {
 
 - Redirecció forçada: Configureu un bloc de servidor escoltant al port 80 queretorni un codi 301 (Permanent Redirect) cap a la versió HTTPS del domini projectenexus.test o academia.test.
 
+Configurem un bloc de servidor escoltant al port 80 que retorni un codi 301 (Permanent Redirect) cap a la versió HTTPS del domini projectenexus.test o academia.test.
 
+Primerament configurem l’arxiu:
 
 ![Hola](Img/Imatge49.png)
 
