@@ -356,7 +356,7 @@ server {
 ```
 
 ```
-root /var/www/academia.test;
+root /var/www/projectenexus.test;
 ```
 
 ```
@@ -385,8 +385,8 @@ Posem les següents línies corresponents:
 server {
         listen 80;
         listen [::]:80;
-        server_name www.projectenexus.test;
-        return 301 https://www.projectenexus.test$request_uri;
+        server_name www.academia.test;
+        return 301 https://www.academia.test$request_uri;
 ```
 
 ```
