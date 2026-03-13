@@ -258,7 +258,9 @@ Els usuaris del departament de gestio canvien sovint entre un portàtil o amb un
 
 - Habiliteu una carpeta compartida al servidor anomenada perfils.
 
+- Configureu la plantilla d'usuari del grup gestio perquè utilitzi un perfil mòbil que es guardi en aquesta carpeta.
 
+- Creeu un usuari nou de prova a gestio, inicieu sessió i demostreu que s'ha creat la carpeta del seu perfil al servidor.
 
 | 4. Seguretat de Dades (Redirecció de Carpetes) |
 |----------------------------------------|
@@ -267,37 +269,106 @@ Per evitar pèrdues de dades si un ordinador s'espatlla:
 
 - Configureu una directiva per a tot el domini perquè la carpeta local Documents es redirigeixi a una ubicació de xarxa segura (la carpeta home folder que tot usuari té a la xarxa).
 
-![](Img/Imatge54.png)
+Primerament anem a Group Policy Management, Domains, translogic13.test, clic dret, Create a GPO in this domain, and Link it here… i posem de nom: Redirecció.
 
-![](Img/Imatge55.png)
+![Per evitar pèrdues de dades si un ordinador s'espatlla:
+-Configureu una directiva per a tot el domini perquè la carpeta local Documents es redirigeixi a una ubicació de xarxa segura (la carpeta home folder que tot usuari té a la xarxa).
+Primerament anem a Group Policy Management, Domains, translogic13.test, clic dret, Create a GPO in this domain, and Link it here… i posem de nom: Redirecció.](Img/Imatge54.png)
 
-![](Img/Imatge56.png)
+Fem clic dret en aquest, Edit… i ara en User Configuration anem a; Policies, Windows Settings, baixem el desplegable, Folder Redirection, Documents, clic dret i Properties.  
 
-![](Img/Imatge57.png)
+![Fem clic dret en aquest, Edit… i ara en User Configuration anem a; Policies, Windows Settings, baixem el desplegable, Folder Redirection, Documents, clic dret i Properties.  ](Img/Imatge55.png)
 
-![](Img/Imatge58.png)
+Ara a Documents Properties, Target (Objectiu), en Setting (Configuració) posem: Basic - Redirect everyone’s folder to the same location (Basic - Redirigeix la carpeta de tothom a la mateixa ubicació), posem en Root Path (Camí d'arrel) la ruta corresponent a la carpeta homes (també podríem posar T05 al davant, per agafar tota la ruta) i Apply i OK.
 
-![](Img/Imatge59.png)
+![Ara a Documents Properties, Target (Objectiu), en Setting (Configuració) posem: Basic - Redirect everyone’s folder to the same location (Basic - Redirigeix la carpeta de tothom a la mateixa ubicació), posem en Root Path (Camí d'arrel) la ruta corresponent a la carpeta homes (també podríem posar T05 al davant, per agafar tota la ruta) i Apply i OK.](Img/Imatge56.png)
 
-![](Img/Imatge60.png)
+Ara anem a la màquina client, entrem amb l’usuari Jan Fernandez, anem a Explorador d’arxius, Documents, clic dret, Propietats, Ubicació, posem la ruta corresponent, apliquem i acceptem:
 
-![](Img/Imatge61.png)
+![Ara anem a la màquina client, entrem amb l’usuari Jan Fernandez, anem a Explorador d’arxius, Documents, clic dret, Propietats, Ubicació, posem la ruta corresponent, apliquem i acceptem:](Img/Imatge57.png)
 
-![](Img/Imatge62.png)
+- Verifiqueu que, en desar un fitxer a "Documents" des del client, aquest apareix realment al servidor.
 
-![](Img/Imatge63.png)
+Verifiquem que, en desar un fitxer a "Documents" des del client, aquest apareix realment al servidor. Per això en Documents creem un arxiu de text, per exemple.
 
-![](Img/Imatge64.png)
+![- Verifiqueu que, en desar un fitxer a "Documents" des del client, aquest apareix realment al servidor.
+Verifiquem que, en desar un fitxer a "Documents" des del client, aquest apareix realment al servidor. Per això en Documents creem un arxiu de text, per exemple.](Img/Imatge58.png)
 
-![](Img/Imatge65.png)
+Comprovació màquina client i servidor:
 
-![](Img/Imatge66.png)
+![Comprovació màquina client i servidor:](Img/Imatge59.png)
 
-![](Img/Imatge67.png)
+| 5. Delegació de Funcions (Helpdesk) |
+|----------------------------------------|
 
-![](Img/Imatge68.png)
+TransLògic S.A. ha contractat un auxiliar de suport. No volen donar-li les claus de tot el sistema:
 
-![](Img/Imatge69.png)
+- Creeu un usuari anomenat adminOU dins la OU d'usuaris.
+
+Creem un usuari anomenat adminOU dins la OU d'usuaris. per això anem a Active Directory Users and Computers (Usuaris i ordinadors del directori actiu), translogic13.test, baixem el desplegable, Usuaris, New Object - User (Objecte nou - Usuari) i l’anomenem adminOU.
+
+![- Creeu un usuari anomenat adminOU dins la OU d'usuaris.
+Creem un usuari anomenat adminOU dins la OU d'usuaris. per això anem a Active Directory Users and Computers (Usuaris i ordinadors del directori actiu), translogic13.test, baixem el desplegable, Usuaris, New Object - User (Objecte nou - Usuari) i l’anomenem adminOU.](Img/Imatge60.png)
+
+Li posem una contrasenya corresponent.
+
+![Li posem una contrasenya corresponent.](Img/Imatge61.png)
+
+Finish.
+
+![Finish.](Img/Imatge62.png)
+
+Resultat:
+
+![Resultat:](Img/Imatge63.png)
+
+- Delegueu el control de la Unitat Organitzativa principal (ex: OU TransLogic) a aquest usuari adminOU. Només ha de poder:
+
+Per això en translogic13.test, clic dret i Delegate Control (Delega el control).
+
+![- Delegueu el control de la Unitat Organitzativa principal (ex: OU TransLogic) a aquest usuari adminOU. Només ha de poder:
+Per això en translogic13.test, clic dret i Delegate Control (Delega el control).](Img/Imatge64.png)
+
+Ara en Delegation of Control Wizard (Auxiliar de delegació de control); Next.
+
+![Ara en Delegation of Control Wizard (Auxiliar de delegació de control); Next.](Img/Imatge65.png)
+
+Afegim admin OU, Enter the object names to select (Introduïu els noms dels objectes a seleccionar) i OK.
+
+![Afegim admin OU, Enter the object names to select (Introduïu els noms dels objectes a seleccionar) i OK.](Img/Imatge66.png)
+
+Selected users and groups (Usuaris i grups seleccionats), admin OU; Next.
+
+![Selected users and groups (Usuaris i grups seleccionats), admin OU; Next.](Img/Imatge67.png)
+
+- Reiniciar contrasenyes dels treballadors.
+- Modificar la pertinença als grups (gestio, magatzem, etc.).
+
+Ara en Tasks to Delegate (Tasques a delegar), Delegate the following common tasks (Delega les següents tasques comunes) marquem: Reset user passwords and force password change at next logon (Restableix les contrasenyes d'usuari i força el canvi de contrasenya a la següent sessió) i Modify the membership of a group (Modifica la pertinença d'un grup). Next.
+
+![- Reiniciar contrasenyes dels treballadors.
+-Modificar la pertinença als grups (gestio, magatzem, etc.).
+Ara en Tasks to Delegate (Tasques a delegar), Delegate the following common tasks (Delega les següents tasques comunes) marquem: Reset user passwords and force password change at next logon (Restableix les contrasenyes d'usuari i força el canvi de contrasenya a la següent sessió) i Modify the membership of a group (Modifica la pertinença d'un grup). Next.](Img/Imatge68.png)
+
+Finish.
+
+![Finish.](Img/Imatge69.png)
+
+Demostreu (amb captures) que l'adminOU pot canviar un password però NO té permisos per crear un usuari nou.
+
+**Què cal lliurar**
+
+Informe tècnic:
+
+- Canvis en l’estructura de Unitats Organitzatives i justificar-los.
+
+- Captures de pantalla comentades de cada pas realitzat (GPO creades, configuracions de perfils, logs d'auditoria, etc.).
+
+- Justificació de la 3a GPO: Explicació de quina heu triat i quin benefici aporta a TransLògic.
+
+- Resposta sobre els MSI: Explicació breu de com convertir/crear paquets MSI.
+
+- Proves de funcionament: Captures que demostrin que el client (Windows 10/11) ha aplicat les polítiques (ex: comanda gpresult, carpeta redirigida funcionant, error al intentar crear usuari amb l'adminOU, etc.).
 
 [Anar a l'enunciat](../Tasca07/README.md)  
 [Anar a la pàgina inicial](../README.md)
