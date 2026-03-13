@@ -345,6 +345,32 @@ Primerament configurem l’arxiu:
 
 ![Hola](Img/Imatge49.png)
 
+Posem les següents línies corresponents:
+
+```
+server {
+        listen 80;
+        listen [::]:80;
+        server_name www.projectenexus.test;
+        return 301 https://www.projectenexus.test$request_uri;
+```
+
+```
+root /var/www/academia.test;
+```
+
+```
+error_page 404 /404.html;
+location / {
+```
+
+```
+}
+location = /404.html {
+        internal;
+}
+```
+
 ![Hola](Img/Imatge50.png)
 
 ![Hola](Img/Imatge51.png)
@@ -352,6 +378,32 @@ Primerament configurem l’arxiu:
 ![Hola](Img/Imatge52.png)
 
 ![Hola](Img/Imatge53.png)
+
+Posem les següents línies corresponents:
+
+```
+server {
+        listen 80;
+        listen [::]:80;
+        server_name www.projectenexus.test;
+        return 301 https://www.projectenexus.test$request_uri;
+```
+
+```
+root /var/www/academia.test;
+```
+
+```
+error_page 404 /404.html;
+location / {
+```
+
+```
+}
+location = /404.html {
+        internal;
+}
+```
 
 ![Hola](Img/Imatge54.png)
 
