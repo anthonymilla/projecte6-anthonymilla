@@ -10,12 +10,14 @@ Us han demanat una Prova de Concepte (PoC) per demostrar que podeu muntar una in
 
 **L'activitat es divideix en tres fases principals. Treballareu en parelles: un de vosaltres gestionarà el servidor (Administrador de Nexus) i l'altre la màquina client (Treballador de Nexus), col·laborant en tot el procés.**
 
+| Fase 1: Desplegament de la CA a Ubuntu Server |
+|----------------------------------------|
 
-**Fase 1: Desplegament de la CA a Ubuntu Server**
+| Fase 2: Sol·licitud i Emissió de Certificats pel client |
+|----------------------------------------|
 
-**Fase 2: Sol·licitud i Emissió de Certificats pel client**
-
-**Fase 3: Signatura Digital i Verificació (Acrobat Reader)**
+| Fase 3: Signatura Digital i Verificació (Acrobat Reader) |
+|----------------------------------------|
 
 ## Què cal lliurar
 
