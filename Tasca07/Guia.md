@@ -5,8 +5,8 @@
 | 1. Polítiques de Seguretat i Contrasenyes (Seguretat Corporativa) |
 |----------------------------------------|
 
-- El client exigeix endurir la política de contrasenyes per evitar accessos no autoritzats:
-- Política Global: Modifiqueu la Default Domain Policy perquè tots els membres del grup personal (és a dir, tot el domini) hagin de tenir una contrasenya de, com a mínim, 8 caràcters.           
+- **El client exigeix endurir la política de contrasenyes per evitar accessos no autoritzats:**
+- **Política Global: Modifiqueu la Default Domain Policy perquè tots els membres del grup personal (és a dir, tot el domini) hagin de tenir una contrasenya de, com a mínim, 8 caràcters.**           
 
 En Server Manager, en Tools (Eines) anem a Group Policy Management (Gestió de polítiques de grup).   
 
@@ -34,7 +34,7 @@ Resultats:
 
 ![Resultats:](Img/Imatge06.png)
 
-- Política per a Gerència: La Unitat Organitzativa (OU) on ubiqueu la direcció conté els usuaris VIP (grup gerencia). Creeu una GPO específica per ells on la contrasenya sigui de 18 caràcters i caduqui cada 28 dies. No s'ha d'activar la complexitat.
+- **Política per a Gerència: La Unitat Organitzativa (OU) on ubiqueu la direcció conté els usuaris VIP (grup gerencia). Creeu una GPO específica per ells on la contrasenya sigui de 18 caràcters i caduqui cada 28 dies. No s'ha d'activar la complexitat.**
 
 Anem a Group Policy Management, Domains, després a translogic13.test, baixem el desplegable i anem a Gerencia, clic dret i Create a GPO in this domain, and Link it here… (Crea un GPO en aquest domini, i vincula'l aquí…).
 
@@ -87,22 +87,22 @@ Resultats:
 
 ![Resultats:](Img/Imatge19.png)
 
-- Millora Proactiva (Bonus): Com a consultors experts, heu de proposar i implementar una tercera GPO que considereu útil per a una empresa logística (ex: bloqueig de pantalla automàtic per als usuaris de magatzem per seguretat, fons d'escriptori corporatiu, etc.). Justifiqueu per què l'heu triat.
+- **Millora Proactiva (Bonus): Com a consultors experts, heu de proposar i implementar una tercera GPO que considereu útil per a una empresa logística (ex: bloqueig de pantalla automàtic per als usuaris de magatzem per seguretat, fons d'escriptori corporatiu, etc.). Justifiqueu per què l'heu triat.**
 
 | 2. Desplegament Automatitzat de Programari |
 |----------------------------------------|
 
-Per reduir els tiquets de suport tècnic, automatitzareu la instal·lació d'eines segons el departament:
+**Per reduir els tiquets de suport tècnic, automatitzareu la instal·lació d'eines segons el departament:**
 
-- Departament de Gestió: Els administratius (grup gestio) necessiten l'eina de compressió 7zip per gestionar factures. Creeu una GPO per desplegar-la de forma assignada (s'instal·la automàticament).
+- **Departament de Gestió: Els administratius (grup gestio) necessiten l'eina de compressió 7zip per gestionar factures. Creeu una GPO per desplegar-la de forma assignada (s'instal·la automàticament).**
 
-El fem és crear una carpeta anomenada: Software, al nostre disc creat:
-
-![- Departament de Gestió: Els administratius (grup gestio) necessiten l'eina de compressió 7zip per gestionar factures. Creeu una GPO per desplegar-la de forma assignada (s'instal·la automàticament).
-El fem és crear una carpeta anomenada: Software, al nostre disc creat:](Img/Imatge20.png)
+El que fem és crear una carpeta anomenada: Software, al nostre disc creat:
 
 ![- Departament de Gestió: Els administratius (grup gestio) necessiten l'eina de compressió 7zip per gestionar factures. Creeu una GPO per desplegar-la de forma assignada (s'instal·la automàticament).
-El fem és crear una carpeta anomenada: Software, al nostre disc creat:](Img/Imatge21.png)
+El que fem és crear una carpeta anomenada: Software, al nostre disc creat:](Img/Imatge20.png)
+
+![- Departament de Gestió: Els administratius (grup gestio) necessiten l'eina de compressió 7zip per gestionar factures. Creeu una GPO per desplegar-la de forma assignada (s'instal·la automàticament).
+El que fem és crear una carpeta anomenada: Software, al nostre disc creat:](Img/Imatge21.png)
 
 Una vegada creada la carpeta, fem clic dret i en Sharing (Compartició) cliquem en Share (Comparteix):
 
@@ -176,7 +176,7 @@ Resultat:
 
 ![Resultat:](Img/Imatge38.png)
 
-- Departament de Gerència: Els directius (grup gerencia) necessiten un navegador segur. Creeu una GPO per desplegar Firefox de forma publicada (l'usuari decideix si l'instal·la des del Tauler de Control).
+- **Departament de Gerència: Els directius (grup gerencia) necessiten un navegador segur. Creeu una GPO per desplegar Firefox de forma publicada (l'usuari decideix si l'instal·la des del Tauler de Control).**
 
 Primerament descarregarem Firefox.
 
@@ -244,7 +244,7 @@ Resultat:
 | Pregunta de consultoria: |
 |----------------------------------------|
 
-El client us pregunta: "Com podem crear els nostres propis fitxers .msi si una aplicació només ve amb un .exe?". Responeu a l'informe.
+**El client us pregunta: "Com podem crear els nostres propis fitxers .msi si una aplicació només ve amb un .exe?". Responeu a l'informe.**
 
 | Resposta: |
 |----------------------------------------|
@@ -254,20 +254,20 @@ Si una aplicació només es distribueix en format .exe, podem crear un .msi util
 | 3. Mobilitat d'Usuaris (Perfils Mòbils) |
 |----------------------------------------|
 
-Els usuaris del departament de gestio canvien sovint entre un portàtil o amb un equip d’escriptori.
+**Els usuaris del departament de gestio canvien sovint entre un portàtil o amb un equip d’escriptori.**
 
-- Habiliteu una carpeta compartida al servidor anomenada perfils.
+- **Habiliteu una carpeta compartida al servidor anomenada perfils.**
 
-- Configureu la plantilla d'usuari del grup gestio perquè utilitzi un perfil mòbil que es guardi en aquesta carpeta.
+- **Configureu la plantilla d'usuari del grup gestio perquè utilitzi un perfil mòbil que es guardi en aquesta carpeta.**
 
-- Creeu un usuari nou de prova a gestio, inicieu sessió i demostreu que s'ha creat la carpeta del seu perfil al servidor.
+- **Creeu un usuari nou de prova a gestio, inicieu sessió i demostreu que s'ha creat la carpeta del seu perfil al servidor.**
 
 | 4. Seguretat de Dades (Redirecció de Carpetes) |
 |----------------------------------------|
 
-Per evitar pèrdues de dades si un ordinador s'espatlla:
+**Per evitar pèrdues de dades si un ordinador s'espatlla:**
 
-- Configureu una directiva per a tot el domini perquè la carpeta local Documents es redirigeixi a una ubicació de xarxa segura (la carpeta home folder que tot usuari té a la xarxa).
+- **Configureu una directiva per a tot el domini perquè la carpeta local Documents es redirigeixi a una ubicació de xarxa segura (la carpeta home folder que tot usuari té a la xarxa).**
 
 Primerament anem a Group Policy Management, Domains, translogic13.test, clic dret, Create a GPO in this domain, and Link it here… i posem de nom: Redirecció.
 
@@ -287,7 +287,7 @@ Ara anem a la màquina client, entrem amb l’usuari Jan Fernandez, anem a Explo
 
 ![Ara anem a la màquina client, entrem amb l’usuari Jan Fernandez, anem a Explorador d’arxius, Documents, clic dret, Propietats, Ubicació, posem la ruta corresponent, apliquem i acceptem:](Img/Imatge57.png)
 
-- Verifiqueu que, en desar un fitxer a "Documents" des del client, aquest apareix realment al servidor.
+- **Verifiqueu que, en desar un fitxer a "Documents" des del client, aquest apareix realment al servidor.**
 
 Verifiquem que, en desar un fitxer a "Documents" des del client, aquest apareix realment al servidor. Per això en Documents creem un arxiu de text, per exemple.
 
@@ -301,14 +301,14 @@ Comprovació màquina client i servidor:
 | 5. Delegació de Funcions (Helpdesk) |
 |----------------------------------------|
 
-TransLògic S.A. ha contractat un auxiliar de suport. No volen donar-li les claus de tot el sistema:
+**TransLògic S.A. ha contractat un auxiliar de suport. No volen donar-li les claus de tot el sistema:**
 
-- Creeu un usuari anomenat adminOU dins la OU d'usuaris.
+- **Creeu un usuari anomenat adminOU dins la OU d'usuaris.**
 
-Creem un usuari anomenat adminOU dins la OU d'usuaris. per això anem a Active Directory Users and Computers (Usuaris i ordinadors del directori actiu), translogic13.test, baixem el desplegable, Usuaris, New Object - User (Objecte nou - Usuari) i l’anomenem adminOU.
+Creem un usuari anomenat adminOU dins la OU d'usuaris, per això anem a Active Directory Users and Computers (Usuaris i ordinadors del directori actiu), translogic13.test, baixem el desplegable, Usuaris, New Object - User (Objecte nou - Usuari) i l’anomenem adminOU.
 
 ![- Creeu un usuari anomenat adminOU dins la OU d'usuaris.
-Creem un usuari anomenat adminOU dins la OU d'usuaris. per això anem a Active Directory Users and Computers (Usuaris i ordinadors del directori actiu), translogic13.test, baixem el desplegable, Usuaris, New Object - User (Objecte nou - Usuari) i l’anomenem adminOU.](Img/Imatge60.png)
+Creem un usuari anomenat adminOU dins la OU d'usuaris, per això anem a Active Directory Users and Computers (Usuaris i ordinadors del directori actiu), translogic13.test, baixem el desplegable, Usuaris, New Object - User (Objecte nou - Usuari) i l’anomenem adminOU.](Img/Imatge60.png)
 
 Li posem una contrasenya corresponent.
 
@@ -322,7 +322,7 @@ Resultat:
 
 ![Resultat:](Img/Imatge63.png)
 
-- Delegueu el control de la Unitat Organitzativa principal (ex: OU TransLogic) a aquest usuari adminOU. Només ha de poder:
+- **Delegueu el control de la Unitat Organitzativa principal (ex: OU TransLogic) a aquest usuari adminOU. Només ha de poder:**
 
 Per això en translogic13.test, clic dret i Delegate Control (Delega el control).
 
@@ -341,8 +341,8 @@ Selected users and groups (Usuaris i grups seleccionats), admin OU; Next.
 
 ![Selected users and groups (Usuaris i grups seleccionats), admin OU; Next.](Img/Imatge67.png)
 
-- Reiniciar contrasenyes dels treballadors.
-- Modificar la pertinença als grups (gestio, magatzem, etc.).
+- **Reiniciar contrasenyes dels treballadors.**
+- **Modificar la pertinença als grups (gestio, magatzem, etc.).**
 
 Ara en Tasks to Delegate (Tasques a delegar), Delegate the following common tasks (Delega les següents tasques comunes) marquem: Reset user passwords and force password change at next logon (Restableix les contrasenyes d'usuari i força el canvi de contrasenya a la següent sessió) i Modify the membership of a group (Modifica la pertinença d'un grup). Next.
 
@@ -354,9 +354,10 @@ Finish.
 
 ![Finish.](Img/Imatge69.png)
 
-Demostreu (amb captures) que l'adminOU pot canviar un password però NO té permisos per crear un usuari nou.
+**Demostreu (amb captures) que l'adminOU pot canviar un password però NO té permisos per crear un usuari nou.**
 
-**Què cal lliurar**
+| Què cal lliurar |
+|----------------------------------------|
 
 Informe tècnic:
 
