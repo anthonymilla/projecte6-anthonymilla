@@ -246,8 +246,7 @@ Resultat:
 
 **El client us pregunta: "Com podem crear els nostres propis fitxers .msi si una aplicació només ve amb un .exe?". Responeu a l'informe.**
 
-| Resposta: |
-|----------------------------------------|
+## Resposta:
 
 Si una aplicació només es distribueix en format .exe, podem crear un .msi utilitzant eines de reembalatge (com Advanced Installer o EMCO MSI Package Builder), que converteixen la instal·lació en un paquet .msi apte per desplegar via GPO. Alternativament, si el .exe admet instal·lació silenciosa, es pot desplegar amb scripts. En casos avançats, també és possible doncs generar un .msi manualment amb WiX Toolset.
 
