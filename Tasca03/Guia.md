@@ -1,9 +1,9 @@
-# MISSIÓ APACHE: DESPLEGAMENT MULTIDOMINI I SEGUR
+# MISSIÓ NGINX: MIGRACIÓ D'ALT RENDIMENT I ARQUITECTURA LLEUGERA
 
-| 1. Instal·lació i Configuració Base |
+| 1. Preparació de l'Entorn i Instal·lació: |
 |----------------------------------------|
 
-- Atureu i deshabiliteu el servei Apache2 per alliberar els ports 80 i 443.
+- **Atureu i deshabiliteu el servei Apache2 per alliberar els ports 80 i 443.**
 
 Aturem i deshabilitem el servei Apache2 per alliberar els ports 80 i 443 amb les següents comandes (fem també amb now perquè ho faci en aquest moment).
 
@@ -22,7 +22,7 @@ sudo systemctl disable apache2 now
 ![- Atureu i deshabiliteu el servei Apache2 per alliberar els ports 80 i 443.
 Aturem i deshabilitem el servei Apache2 per alliberar els ports 80 i 443 amb les següents comandes (fem també amb now perquè ho faci en aquest moment).](Img/Imatge01.png)
 
-- Instal·leu el servidor web Nginx.
+- **Instal·leu el servidor web Nginx.**
 
 Instal·lem el servidor web Nginx amb la següent comanda:
 
@@ -33,7 +33,7 @@ sudo apt install nginx -y
 ![- Instal·leu el servidor web Nginx.
 Instal·lem el servidor web Nginx amb la següent comanda:](Img/Imatge02.png)
 
-- Verifiqueu que el servei està actiu i que la pàgina de benvinguda de Nginx es mostra correctament al navegador.
+- **Verifiqueu que el servei està actiu i que la pàgina de benvinguda de Nginx es mostra correctament al navegador.**
 
 Verifiquem que el servei està actiu i que la pàgina de benvinguda de Nginx es mostra correctament al navegador:
 
@@ -71,14 +71,14 @@ Comprovem que la pàgina de benvinguda de Nginx es mostra correctament al navega
 | 2. Configuració de Server Blocks (Multidomini) |
 |----------------------------------------|
 
-- Aprofiteu l'estructura de carpetes ja creada (/var/www/nexus i /var/www/academia). Si cal, ajusteu els permisos (propietari www-data).
+- **Aprofiteu l'estructura de carpetes ja creada (/var/www/nexus i /var/www/academia). Si cal, ajusteu els permisos (propietari www-data).**
 
 Aprofitem l'estructura de carpetes ja creada (/var/www/nexus i /var/www/academia). Primerament ajustem els permisos (propietari www-data):
 
 ![- Aprofiteu l'estructura de carpetes ja creada (/var/www/nexus i /var/www/academia). Si cal, ajusteu els permisos (propietari www-data).
 Aprofitem l'estructura de carpetes ja creada (/var/www/nexus i /var/www/academia). Primerament ajustem els permisos (propietari www-data):](Img/Imatge11.png)
 
-- Configureu dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/.
+- **Configureu dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/.**
 
 A la carpeta ```/etc/nginx/sites-available``` tenim l’arxiu del servidor per defecte default, la cual utilitzarem com plantilla per crear els nostres propis per això el que fem és copiar aquest arxiu per crear els dos que necessitem dins de la carpeta sites-available.
 
@@ -133,8 +133,8 @@ server_name www.academia.test;
 
 ![Reiniciem el servei](Img/Imatge18.png)
 
-- Creeu els enllaços simbòlics a sites-enabled/ per activar les configuracions.          
-Verifiqueu la sintaxis amb nginx -t abans de reiniciar el servei.
+- **Creeu els enllaços simbòlics a sites-enabled/ per activar les configuracions.          
+Verifiqueu la sintaxis amb nginx -t abans de reiniciar el servei.**
 
 Creem els enllaços simbòlics a sites-enabled/ per activar les configuracions i seguidament verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.
 
@@ -171,7 +171,7 @@ sudo nano /etc/hosts
 | 3. Personalització d'Errors |
 |----------------------------------------|
 
-- Configureu la directiva error_page 404 dins del bloc de servidor corresponent.
+- **Configureu la directiva error_page 404 dins del bloc de servidor corresponent.**
 
 Configurem la directiva error_page 404 dins del bloc de servidor corresponent.
 
@@ -224,7 +224,7 @@ Reiniciem el servei:
 
 ![Reiniciem el servei:](Img/Imatge30.png)
 
-- Assegureu-vos que, quan es demani un fitxer inexistent, es mostri la pàgina d'error personalitzada que vau crear anteriorment.
+- **Assegureu-vos que, quan es demani un fitxer inexistent, es mostri la pàgina d'error personalitzada que vau crear anteriorment.**
 
 Comprovacions:
 
@@ -243,11 +243,11 @@ Ara desde la terminal fem una prova de connexió errònia via terminal amb curl 
 | 4. Seguretat i Certificats (HTTPS) |
 |----------------------------------------|
 
-- Reutilitzeu els certificats SSL generats en l'activitat anterior (o genereu-ne de nous si cal).
+- **Reutilitzeu els certificats SSL generats en l'activitat anterior (o genereu-ne de nous si cal).**
 
 Reutilitzem els certificats SSL generats en l'activitat anterior.
 
-- Configureu el Server Block per escoltar al port 443 i indiqueu les rutes del certificat (ssl_certificate) i la clau privada (ssl_certificate_key).
+- **Configureu el Server Block per escoltar al port 443 i indiqueu les rutes del certificat (ssl_certificate) i la clau privada (ssl_certificate_key).**
 
 Configurem el Server Block per escoltar al port 443 i indiquem les rutes del certificat (ssl_certificate) i la clau privada (ssl_certificate_key).
 
@@ -337,7 +337,7 @@ location / {
 
 ![Ara amb academia el mateix procediment:](Img/Imatge48.png)
 
-- Redirecció forçada: Configureu un bloc de servidor escoltant al port 80 queretorni un codi 301 (Permanent Redirect) cap a la versió HTTPS del domini projectenexus.test o academia.test.
+- **Redirecció forçada: Configureu un bloc de servidor escoltant al port 80 queretorni un codi 301 (Permanent Redirect) cap a la versió HTTPS del domini projectenexus.test o academia.test.**
 
 Configurem un bloc de servidor escoltant al port 80 que retorni un codi 301 (Permanent Redirect) cap a la versió HTTPS del domini projectenexus.test o academia.test.
 
