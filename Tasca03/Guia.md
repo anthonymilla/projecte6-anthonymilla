@@ -1,5 +1,19 @@
 # MISSIÓ NGINX: MIGRACIÓ D'ALT RENDIMENT I ARQUITECTURA LLEUGERA
 
+Primerament mostrem les IPs d'ambdues màquines:
+
+![Primerament mostrem les IPs d'ambdues màquines:](Img/Imatge001.png)
+
+![Primerament mostrem les IPs d'ambdues màquines:](Img/Imatge002.png)
+
+I prova de connectivitat:
+
+![I prova de connectivitat:](Img/Imatge003.png)
+
+![I prova de connectivitat:](Img/Imatge004.png)
+
+![I prova de connectivitat:](Img/Imatge005.png)
+
 | 1. Preparació de l'Entorn i Instal·lació: |
 |----------------------------------------|
 
