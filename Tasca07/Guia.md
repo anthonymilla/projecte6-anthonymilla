@@ -176,6 +176,34 @@ Resultat:
 
 ![Resultat:](Img/Imatge38.png)
 
+Ara anem a Group Policy Management, 7Zip, Add…
+
+![Ara anem a Group Policy Management, 7Zip, Add…](Img/Imatge70.png)
+
+Posem aut per buscar i escollim Authenticated Users.
+
+![Posem aut per buscar i escollim Authenticated Users.](Img/Imatge71.png)
+
+Que estigui en Read, OK.
+
+![Que estigui en Read, OK.](Img/Imatge72.png)
+
+Veiem que està (Delegation):
+
+![Veiem que està:](Img/Imatge73.png)
+
+Ara anem a la màquina client i posem la següent comanda per aplicar canvis:  
+
+```
+gpupdate /force
+```
+
+![Ara anem a la màquina client i posem la següent comanda per aplicar canvis:  ](Img/Imatge74.png)
+
+Fem la comprovació anant a Tauler de control, Obtenir programes i veiem que està:
+
+![Fem la comprovació anant a Tauler de control, Obtenir programes i veiem que està:](Img/Imatge75.png)
+
 - **Departament de Gerència: Els directius (grup gerencia) necessiten un navegador segur. Creeu una GPO per desplegar Firefox de forma publicada (l'usuari decideix si l'instal·la des del Tauler de Control).**
 
 Primerament descarregarem Firefox.
@@ -239,6 +267,18 @@ Resultat:
 
 ![Resultat:](Img/Imatge53.png)
 
+Ara anem a Group Policy Management, Gerència, Firefox, Add… i afegim el grup gerència:
+
+![Ara anem a Group Policy Management, Gerència, Firefox, Add… i afegim el grup gerència:](Img/Imatge76.png)
+
+Ens fixem que en Delegation surt com abans Authenticated Users: Read.
+
+![Ens fixem que en Delegation surt com abans Authenticated Users: Read.](Img/Imatge77.png)
+
+Tornem a posar la comanda anterior i fem la comprovació anant a Tauler de control, Obtenir programes i veiem que està:
+
+![FTornem a posar la comanda anterior i fem la comprovació anant a Tauler de control, Obtenir programes i veiem que està:](Img/Imatge78.png)
+
 **Nota tècnica:** Els fitxers .msi els podeu trobar a la carpeta de recursos compartits o descarregar-los. 
 
 | Pregunta de consultoria: |
@@ -257,7 +297,25 @@ Si una aplicació només es distribueix en format .exe, podem crear un .msi util
 
 - **Habiliteu una carpeta compartida al servidor anomenada perfils.**
 
+Habilitem una carpeta compartida al servidor anomenada perfils.
+
+![- Habiliteu una carpeta compartida al servidor anomenada perfils.
+Habilitem una carpeta compartida al servidor anomenada perfils.](Img/Imatge79.png)
+
+Clic dret, Properties, Sharing i Share:
+
+![Clic dret, Properties, Sharing i Share:](Img/Imatge80.png)
+
+Add gestio i Share.
+
+![Add gestio i Share.](Img/Imatge81.png)
+
 - **Configureu la plantilla d'usuari del grup gestio perquè utilitzi un perfil mòbil que es guardi en aquesta carpeta.**
+
+Configurem la plantilla d'usuari del grup gestio perquè utilitzi un perfil mòbil que es guardi en aquesta carpeta.
+
+![- Configureu la plantilla d'usuari del grup gestio perquè utilitzi un perfil mòbil que es guardi en aquesta carpeta.
+Configurem la plantilla d'usuari del grup gestio perquè utilitzi un perfil mòbil que es guardi en aquesta carpeta.](Img/Imatge82.png)
 
 - **Creeu un usuari nou de prova a gestio, inicieu sessió i demostreu que s'ha creat la carpeta del seu perfil al servidor.**
 
