@@ -430,7 +430,7 @@ location = /404.html {
 
 - **Habiliteu el protocol HTTP/2 afegint el paràmetre http2 a la directiva listen del bloc SSL.**
 
-- **Comproveu novament amb les eines de desenvolupador del navegador que el contingut s'està servint amb aquest protocol.**
+- **Comproveu novament amb les eines de desenvolupador del navegador que el contingut s'està servint amb aquest protocol.**
 
 [Anar a l'enunciat](../Tasca03/README.md)  
 [Anar a la pàgina inicial](../README.md)
