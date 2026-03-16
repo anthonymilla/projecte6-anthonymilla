@@ -417,10 +417,10 @@ Finish.
 
 **Demostreu (amb captures) que l'adminOU pot canviar un password però NO té permisos per crear un usuari nou.**
 
-Demostrem (amb captures) que l'adminOU pot canviar un password però NO té permisos per crear un usuari nou amb màquina client. Anem a configuració, Sistema, Característiques opcionals i veure característiques: 
+Demostrem (amb captures) que l'adminOU pot canviar un password però NO té permisos per crear un usuari nou amb màquina client. Iniciem com administrador, ara, anem a Configuració, Sistema, Característiques opcionals i veure característiques: 
 
 ![Demostreu (amb captures) que l'adminOU pot canviar un password però NO té permisos per crear un usuari nou.
-Demostrem (amb captures) que l'adminOU pot canviar un password però NO té permisos per crear un usuari nou amb màquina client. Anem a configuració, Sistema, Característiques opcionals i veure característiques:](Img/Imatge83.png)
+Demostrem (amb captures) que l'adminOU pot canviar un password però NO té permisos per crear un usuari nou amb màquina client. Iniciem com administrador, ara, anem a Configuració, Sistema, Característiques opcionals i veure característiques:](Img/Imatge83.png)
 
 Després en: Veure Característiques agregades, afegim: RSAT: Administrador del servidor i RSAT: Eines de Active Directory Domain Services i LightWeight Directory Services. Una vegada agregades iniciarem amb: admin OU.
 
