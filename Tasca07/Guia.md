@@ -168,9 +168,9 @@ En Deploy Software (Desplega el programari) posem Advanced (Avançat).
 
 ![En Deploy Software (Desplega el programari) posem Advanced (Avançat).](Img/Imatge36.png)
 
-Posem en Deployment, en type: Assigned, i en Deployment options: Do not display this package in the Add/Remove Programs control panel (No mostris aquest paquet al panell de control Afegeix/Elimina programes).
+Posem en Deployment (Desplegament), en type: Assigned, i en Deployment options (Opcions de desplegament): Install this application at logon (Instal·la aquesta aplicació a l'inici de sessió).
 
-![Posem en Deployment, en type: Assigned, i en Deployment options: Do not display this package in the Add/Remove Programs control panel (No mostris aquest paquet al panell de control Afegeix/Elimina programes).](Img/Imatge37.png)
+![Posem en Deployment (Desplegament), en type: Assigned, i en Deployment options (Opcions de desplegament): Install this application at logon (Instal·la aquesta aplicació a l'inici de sessió).](Img/Imatge37.png)
 
 Resultat:
 
