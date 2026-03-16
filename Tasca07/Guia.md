@@ -168,9 +168,9 @@ En Deploy Software (Desplega el programari) posem Advanced (Avançat).
 
 ![En Deploy Software (Desplega el programari) posem Advanced (Avançat).](Img/Imatge36.png)
 
-Posem en Deployment (Desplegament), en type: Published, i en Deployment options (Opcions de desplegament): Uninstall this application when it falls out of the scope of management (Desinstal·la aquesta aplicació quan quedi fora de l'abast de la gestió).
+Posem en Deployment, en type: Assigned, i en Deployment options: Do not display this package in the Add/Remove Programs control panel (No mostris aquest paquet al panell de control Afegeix/Elimina programes).
 
-![Posem en Deployment (Desplegament), en type: Published, i en Deployment options (Opcions de desplegament): Uninstall this application when it falls out of the scope of management (Desinstal·la aquesta aplicació quan quedi fora de l'abast de la gestió).](Img/Imatge37.png)
+![Posem en Deployment, en type: Assigned, i en Deployment options: Do not display this package in the Add/Remove Programs control panel (No mostris aquest paquet al panell de control Afegeix/Elimina programes).](Img/Imatge37.png)
 
 Resultat:
 
@@ -259,9 +259,9 @@ En Deploy Software (Desplega el programari) posem Advanced (Avançat).
 
 ![En Deploy Software (Desplega el programari) posem Advanced (Avançat).](Img/Imatge51.png)
 
-Posem en Deployment, en type: Assigned, i en Deployment options: Do not display this package in the Add/Remove Programs control panel (No mostris aquest paquet al panell de control Afegeix/Elimina programes).
+Posem en Deployment (Desplegament), en type: Published, i en Deployment options (Opcions de desplegament): Uninstall this application when it falls out of the scope of management (Desinstal·la aquesta aplicació quan quedi fora de l'abast de la gestió).
 
-![Posem en Deployment, en type: Assigned, i en Deployment options: Do not display this package in the Add/Remove Programs control panel (No mostris aquest paquet al panell de control Afegeix/Elimina programes).](Img/Imatge52.png)
+![Posem en Deployment (Desplegament), en type: Published, i en Deployment options (Opcions de desplegament): Uninstall this application when it falls out of the scope of management (Desinstal·la aquesta aplicació quan quedi fora de l'abast de la gestió).](Img/Imatge52.png)
 
 Resultat:
 
