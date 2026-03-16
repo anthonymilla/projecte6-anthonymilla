@@ -418,10 +418,41 @@ Demostrem (amb captures) que l'adminOU pot canviar un password però NO té perm
 ![Demostreu (amb captures) que l'adminOU pot canviar un password però NO té permisos per crear un usuari nou.
 Demostrem (amb captures) que l'adminOU pot canviar un password però NO té permisos per crear un usuari nou amb màquina client. Anem a configuració, Sistema, Característiques opcionals i veure característiques:](Img/Imatge83.png)
 
-Després en: Veure Característiques agregades, afegim: RSAT: Administrador del servidor i RSAT: Eines de Active Directory Domain Services i LightWeight Directory Services.
+Després en: Veure Característiques agregades, afegim: RSAT: Administrador del servidor i RSAT: Eines de Active Directory Domain Services i LightWeight Directory Services. Una vegada agregades iniciarem amb: admin OU.
 
-![Després en: Veure Característiques agregades, afegim: RSAT: Administrador del servidor i RSAT: Eines de Active Directory Domain Services i LightWeight Directory Services.](Img/Imatge84.png)
+![Després en: Veure Característiques agregades, afegim: RSAT: Administrador del servidor i RSAT: Eines de Active Directory Domain Services i LightWeight Directory Services. Una vegada agregades iniciarem amb: admin OU.](Img/Imatge84.png)
 
+Ara iniciem amb admin OU:
+
+![Ara iniciem amb admin OU:](Img/Imatge85.png)
+
+Ara anem a Administrador del servidor, eines i Usuaris i equips d’Active Directory.
+
+![Ara anem a Administrador del servidor, eines i Usuaris i equips d’Active Directory.](Img/Imatge86.png)
+
+Quan provem de crear un usuari nou, no podem, no té permisos.
+
+![Quan provem de crear un usuari nou, no podem, no té permisos.](Img/Imatge87.png)
+
+translogic13.test, baixem el desplegable, anem a Uusaris, escollim un usuari, en aquest cas Jan Fernandez. Clic dret i afegir a un grup… (per comprovar si podem afegir-lo a un grup).
+
+![translogic13.test, baixem el desplegable, anem a Uusaris, escollim un usuari, en aquest cas Jan Fernandez. Clic dret i afegir a un grup… (per comprovar si podem afegir-lo a un grup).](Img/Imatge88.png)
+
+Podem fer-ho sense problemes.
+
+![Podem fer-ho sense problemes.](Img/Imatge89.png)
+
+Ara veiem si podem restablir contrasenya, clic dret i Restablir contrasenya…
+
+![Ara veiem si podem restablir contrasenya, clic dret i Restablir contrasenya…](Img/Imatge90.png)
+
+També podem fer-ho sense problemes.
+
+![També podem fer-ho sense problemes.](Img/Imatge91.png)
+
+I quan provem d’eliminar l’usuari, tampoc podem, no té permisos.
+
+![També podem fer-ho sense problemes.](Img/Imatge92.png)
 
 | Què cal lliurar |
 |----------------------------------------|
