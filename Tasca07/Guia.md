@@ -168,9 +168,9 @@ En Deploy Software (Desplega el programari) posem Advanced (Avançat).
 
 ![En Deploy Software (Desplega el programari) posem Advanced (Avançat).](Img/Imatge36.png)
 
-Posem en Deployment (Desplegament), en type: Assigned, i en Deployment options (Opcions de desplegament): Install this application at logon (Instal·la aquesta aplicació a l'inici de sessió).
+Posem en Deployment (Desplegament), en type: Published, i en Deployment options (Opcions de desplegament): Uninstall this application when it falls out of the scope of management (Desinstal·la aquesta aplicació quan quedi fora de l'abast de la gestió).
 
-![Posem en Deployment (Desplegament), en type: Assigned, i en Deployment options (Opcions de desplegament): Install this application at logon (Instal·la aquesta aplicació a l'inici de sessió).](Img/Imatge37.png)
+![Posem en Deployment (Desplegament), en type: Published, i en Deployment options (Opcions de desplegament): Uninstall this application when it falls out of the scope of management (Desinstal·la aquesta aplicació quan quedi fora de l'abast de la gestió).](Img/Imatge37.png)
 
 Resultat:
 
