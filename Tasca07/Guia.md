@@ -413,6 +413,16 @@ Finish.
 
 **Demostreu (amb captures) que l'adminOU pot canviar un password però NO té permisos per crear un usuari nou.**
 
+Demostrem (amb captures) que l'adminOU pot canviar un password però NO té permisos per crear un usuari nou amb màquina client. Anem a configuració, Sistema, Característiques opcionals i veure característiques: 
+
+![Demostreu (amb captures) que l'adminOU pot canviar un password però NO té permisos per crear un usuari nou.
+Demostrem (amb captures) que l'adminOU pot canviar un password però NO té permisos per crear un usuari nou amb màquina client. Anem a configuració, Sistema, Característiques opcionals i veure característiques:](Img/Imatge83.png)
+
+Després en: Veure Característiques agregades, afegim: RSAT: Administrador del servidor i RSAT: Eines de Active Directory Domain Services i LightWeight Directory Services.
+
+![Després en: Veure Característiques agregades, afegim: RSAT: Administrador del servidor i RSAT: Eines de Active Directory Domain Services i LightWeight Directory Services.](Img/Imatge84.png)
+
+
 | Què cal lliurar |
 |----------------------------------------|
 
