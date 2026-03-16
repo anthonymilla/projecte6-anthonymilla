@@ -277,6 +277,10 @@ Ens fixem que en Delegation surt com abans Authenticated Users: Read.
 
 Tornem a posar la comanda anterior i fem la comprovació anant a Tauler de control, Obtenir programes i veiem que està:
 
+```
+gpupdate /force
+```
+
 ![FTornem a posar la comanda anterior i fem la comprovació anant a Tauler de control, Obtenir programes i veiem que està:](Img/Imatge78.png)
 
 **Nota tècnica:** Els fitxers .msi els podeu trobar a la carpeta de recursos compartits o descarregar-los. 
@@ -430,13 +434,13 @@ Ara anem a Administrador del servidor, eines i Usuaris i equips d’Active Direc
 
 ![Ara anem a Administrador del servidor, eines i Usuaris i equips d’Active Directory.](Img/Imatge86.png)
 
-Quan provem de crear un usuari nou, no podem, no té permisos.
+translogic13.test, baixem el desplegable, anem a Uusaris, quan provem de crear un usuari nou, no podem, no té permisos.
 
-![Quan provem de crear un usuari nou, no podem, no té permisos.](Img/Imatge87.png)
+![translogic13.test, baixem el desplegable, anem a Uusaris, quan provem de crear un usuari nou, no podem, no té permisos.](Img/Imatge87.png)
 
-translogic13.test, baixem el desplegable, anem a Uusaris, escollim un usuari, en aquest cas Jan Fernandez. Clic dret i afegir a un grup… (per comprovar si podem afegir-lo a un grup).
+Escollim un usuari, en aquest cas Jan Fernandez. Clic dret i afegir a un grup… (per comprovar si podem afegir-lo a un grup).
 
-![translogic13.test, baixem el desplegable, anem a Uusaris, escollim un usuari, en aquest cas Jan Fernandez. Clic dret i afegir a un grup… (per comprovar si podem afegir-lo a un grup).](Img/Imatge88.png)
+![Escollim un usuari, en aquest cas Jan Fernandez. Clic dret i afegir a un grup… (per comprovar si podem afegir-lo a un grup).](Img/Imatge88.png)
 
 Podem fer-ho sense problemes.
 
