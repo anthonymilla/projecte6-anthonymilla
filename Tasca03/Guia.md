@@ -425,24 +425,6 @@ location = /404.html {
 
 ![Hola](Img/Imatge56.png)
 
-![Hola](Img/Imatge57.png)
-
-![Hola](Img/Imatge58.png)
-
-![Hola](Img/Imatge59.png)
-
-![Hola](Img/Imatge60.png)
-
-![Hola](Img/Imatge61.png)
-
-![Hola](Img/Imatge62.png)
-
-![Hola](Img/Imatge63.png)
-
-![Hola](Img/Imatge64.png)
-
-![Hola](Img/Imatge65.png)
-
 [Anar a l'enunciat](../Tasca03/README.md)  
 [Anar a la pàgina inicial](../README.md)
 
