@@ -74,7 +74,7 @@ Comprovem la sintaxi i reiniciem el servei:
 
 ![Comprovem la sintaxi i reiniciem el servei:](Img/Imatge08.png)
 
-Fem ip a, bàsicament per veure l’ip i posar-la al navegador de la máquina zorin per fer la comprovació.
+Fem ```ip a```, bàsicament per veure l’ip i posar-la al navegador de la máquina zorin per fer la comprovació.
 
 ![Fem ip a, bàsicament per veure l’ip i posar-la al navegador de la máquina zorin per fer la comprovació.](Img/Imatge09.png)
 
@@ -99,7 +99,7 @@ A la carpeta ```/etc/nginx/sites-available``` tenim l’arxiu del servidor per d
 ![- Configureu dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/.
 A la carpeta /etc/nginx/sites-available tenim l’arxiu del servidor per defecte default, la cual utilitzarem com plantilla per crear els nostres propis per això el que fem és copiar aquest arxiu per crear els dos que necessitem dins de la carpeta sites-available.](Img/Imatge12.png)
 
-Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/ corresponentment:
+Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a ```/etc/nginx/sites-available/``` corresponentment:
 
 ![Configurem dos Server Blocks (l'equivalent a VirtualHosts a Nginx) a /etc/nginx/sites-available/ corresponentment:](Img/Imatge13.png)
 
@@ -160,7 +160,7 @@ Creem els enllaços simbòlics a sites-enabled/ per activar les configuracions i
 Verifiqueu la sintaxis amb nginx -t abans de reiniciar el servei.
 Creem els enllaços simbòlics a sites-enabled/ per activar les configuracions i seguidament verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.](Img/Imatge20.png)
 
-Ara editarem l’arxiu /etc/nginx/nginx.conf i activem la següent linia, això per evitar problemes de memòria quan es treballa amb diversos noms.
+Ara editarem l’arxiu ```/etc/nginx/nginx.conf``` i activem la següent linia, això per evitar problemes de memòria quan es treballa amb diversos noms.
 
 ![Ara editarem l’arxiu /etc/nginx/nginx.conf i activem la següent linia, això per evitar problemes de memòria quan es treballa amb diversos noms.](Img/Imatge21.png)
 
@@ -174,7 +174,7 @@ Verifiquem la sintaxis amb ```nginx -t``` i després d’això reiniciem el serv
 
 ![Verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.](Img/Imatge23.png)
 
-Comprovem la IP de l’arxiu /etc/hosts de la màquina Zorin.
+Comprovem la IP de l’arxiu ```/etc/hosts``` de la màquina Zorin.
 
 ```
 sudo nano /etc/hosts
@@ -265,7 +265,7 @@ Reutilitzem els certificats SSL generats en l'activitat anterior.
 
 Configurem el Server Block per escoltar al port 443 i indiquem les rutes del certificat (ssl_certificate) i la clau privada (ssl_certificate_key).
 
-Primerament fem un cp:
+Primerament fem un ```cp```:
 
 ![- Configureu el Server Block per escoltar al port 443 i indiqueu les rutes del certificat (ssl_certificate) i la clau privada (ssl_certificate_key).
 Configurem el Server Block per escoltar al port 443 i indiquem les rutes del certificat (ssl_certificate) i la clau privada (ssl_certificate_key).
@@ -301,7 +301,7 @@ location / {
 
 ![Posem les següents línies corresponents:](Img/Imatge38.png)
 
-Verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.
+Verifiquem la sintaxis amb ```nginx -t``` i després d’això reiniciem el servei.
 
 ![Verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.](Img/Imatge39.png)
 
@@ -309,11 +309,11 @@ Habilitarem els sites creant l’enllaç simbòlic cap a la carpeta sites-enable
 
 ![Habilitarem els sites creant l’enllaç simbòlic cap a la carpeta sites-enabled.](Img/Imatge40.png)
 
-Amb ln, però ja surt.
+Amb ```ln```, però ja surt.
 
 ![Amb ln, però ja surt.](Img/Imatge41.png)
 
-Verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.
+Verifiquem la sintaxis amb ```nginx -t``` i després d’això reiniciem el servei.
 
 ![Verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.](Img/Imatge42.png)
 
