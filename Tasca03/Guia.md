@@ -150,7 +150,7 @@ server_name www.academia.test;
 - **Creeu els enllaços simbòlics a sites-enabled/ per activar les configuracions.          
 Verifiqueu la sintaxis amb nginx -t abans de reiniciar el servei.**
 
-Creem els enllaços simbòlics a sites-enabled/ per activar les configuracions i seguidament verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.
+Creem els enllaços simbòlics a sites-enabled/ per activar les configuracions i seguidament verifiquem la sintaxis amb ```nginx -t``` i després d’això reiniciem el servei.
 
 ![- Creeu els enllaços simbòlics a sites-enabled/ per activar les configuracions.          
 Verifiqueu la sintaxis amb nginx -t abans de reiniciar el servei.
@@ -170,7 +170,7 @@ server_names_hash_bucket_size 64;
 
 ![Ara editarem l’arxiu /etc/nginx/nginx.conf i activem la següent linia, això per evitar problemes de memòria quan es treballa amb diversos noms.](Img/Imatge22.png)
 
-Verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.
+Verifiquem la sintaxis amb ```nginx -t``` i després d’això reiniciem el servei.
 
 ![Verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.](Img/Imatge23.png)
 
@@ -248,7 +248,7 @@ Comprovacions:](Img/Imatge31.png)
 ![- Assegureu-vos que, quan es demani un fitxer inexistent, es mostri la pàgina d'error personalitzada que vau crear anteriorment.
 Comprovacions:](Img/Imatge32.png)
 
-Ara desde la terminal fem una prova de connexió errònia via terminal amb curl -L i observem com es mostra la redirecció:
+Ara desde la terminal fem una prova de connexió errònia via terminal amb ```curl -L``` i observem com es mostra la redirecció:
 
 ![Ara desde la terminal fem una prova de connexió errònia via terminal amb curl -L i observem com es mostra la redirecció:](Img/Imatge33.png)
 
@@ -357,7 +357,9 @@ Configurem un bloc de servidor escoltant al port 80 que retorni un codi 301 (Per
 
 Primerament configurem l’arxiu:
 
-![Hola](Img/Imatge49.png)
+![- Redirecció forçada: Configureu un bloc de servidor escoltant al port 80 queretorni un codi 301 (Permanent Redirect) cap a la versió HTTPS del domini projectenexus.test o academia.test.
+Configurem un bloc de servidor escoltant al port 80 que retorni un codi 301 (Permanent Redirect) cap a la versió HTTPS del domini projectenexus.test o academia.test.
+Primerament configurem l’arxiu:](Img/Imatge49.png)
 
 Posem les següents línies corresponents:
 
@@ -385,13 +387,19 @@ location = /404.html {
 }
 ```
 
-![Hola](Img/Imatge50.png)
+![Posem les següents línies corresponents:](Img/Imatge50.png)
 
-![Hola](Img/Imatge51.png)
+Verifiquem la sintaxis amb ```nginx -t``` i després d’això reiniciem el servei.
 
-![Hola](Img/Imatge52.png)
+![Verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.](Img/Imatge51.png)
 
-![Hola](Img/Imatge53.png)
+Desde la màquina Zorin fem comprovació amb ```curl -k -I```
+
+![Desde la màquina Zorin fem comprovació amb curl -k -I](Img/Imatge52.png)
+
+Amb academia ja seria el mateix procediment:
+
+![Amb academia ja seria el mateix procediment:](Img/Imatge53.png)
 
 Posem les següents línies corresponents:
 
@@ -419,11 +427,11 @@ location = /404.html {
 }
 ```
 
-![Hola](Img/Imatge54.png)
+![Posem les següents línies corresponents:](Img/Imatge54.png)
 
-![Hola](Img/Imatge55.png)
+![Amb academia ja seria el mateix procediment:](Img/Imatge55.png)
 
-![Hola](Img/Imatge56.png)
+![Amb academia ja seria el mateix procediment:](Img/Imatge56.png)
 
 | 5. Optimització amb HTTP/2 |
 |----------------------------------------|
