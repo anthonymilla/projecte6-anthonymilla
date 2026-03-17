@@ -305,7 +305,7 @@ Verifiquem la sintaxis amb ```nginx -t``` i després d’això reiniciem el serv
 
 ![Verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.](Img/Imatge39.png)
 
-Habilitarem els sites creant l’enllaç simbòlic cap a la carpeta sites-enabled.
+Habilitarem els sites creant l’enllaç simbòlic cap a la carpeta ```sites-enabled```.
 
 ![Habilitarem els sites creant l’enllaç simbòlic cap a la carpeta sites-enabled.](Img/Imatge40.png)
 
