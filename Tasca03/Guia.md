@@ -150,7 +150,7 @@ server_name www.academia.test;
 - **Creeu els enllaços simbòlics a sites-enabled/ per activar les configuracions.          
 Verifiqueu la sintaxis amb nginx -t abans de reiniciar el servei.**
 
-Creem els enllaços simbòlics a sites-enabled/ per activar les configuracions i seguidament verifiquem la sintaxis amb ```nginx -t``` i després d’això reiniciem el servei.
+Creem els enllaços simbòlics a ```sites-enabled/``` per activar les configuracions i seguidament verifiquem la sintaxis amb ```nginx -t``` i després d’això reiniciem el servei.
 
 ![- Creeu els enllaços simbòlics a sites-enabled/ per activar les configuracions.          
 Verifiqueu la sintaxis amb nginx -t abans de reiniciar el servei.
