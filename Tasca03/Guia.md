@@ -277,7 +277,11 @@ Primerament fem un cp:](Img/Imatge36.png)
 
 Entrem a l'arxiu per fer les configuracions corresponents:
 
-![Entrem a l'arxiu per fer les configuracions corresponents:](Img/Imatge37.png)
+Habilitarem els sites creant l’enllaç simbòlic cap a la carpeta sites-enabled.
+
+Quan faig ls sites-enabled/ ja surt, perquè he fet les captures i el procediment després de fer-ho:
+
+# IMATGE 37 ELIMINADA 
 
 Posem les següents línies corresponents:
 
@@ -292,16 +296,16 @@ root /var/www/projectenexus.test;
 ```
 
 ```
-ssl_certificate /var/www/projectenexus.test/cert/projectenexus.crt;
-ssl_certificate_key /var/www/projectenexus.test/private/projectenexus.key;
+ssl_certificate /var/www/projectenexus.test/cert/projectenexus.test.crt;
+ssl_certificate_key /var/www/projectenexus.test/private/projectenexus.test.key;
 ssl_protocols       TLSv1.2 TLSv1.3;
 error_page 404 /404.html;
 location / {
 ```
 
-![Posem les següents línies corresponents:](Img/Imatge38.png)
+# IMATGE 38 ELIMINADA 
 
-Verifiquem la sintaxis amb ```nginx -t``` i després d’això reiniciem el servei.
+Verifiquem la sintaxis amb ```nginx -t``` i després d’això recarreguem i reiniciem el servei.
 
 ![Verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.](Img/Imatge39.png)
 
@@ -309,19 +313,17 @@ Habilitarem els sites creant l’enllaç simbòlic cap a la carpeta ```sites-ena
 
 ![Habilitarem els sites creant l’enllaç simbòlic cap a la carpeta sites-enabled.](Img/Imatge40.png)
 
-Amb ```ln```, però ja surt.
+# IMATGE 41 ELIMINADA
 
-![Amb ln, però ja surt.](Img/Imatge41.png)
+Verifiquem la sintaxis amb ```nginx -t``` i després d’això recarreguem i reiniciem el servei.
 
-Verifiquem la sintaxis amb ```nginx -t``` i després d’això reiniciem el servei.
-
-![Verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.](Img/Imatge42.png)
+# Imatge 42 eliminada 
 
 Ara amb academia el mateix procediment:
 
 ![Ara amb academia el mateix procediment:](Img/Imatge43.png)
 
-![Ara amb academia el mateix procediment:](Img/Imatge44.png)
+# IMATGE 44 ELIMINADA
 
 Posem les següents línies corresponents:
 
@@ -336,14 +338,14 @@ root /var/www/academia.test;
 ```
 
 ```
-ssl_certificate /var/www/academia.test/cert/academia.crt;
-ssl_certificate_key /var/www/academia.test/private/academia.key;
+ssl_certificate /var/www/academia.test/cert/academia.test.crt;
+ssl_certificate_key /var/www/academia.test/private/academia.test.key;
 ssl_protocols       TLSv1.2 TLSv1.3;
 error_page 404 /404.html;
 location / {
 ```
 
-![Posem les següents línies corresponents:](Img/Imatge45.png)
+# IMATGE 45 ELIMINADA
 
 ![Ara amb academia el mateix procediment:](Img/Imatge46.png)
 
