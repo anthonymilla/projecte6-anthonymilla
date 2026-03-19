@@ -307,15 +307,13 @@ location / {
 
 Verifiquem la sintaxis amb ```nginx -t``` i després d’això recarreguem i reiniciem el servei.
 
-![Verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.](Img/Imatge39.png)
+# IMATGE 39 ELIMINADA
 
 Habilitarem els sites creant l’enllaç simbòlic cap a la carpeta ```sites-enabled```.
 
-![Habilitarem els sites creant l’enllaç simbòlic cap a la carpeta sites-enabled.](Img/Imatge40.png)
+# IMATGE 40 ELIMINADA 
 
 # IMATGE 41 ELIMINADA
-
-Verifiquem la sintaxis amb ```nginx -t``` i després d’això recarreguem i reiniciem el servei.
 
 # Imatge 42 eliminada 
 
