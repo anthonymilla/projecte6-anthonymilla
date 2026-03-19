@@ -345,11 +345,11 @@ location / {
 
 # IMATGE 45 ELIMINADA
 
-![Ara amb academia el mateix procediment:](Img/Imatge46.png)
+# IMATGE 46 ELIMINADA
 
-![Ara amb academia el mateix procediment:](Img/Imatge47.png)
+# IMATGE 47 ELIMINADA
 
-![Ara amb academia el mateix procediment:](Img/Imatge48.png)
+# IMATGE 48 ELIMINADA
 
 - **Redirecció forçada: Configureu un bloc de servidor escoltant al port 80 queretorni un codi 301 (Permanent Redirect) cap a la versió HTTPS del domini projectenexus.test o academia.test.**
 
