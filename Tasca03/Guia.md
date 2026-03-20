@@ -516,7 +516,7 @@ I amb academia:
 
 ![I amb academia:](Img/Imatge70.png)
 
-![I amb academia:](Img/Imatge70.png)
+![I amb academia:](Img/Imatge71.png)
 
 [Anar a l'enunciat](../Tasca03/README.md)  
 [Anar a la pàgina inicial](../README.md)
