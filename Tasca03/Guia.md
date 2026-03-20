@@ -277,11 +277,13 @@ Primerament fem un cp:](Img/Imatge36.png)
 
 Entrem a l'arxiu per fer les configuracions corresponents:
 
+Habilitarem els sites creant l’enllaç simbòlic cap a la carpeta ```sites-enabled```.
+
+Quan faig ```ls sites-enabled/``` ja surt, perquè he fet les captures i el procediment després de fer-ho (* fem ```ln -s``` després d’editar l’arxiu corresponent):
+
+![Entrem a l'arxiu per fer les configuracions corresponents:
 Habilitarem els sites creant l’enllaç simbòlic cap a la carpeta sites-enabled.
-
-Quan faig ls sites-enabled/ ja surt, perquè he fet les captures i el procediment després de fer-ho:
-
-# IMATGE 37 ELIMINADA 
+Quan faig ls sites-enabled/ ja surt, perquè he fet les captures i el procediment després de fer-ho (* fem ln -s després d’editar l’arxiu corresponent):](Img/Imatge37.png)
 
 Posem les següents línies corresponents:
 
@@ -303,25 +305,17 @@ error_page 404 /404.html;
 location / {
 ```
 
-# IMATGE 38 ELIMINADA 
+![Posem les següents línies corresponents:](Img/Imatge38.png)
 
 Verifiquem la sintaxis amb ```nginx -t``` i després d’això recarreguem i reiniciem el servei.
 
-# IMATGE 39 ELIMINADA
-
-Habilitarem els sites creant l’enllaç simbòlic cap a la carpeta ```sites-enabled```.
-
-# IMATGE 40 ELIMINADA 
-
-# IMATGE 41 ELIMINADA
-
-# Imatge 42 eliminada 
+![Verifiquem la sintaxis amb nginx -t i després d’això recarreguem i reiniciem el servei.](Img/Imatge39.png)
 
 Ara amb academia el mateix procediment:
 
 ![Ara amb academia el mateix procediment:](Img/Imatge43.png)
 
-# IMATGE 44 ELIMINADA
+![Ara amb academia el mateix procediment:](Img/Imatge44.png)
 
 Posem les següents línies corresponents:
 
@@ -343,13 +337,13 @@ error_page 404 /404.html;
 location / {
 ```
 
-# IMATGE 45 ELIMINADA
+![Posem les següents línies corresponents:](Img/Imatge45.png)
 
-# IMATGE 46 ELIMINADA
+```ln -s``` per aplicar, fem ```ls sites-enabled/``` per veure correctament, verifiquem la sintaxis amb ```nginx -t``` i després d’això recarreguem i reiniciem el servei.
 
-# IMATGE 47 ELIMINADA
+![ln -s per aplicar, fem ls sites-enabled/ per veure correctament, verifiquem la sintaxis amb nginx -t i després d’això recarreguem i reiniciem el servei.](Img/Imatge46.png)
 
-# IMATGE 48 ELIMINADA
+![ln -s per aplicar, fem ls sites-enabled/ per veure correctament, verifiquem la sintaxis amb nginx -t i després d’això recarreguem i reiniciem el servei.](Img/Imatge47.png)
 
 - **Redirecció forçada: Configureu un bloc de servidor escoltant al port 80 queretorni un codi 301 (Permanent Redirect) cap a la versió HTTPS del domini projectenexus.test o academia.test.**
 
@@ -397,6 +391,22 @@ Desde la màquina Zorin fem comprovació amb ```curl -k -I```
 
 ![Desde la màquina Zorin fem comprovació amb curl -k -I](Img/Imatge52.png)
 
+I seguidament ```curl -vik``` per informació més detallada.
+
+![I seguidament curl -vik per informació més detallada.](Img/Imatge522.png)
+
+![I seguidament curl -vik per informació més detallada.](Img/Imatge523.png)
+
+![I seguidament curl -vik per informació més detallada.](Img/Imatge524.png)
+
+Comprovacions:
+
+![Comprovacions:](Img/Imatge525.png)
+
+Amb: ```/private```; Forbidden.
+
+![Amb: /private; Forbidden.](Img/Imatge526.png)
+
 Amb academia ja seria el mateix procediment:
 
 ![Amb academia ja seria el mateix procediment:](Img/Imatge53.png)
@@ -429,16 +439,84 @@ location = /404.html {
 
 ![Posem les següents línies corresponents:](Img/Imatge54.png)
 
-![Amb academia ja seria el mateix procediment:](Img/Imatge55.png)
+Verifiquem la sintaxis amb ```nginx -t``` i després d’això reiniciem el servei.
 
-![Amb academia ja seria el mateix procediment:](Img/Imatge56.png)
+![Verifiquem la sintaxis amb nginx -t i després d’això reiniciem el servei.](Img/Imatge55.png)
+
+Desde la màquina Zorin fem comprovació amb ```curl -k -I```
+
+![Desde la màquina Zorin fem comprovació amb curl -k -I](Img/Imatge56.png)
+
+I seguidament ```curl -vik``` per informació més detallada.
+
+![I seguidament curl -vik per informació més detallada.](Img/Imatge57.png)
+
+![I seguidament curl -vik per informació més detallada.](Img/Imatge58.png)
+
+![I seguidament curl -vik per informació més detallada.](Img/Imatge59.png)
+
+Comprovacions:
+
+![Comprovacions:](Img/Imatge60.png)
+
+Amb; ```/private```, Forbidden.
+
+![Amb; /private, Forbidden.](Img/Imatge61.png)
 
 | 5. Optimització amb HTTP/2 |
 |----------------------------------------|
 
 - **Habiliteu el protocol HTTP/2 afegint el paràmetre http2 a la directiva listen del bloc SSL.**
 
+Habilitem el protocol HTTP/2 afegint el paràmetre ```http2``` a la directiva listen del bloc SSL. Entrem al arxiu corresponent.
+
+![Habilitem el protocol HTTP/2 afegint el paràmetre ```http2``` a la directiva listen del bloc SSL. Entrem al arxiu corresponent.](Img/Imatge62.png)
+
+Habilitem el protocol HTTP/2 afegint el paràmetre ```http2``` a la directiva listen del bloc SSL.
+
+```
+server {
+        listen 443 ssl http2;
+```
+
+![Habilitem el protocol HTTP/2 afegint el paràmetre http2 a la directiva listen del bloc SSL.](Img/Imatge63.png)
+
+Reiniciem el servei.
+
+![Reiniciem el servei.](Img/Imatge64.png)
+
+Amb academia ja seria el mateix procediment:
+
+![Amb academia ja seria el mateix procediment:](Img/Imatge65.png)
+
+Habilitem el protocol HTTP/2 afegint el paràmetre ```http2``` a la directiva listen del bloc SSL.
+
+```
+server {
+        listen 443 ssl http2;
+```
+
+![Habilitem el protocol HTTP/2 afegint el paràmetre http2 a la directiva listen del bloc SSL.](Img/Imatge66.png)
+
+Reiniciem el servei.
+
+![Reiniciem el servei.](Img/Imatge67.png)
+
 - **Comproveu novament amb les eines de desenvolupador del navegador que el contingut s'està servint amb aquest protocol.**
+
+Comprovacions:
+
+![- Comproveu novament amb les eines de desenvolupador del navegador que el contingut s'està servint amb aquest protocol.
+Comprovacions:](Img/Imatge68.png)
+
+![- Comproveu novament amb les eines de desenvolupador del navegador que el contingut s'està servint amb aquest protocol.
+Comprovacions:](Img/Imatge69.png)
+
+I amb academia:
+
+![I amb academia:](Img/Imatge70.png)
+
+![I amb academia:](Img/Imatge70.png)
 
 [Anar a l'enunciat](../Tasca03/README.md)  
 [Anar a la pàgina inicial](../README.md)
