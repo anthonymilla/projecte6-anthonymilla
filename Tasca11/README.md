@@ -7,6 +7,8 @@ Un cop finalitzada la configuració de Canvas i creats els cursos, aquesta activ
 
 Aquest estudi comparatiu no pot ser només textual. Hi ha més substància.
 
+- [Guió de la memòria i la presentació (que us resultarà d’utilitat per a la P01 i P02)](https://docs.google.com/document/d/11DQVp7NiBD8nlzZbLXcXdU4qcsvtGW4bwjm-Wmhm-Hc/edit?usp=sharing)
+
 ---
 
 ## Format d’entrega
