@@ -14,6 +14,10 @@ L’empresa ens encarrega:
 - Generació de continguts mitjançant eines d’IA generativa.  
 - Configuració de rols, matriculacions i sistema d’avaluació.
 
+- [Activa la compatibilitat amb lectors de pantalla](https://docs.google.com/document/d/1dyntLKYDdo1CpgM7ZmHbXXD5VhMYAe9-/edit#)
+- Per activar la compatibilitat amb el lector de pantalla, premeu Ctrl+Alt+Z. Per obtenir informació sobre tecles de drecera, premeu Ctrl+barra inclinada.
+- El bàner s'ha amagat 
+
 La plataforma ha de transmetre professionalitat, coherència visual i orientació a empresa.
 
 Segueix les indicacions que es mostren a continuació per tal d’instal·lar, configurar i crear els cursos segons les necessitats del client.
