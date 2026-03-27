@@ -24,5 +24,5 @@ Estructura Recomanada de la Presentació:
 
 Conclusions: Per què sou la millor opció?
 
-[Anar a la Solució](../Producte01/Solucio.md) 
+[Anar a la Solució](../Producte01/Solucio.md)         
 [Anar a la pàgina inicial](../README.md)
