@@ -1,7 +1,3 @@
-
-
-https://canva.link/ksay1wnif1vid4p
-
 # P01-Producte final memòria tècnica de la proposta
 
 ## Enllaç a document:
