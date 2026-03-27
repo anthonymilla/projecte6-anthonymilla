@@ -101,4 +101,5 @@ Al final hauràs de tenir:
 - Usuari alumne funcional.
 - Comparativa crítica amb Moodle.
 
+[Anar a la Solució](../Tasca11/Solucio.md)         
 [Anar a la pàgina inicial](../README.md)
