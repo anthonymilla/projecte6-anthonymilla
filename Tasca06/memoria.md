@@ -179,7 +179,5 @@ No l’hem pogut fer perquè no ens ha donat temps.
 #### 2. Dins l'apartat de Totes les eines, accediu a Usar un Certificat i premeu Signar.
 #### 3. Dibuixeu l'àrea on s'aplicarà la signatura i trieu el vostre certificat recentment instal·lat a la finestra desplegable. * Deseu i bloquegeu el document (si així ho desitgeu). Finalment, obriu de nou el PDF per verificar que el panell de signatures valida l'autoria sense errors, confirmant que tot el procés criptogràfic funciona correctament.
 
-
-
 [Anar a l'enunciat](../Tasca06/README.md)       
 [Anar a la pàgina inicial](../README.md)
