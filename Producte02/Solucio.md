@@ -1,8 +1,8 @@
-# P01-Producte final memòria tècnica de la proposta
+# P02-Presentació Moodle-Canvas LMS
 
-## Enllaç a document:
+## Enllaç a presentació:
 
-[Enllaç a document - P01-Producte final memòria tècnica de la proposta](https://canva.link/ksay1wnif1vid4p)
+[Enllaç a presentació - Presentació Moodle-Canvas LMS](https://canva.link/ksay1wnif1vid4p)
 
 [Anar a l'enunciat](../Producte01/README.md)  
 [Anar a la pàgina inicial](../README.md)
