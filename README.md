@@ -6,9 +6,9 @@
 
 ## Autor
 
-Nom: [Escriu el teu nom aquí]
+Nom: Anthony Milla
 
-Formant grups de treball: [Escriu els noms dels membres del grup aquí]
+Formant grups de treball: Nil Lozano i Anthony Milla
 
 ## Descripció del projecte
 
