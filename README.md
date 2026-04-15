@@ -18,8 +18,7 @@ Per aquest motiu, Projecte Nexus encarrega al vostre equip tècnic (vosaltres) l
 
 Al següent enllaç pots trobar l'enunciat complet del projecte [accés al projecte Nexus](https://docs.google.com/document/d/1dyntLKYDdo1CpgM7ZmHbXXD5VhMYAe9-/edit?usp=sharing&ouid=104728425662496836733&rtpof=true&sd=true)
 
-## Instruccions (per eliminar abans de lliurar el projecte)
-
+## Instruccions
 Un cop teniu la vostra còpia d'aquest repositori, heu de seguir els passos següents:
 
 1. **Editar aquest fitxer README.md**
