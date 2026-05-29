@@ -59,4 +59,5 @@ Crear una taula comparativa amb les dades obtingudes:
 J.D. Muñoz. El comando ab. Servicios de Red e Internet. 2017. Disponible a:
 https://serviciosgs.readthedocs.io/es/latest/rendimiento/ab.html
 
+[Anar a la Solució](../Tasca04/Solucio.md)    
 [Anar a la pàgina inicial](../README.md)
