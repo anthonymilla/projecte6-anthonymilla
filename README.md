@@ -57,21 +57,40 @@ projecte6/
 
 Bona sort! 🚀
 
-## Tasques
-- [Tasca0](/Tasca00)
-- [Tasca1](/Tasca01)
-- [Tasca2](/Tasca02)
-- [Tasca3](/Tasca03)
-- [Tasca4](/Tasca04)
-- [Tasca5](/Tasca05)
-- [Tasca6](/Tasca06)
-- [Tasca7](/Tasca07)
-- [Tasca8](/Tasca08)
-- [Tasca9](/Tasca09)
-- [Tasca10](/Tasca10)
-- [Tasca11](/Tasca11)
-- [Tasca12](/Tasca12)
-- [Tasca13](/Tasca13)
-- [Producte1](/Producte01)
-- [Producte2](/Producte02)
-- [Producte3](/Producte03)
+## Tasques:
+
+- [Tasca00-Presentació del projecte](/Tasca00)
+
+- [Tasca01-Sota el Capó d'Internet: Què passa realment quan fas clic a un enllaç?](/Tasca01)
+
+- [Tasca02-Missió Apache: Desplegament Multidomini i segur](/Tasca02)
+
+- [Tasca03-Missió Nginx: Migració d'Alt Rendiment i Arquitectura Lleugera](/Tasca03)
+
+- [Tasca04-Duel de titans, Apache vs Nginx](/Tasca04)
+
+- [Tasca05-Top Secret, protegint els secrets](/Tasca05)
+
+- [Tasca06-Projecte Nexus. Implantació de PKI i Signatura Digital Corporativa](/Tasca06)
+
+- [Tasca07-TransLògic: Administració Avançada i Seguretat Corporativa](/Tasca07)
+
+- [Tasca08-Vigilància i auditoria de sistemes](/Tasca08)
+
+- [Tasca09-Creació d’una acadèmia amb un cursos de Sostenibilitat i IPO2](/Tasca09)
+
+- [Tasca10-Canvas LMS una alternativa a Moodle](/Tasca10)
+
+- [Tasca11-Comparativa Moodle vs Canvas LMS](/Tasca11)
+
+- [Tasca12-Curs Moodle “Serà rendible el meu futur negoci?”](/Tasca12)
+
+- [Tasca13-Omplim el curs de sostenibilitat](/Tasca13)
+
+## Productes:
+
+- [Producte01-Producte final memòria tècnica de la proposta](/Producte01)
+
+- [Producte02-Presentació de la proposta al client](/Producte02)
+
+- [Producte03-Estructura repositori](/Producte03)
