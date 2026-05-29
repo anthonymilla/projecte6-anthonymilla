@@ -10,4 +10,5 @@
 
 3. Recordeu que és molt més còmode clonar el projecte en local, treballar des del Visual Code o similars (recordeu-vos de configurar les credencials git config user.name i git config user.email per terminal dins el repositori).
 
+[Anar a la Solució](../Tasca00/Solucio.md)    
 [Anar a la pàgina inicial](../README.md)
