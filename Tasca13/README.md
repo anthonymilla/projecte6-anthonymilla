@@ -14,4 +14,5 @@ Tema 4 – Pla GreenIT per a una Start-up
 
 A la carpeta de Materials i recursos trobareu les guies que haurem de seguir per desenvolupar cadascun dels temes. 
 
+[Anar a la Solució](../Tasca13/Solucio.md)    
 [Anar a la pàgina inicial](../README.md)
