@@ -5,7 +5,7 @@ De totes maneres vam fer una guia on mostrem el desplegament, com funciona i com
 
 Url de la guia:
 
-[Url de la guia](https://drive.google.com/file/d/1eQSDUXW8-CvVDnOWxzIFFSmYF8RWRRw_/view?usp=drive_link)
+[Url de la guia](https://docs.google.com/document/d/1OOShQ7w5Nu8XXtJNg7Ua0u_uxQYhOfLbvX291MY0CaY/edit?usp=drive_link)
 
 [Anar a l'enunciat](../Tasca10/README.md)      
 [Anar a la pàgina inicial](../README.md)
